@@ -1,2 +1,4 @@
-# seansnotes
-notes writen by sean
+# 我的笔记
+
+技巧介绍
+
