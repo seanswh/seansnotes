@@ -1,7 +1,7 @@
 # Sean 的窝棚
 
-* [Introduction](README.md)
-* [Summary](summary.md)
+* [杂七杂八](README.md)
+* MICAPS4下的Python实验室
 
 
 
