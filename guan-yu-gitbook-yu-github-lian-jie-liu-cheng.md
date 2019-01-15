@@ -8,5 +8,5 @@
 
 5.Save
 
-6.Publish
+6.Publish或者sync
 
