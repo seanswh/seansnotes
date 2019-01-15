@@ -7,7 +7,7 @@
 
 ### Part II
 
-* [MICAPS4下的Python实验室](/M4Python/README.md)
+* [MICAPS4下的Python实验室](/M4Python/SYMMARY.md)
 
 
 
