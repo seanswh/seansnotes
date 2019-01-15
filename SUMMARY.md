@@ -1,5 +1,7 @@
 # Sean 的窝棚
 
+* [说明](README.md)
+
 ### Part I
 
 * [杂七杂八](/测试部分/SUMMARY.md)
