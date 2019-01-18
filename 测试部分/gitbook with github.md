@@ -10,7 +10,9 @@
 
 6.Publish或者sync
 
-
-
 -------------分割线-------------------
+
+如果新安装了Gitbook editor，需要先从github上把项目clone下来，然后从Gitbook editor中Import
+
+最好通过
 
