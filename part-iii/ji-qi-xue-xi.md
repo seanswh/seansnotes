@@ -15,3 +15,11 @@ P = the probability that the program will win the next game.
 
 In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.
 
+监督学习可分为：回归、分类。回归分析中，我们可获得连续性的输出；分类分析中，我们只能或得到离散的结果。
+
+3.非监督学习
+
+Unsupervised learning allows us to approach problems with little or no idea what our results should look like.
+
+非监督学习用“聚类分析”将相似属性进行分析。
+
