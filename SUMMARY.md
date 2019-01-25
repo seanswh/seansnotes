@@ -11,7 +11,7 @@
 
 ## Part III
 
-* 机器学习[/机器学习/SUMMARY.md]
+* [机器学习](/机器学习/SUMMARY.md)
 
 
 
