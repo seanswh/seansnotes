@@ -11,7 +11,7 @@ T = the task of playing checkers.
 P = the probability that the program will win the next game.
 
 机器学习分为2类:监督学习和非监督学习.  
-2.监督学习
+2.监督学习\(方向\)
 
 In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.
 
@@ -24,6 +24,4 @@ Unsupervised learning allows us to approach problems with little or no idea what
 非监督学习用“聚类分析”将相似属性进行分析。
 
 4.
-
-
 
