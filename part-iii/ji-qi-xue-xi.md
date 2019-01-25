@@ -10,8 +10,7 @@ E = the experience of playing many games of checkers
 T = the task of playing checkers.  
 P = the probability that the program will win the next game.
 
-机器学习分为2类:  
-监督学习和非监督学习.  
+机器学习分为2类:监督学习和非监督学习.  
 2.监督学习
 
 In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.
