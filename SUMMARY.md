@@ -11,7 +11,7 @@
 
 ## Part III
 
-* [机器学习](part-iii/ji-qi-xue-xi.md)
+* [机器学习](part-iii/SUMMARY.md)
 
 
 
