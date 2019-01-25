@@ -25,8 +25,6 @@ Unsupervised learning allows us to approach problems with little or no idea what
 
 4.模型表达
 
-To describe the supervised learning problem slightly more formally, our goal is, given a training set, to learn a function h : X → Y so that h\(x\) is a “good” predictor for the corresponding value of y。
-![](1.png)
-
-
+To describe the supervised learning problem slightly more formally, our goal is, given a training set, to learn a function h : X → Y so that h\(x\) is a “good” predictor for the corresponding value of y。  
+![](1.png)h 目标是确定h函数
 
