@@ -27,5 +27,5 @@ Unsupervised learning allows us to approach problems with little or no idea what
 
 To describe the supervised learning problem slightly more formally, our goal is, given a training set, to learn a function h : X → Y so that h\(x\) is a “good” predictor for the corresponding value of y。
 
-![](/assets/import.png)
+<center>![](/assets/import.png)</center>
 
