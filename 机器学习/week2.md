@@ -4,5 +4,5 @@ We can measure the accuracy of our hypothesis function by using a cost function�
 
 $$J(\theta_0,\theta_1)=\frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)^2$$
 
-引入损失函数的目的是，计算$$\theta_0,\theta_1$$,使得h$$_\theta(x)$$最接近于训练集中的y值
+引入损失函数的目的是，计算$$\theta_0,\theta_1$$,使得h$$_\theta(x)$$最接近于训练集中的y值，也即$$J(\theta)=0$$
 2.
