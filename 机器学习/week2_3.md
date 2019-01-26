@@ -23,4 +23,6 @@ If $$\alpha$$ is too large: ￼may not decrease on every iteration and thus may 
 Our hypothesis function need not be linear (a straight line) if that does not fit the data well.
 
 We can change the behavior or curve of our hypothesis function by making it a quadratic, cubic or square root function (or any other form).
-For example, if our hypothesis function is 
+For example, if our hypothesis function is $$h_\theta(x)=\theta_0+\theta_1x_1$$	​	  then we can create additional features based on x_1x 
+1
+​	 , to get the quadratic function 
