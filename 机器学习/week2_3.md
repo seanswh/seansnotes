@@ -14,5 +14,7 @@ $$x_i:=\frac{x_i-u_i}{s_i}$$
 $$μ_i$$is the average of all the values for feature (i) and $$s_i$$ is the range of values (max - min) or $$s_i$$ is the standard deviation.
 
 2. 关于 $$\alpha$$的选取
+Make a plot with number of iterations on the x-axis. Now plot the cost function, J(θ) over the number of iterations of gradient descent. If J(θ) ever increases, then you probably need to decrease α
+
 If $$\alpha$$ is too small: slow convergence.
 If $$\alpha$$ is too large: ￼may not decrease on every iteration and thus may not converge.
