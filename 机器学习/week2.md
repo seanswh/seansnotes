@@ -25,3 +25,6 @@ j=0,1,每次迭代都需要**同时**更新每一个$$\theta$$,如下图所示
 
 3.如何计算$$\theta$$x偏导
 
+$$\theta_0:=\theta_0-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)$$
+$$\theta_1:=\theta_1-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)$$
+
