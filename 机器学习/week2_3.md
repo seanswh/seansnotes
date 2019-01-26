@@ -33,9 +33,7 @@ $$\theta=(X^TX)^{-1}X^Ty$$
 With the normal equation, computing the inversion has complexity $$\mathcal{O}(n^3)O(n 
 3)$$. So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.
 
-If X^TXX 
-T
- X is noninvertible, the common causes might be having :
+If $$X^TX$$ is noninvertible, the common causes might be having :
 
-Redundant features, where two features are very closely related (i.e. they are linearly dependent)
-Too many features (e.g. m ≤ n). In this case, delete some features or use "regularization" (to be explained in a later lesson).
+1.Redundant features, where two features are very closely related (i.e. they are linearly dependent)
+2.Too many features (e.g. m ≤ n). In this case, delete some features or use "regularization" (to be explained in a later lesson).
