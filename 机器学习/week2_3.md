@@ -1,5 +1,5 @@
 吴恩达的机器学习 第二周3
-Feature Scaling
+1. Feature Scaling
 
 We can speed up gradient descent by having each of our input values in roughly the same range.
 目标：
@@ -12,3 +12,7 @@ $$-1\leq x_{(i)} \leq 1$$
 
 $$x_i:=\frac{x_i-u_i}{s_i}$$
 $$μ_i$$is the average of all the values for feature (i) and $$s_i$$ is the range of values (max - min) or $$s_i$$ is the standard deviation.
+
+2. 关于 $$\alpha$$的选取
+If \alphaα is too small: slow convergence.
+If \alphaα is too large: ￼may not decrease on every iteration and thus may not converge.
