@@ -7,3 +7,12 @@ $$-1\leq x_{(i)} \leq 1$$
 方法：
  feature scaling and mean normalization
 ** Feature scaling** involves dividing the input values by the range (i.e. the maximum value minus the minimum value) of the input variable
+
+**Mean normalization** involves subtracting the average value for an input variable from the values for that input variable resulting in a new average value for the input variable of just zero.
+
+$$x_i:=\frac{x_i-u_i}{s_i}$$
+μ 
+i
+​	  is the average of all the values for feature (i) and s_is 
+i
+​	  is the range of values (max - min
