@@ -18,3 +18,5 @@ Make a plot with number of iterations on the x-axis. Now plot the cost function,
 
 If $$\alpha$$ is too small: slow convergence.
 If $$\alpha$$ is too large: ￼may not decrease on every iteration and thus may not converge.
+
+3.Features and Polynomial Regression
