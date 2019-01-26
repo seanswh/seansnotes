@@ -26,4 +26,4 @@ We can change the behavior or curve of our hypothesis function by making it a qu
 For example, if our hypothesis function is $$h_\theta(x)=\theta_0+\theta_1x_1$$	​	  then we can create additional features based on $$x_1$$ to get the quadratic function $$h_\theta(x)=\theta_0+\theta_1x_1+\theta_2x_1^2$$
 
 4 Normal Equation
-
+Gradient descent gives one way of minimizing J
