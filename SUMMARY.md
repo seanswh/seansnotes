@@ -7,12 +7,11 @@
     * [Introduction](/测试部分/README.md)
 
 
-
-
-
 ## Part II
 
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
+    * [第一章](/M4Python/Chapter1.md)
+    * 第二章
 
 ## Part III
 
