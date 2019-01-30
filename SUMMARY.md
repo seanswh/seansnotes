@@ -3,7 +3,12 @@
 ## Part I
 
 * [Introduction](README.md)
-* [杂七杂八](/测试部分/SUMMARY.md)
+    * [关于gitbook与github集成](/测试部分/gitbook with github.md)
+    * [Introduction](/测试部分/README.md)
+
+
+
+
 
 ## Part II
 
