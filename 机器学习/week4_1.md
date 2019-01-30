@@ -6,3 +6,5 @@
   **當feature一多的時候，會使得先前提到的：linear regression,logistic regression...等的計算成本指數上升**
 
 换一个例子，如果通过图片来判断是否包含“汽车”这个物体，如果图片是50*50像素的，那么feature就是2500，如果是RGB彩色图片，那feature就是7500，如果是一个100*100像素的灰度图片，考虑使用2阶因素，那么多项式的个数是 $$100*100+C_{100*100}^2 \approx 5*10^7$$个！
+
+2. Neurons and the Brain
