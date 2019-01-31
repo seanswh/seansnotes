@@ -10,3 +10,5 @@
 1. 降低features的數量：人工選擇、model selection algorithm
 
 2. Regularization：維持現有的features，但是降低部分不重要feature的影響力。這對於有著許多feature的hypothesis很有幫助
+如下图：
+![](20.png) ![](21.png)
