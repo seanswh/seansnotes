@@ -24,3 +24,5 @@
 
 3.Regularized Linear Regression
 Gradient Descent 針對J(θ)作各個θ的偏微分，**除了θ0之外**：![](23.png),简化后变为：![](24.png)
+
+4.Regularized Logistic Regression
