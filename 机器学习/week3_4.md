@@ -30,3 +30,4 @@ J(θ)加上Regularization項目：
 ![](25.png)
 Gradient Descent with Regularization
 ![](26.png)
+注意這邊hθ(x)是跟Linear Regression的hθ(x)截然不同的
