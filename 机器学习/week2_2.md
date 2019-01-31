@@ -5,9 +5,8 @@ $$\theta_j:=\theta_j-\alpha\frac{1}{m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})\cdo
 下面这张图显示了一个属性与多个属性的梯度下降  
 ![](5.png)
 
+1. 扩展属性与多项式回归
 
-
-
-
-
+We can improve our features and the form of our hypothesis function in a couple different ways.
+We can **combine **multiple features into one. For example, we can combine $$x_1$$​and $$x_2$$ ​into a new feature $$x_3$$ ​by taking $$x_1*x_2$$​.
 
