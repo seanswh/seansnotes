@@ -29,3 +29,4 @@ h_\theta(x)=P(y=1|x;\theta)=1-P(y=1|x;\theta)
 $$
 
 3.Decision boundary
+前面的$$h_\theta(x)$$是0-1的连续值，而为了得到0，1这两个离散值，我们定义
