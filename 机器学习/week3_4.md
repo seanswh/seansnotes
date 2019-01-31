@@ -28,3 +28,4 @@ Gradient Descent 針對J(θ)作各個θ的偏微分，**除了θ0之外**：![](
 4.Regularized Logistic Regression
 J(θ)加上Regularization項目：
 ![](25.png)
+Gradient Descent with Regularization
