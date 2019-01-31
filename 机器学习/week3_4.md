@@ -23,4 +23,4 @@
 λ代表的其實是我們對於預測誤差跟正規項的取捨,如果把 λ 設成10¹⁰的話，所有θ值都會趨近於0，最後形成一條直線的hypothesis
 
 3.Regularized Linear Regression
-Gradient Descent 針對J(θ)作各個θ的偏微分，除了θ0之外：![](23.png)
+Gradient Descent 針對J(θ)作各個θ的偏微分，**除了θ0之外**：![](23.png),简化后变为：
