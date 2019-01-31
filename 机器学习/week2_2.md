@@ -11,4 +11,4 @@ We can improve our features and the form of our hypothesis function in a couple 
 We can **combine **multiple features into one. For example, we can combine $$x_1$$​and $$x_2$$ ​into a new feature $$x_3$$ ​by taking $$x_1*x_2$$​.
 
 多项式回归：
-
+hypothesis function need not be linear (a straight line) if that does not fit the data well.
