@@ -18,6 +18,6 @@
   * [第一周2 损失函数 Cost Function](/机器学习/week2.md)
   * [第二周1 多属性下的回归](/机器学习/week2_2.md)
   * [第二周2 Feature Scaling](/机器学习/week2_3.md)
-  * [第三周1 逻辑回归](机器学习/di-san-zhou-1-luo-ji-hui-gui.md)
+  * [第三周1 逻辑回归](机器学习/weed3_1.md)
   * [第四周1 Neurons network](/机器学习/week4_1.md)
 
