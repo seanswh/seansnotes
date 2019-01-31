@@ -7,3 +7,4 @@
 2.逻辑回归的Hypothesis function
 我们将逻辑回归的 $$h_\theta(x)$$的值定义在{0，1}之间，而我们还用$$\theta^Tx$$多项式来定义这个假设方程，
 我们引入了sigmoid 方程，他符合如下特质
+![](8.png)
