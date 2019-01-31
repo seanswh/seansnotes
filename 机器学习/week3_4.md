@@ -21,3 +21,5 @@
 代价函数变为：
 ![](22.png)
 λ代表的其實是我們對於預測誤差跟正規項的取捨,如果把 λ 設成10¹⁰的話，所有θ值都會趨近於0，最後形成一條直線的hypothesis
+
+3.Regularized Linear Regression
