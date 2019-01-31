@@ -27,3 +27,5 @@ $$
 $$
 h_\theta(x)=P(y=1|x;\theta)=1-P(y=1|x;\theta)
 $$
+
+3.Decision boundary
