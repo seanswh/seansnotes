@@ -7,6 +7,18 @@
 
 2.逻辑回归的Hypothesis function
 我们将逻辑回归的 $$h_\theta(x)$$的值定义在{0，1}之间，而我们还用$$\theta^Tx$$多项式来定义这个假设方程，
-我们引入了sigmoid 方程，also called the "Logistic Function"，符合如下特质
+我们引入了sigmoid 方程，also called the "Logistic Function"，
+$$
+h_\theta(x) = g(\theta^Tx)
+$$
+$$
+z=\theta^Tx
+$$
+$$
+g(z)=\frac{1}{1+e^{-z}}
+$$
+
+
+符合如下特质
 ![](8.png)
 方程的结果会无限逼近0和1
