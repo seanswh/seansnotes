@@ -12,3 +12,4 @@ We can **combine **multiple features into one. For example, we can combine $$x_1
 
 多项式回归：
 hypothesis function need not be linear (a straight line) if that does not fit the data well.
+In the cubic version, we have created new features $$x_2$$ and $$x_3$$ where $$x_2 = x_1^2 and x_3=x_1^3$$
