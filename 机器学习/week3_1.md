@@ -40,3 +40,4 @@ $$
 
 根据上面定义可知，z>0 → g(z) >0.5
 因此 当 $$\theta^T\ge0$$时,y=1,反之 y=0
+The decision boundary is the line that separates the area where y = 0 and where y = 1. It is created by our hypothesis function.
