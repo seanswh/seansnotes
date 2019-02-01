@@ -7,3 +7,8 @@
 ![](/机器学习/images/28.png)
 每一層都可以看到有著：輸入、處理跟輸出，而除了第一層跟最後一層之外，中間的層都通稱為hidden layer
 下圖表示著輸入、處理跟輸出的函式
+![](/机器学习/images/29.png)
+activation表示該單位的值，θij代表輸入單位j與與輸出單位i的處理權重
+x0就是前面所提到的數字 1
+那為什麼會有個g()包住這些多項式呢？
+因為這是個用來解決 logistic regression問題的Neural Network，g(z) 代表的是一個 sigmoid的函數
