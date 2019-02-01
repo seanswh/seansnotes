@@ -14,6 +14,25 @@ $$
 $$
 Θ(j)=matrix of weights controlling function mapping from layer j to layer j+1
 $$
+如果有一个“隐藏层”，类似下图：
+![](/机器学习/images/30.png)
+Each layer gets its own matrix of weights, $$\Theta^{(j)}$$
+The dimensions of these matrices of weights is determined as follows:
+$$\text{If network has $s_j$ units in layer $j$ and $s_{j+1}$ units in layer $j+1$, then $\Theta^{(j)}$ will be of dimension $s_{j+1} \times (s_j + 1)$.}If network has s 
+j
+​	  units in layer j and s 
+j+1
+​	  units in layer j+1, then Θ 
+(j)
+  will be of dimension s 
+j+1
+​	 ×(s 
+j
+​	 +1).
+$$
+
+
+
 
 下圖表示著輸入、處理跟輸出的函式
 ![](/机器学习/images/29.png)
