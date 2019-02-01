@@ -7,6 +7,15 @@
 ![](/机器学习/images/28.png)
 Our input nodes (layer 1), also known as the "input layer", go into another node (layer 2), which finally outputs the hypothesis function, known as the "output layer".
 
+ In neural networks, we use the same logistic function as in classification, \frac{1}{1 + e^{-\theta^Tx}} 
+1+e 
+−θ 
+T
+ x
+ 
+1
+​	 , yet we sometimes call it a sigmoid (logistic) activation function. In this situation, our "theta" parameters are sometimes called "weights".
+
 每一層都可以看到有著：輸入、處理跟輸出，而除了第一層跟最後一層之外，中間的層都通稱為hidden layer
 下圖表示著輸入、處理跟輸出的函式
 ![](/机器学习/images/29.png)
