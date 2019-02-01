@@ -17,6 +17,10 @@ $$
  $$
  \Theta^{(1)}=
  \left[
+ \begin{matrix}
  -30 & 20 & 20
+ \end{matrix}
  \right]
  $$
+ 输出结果为：
+ 
