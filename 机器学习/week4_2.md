@@ -10,6 +10,8 @@ Our input nodes (layer 1), also known as the "input layer", go into another node
 除了第一層跟最後一層之外，中間的層都通稱為hidden layer,we label these intermediate or "hidden" layer nodes $$a^2_0 \cdots a^2_n $$ and call them "activation units."
 $$
 a^(j)_i="activation" of unit i in layer j
+$$
+$$
 Θ(j)=matrix of weights controlling function mapping from layer j to layer j+1
 $$
 
