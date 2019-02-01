@@ -6,4 +6,10 @@ x_0\\
 x_1\\
 x_2
 \end{matrix}
-\right]$$
+\right]→
+\left[
+
+
+\right]
+
+$$
