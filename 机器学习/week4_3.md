@@ -8,7 +8,7 @@ x_2
 \end{matrix}
 \right]→
 \left[
-
+g(z^{(2)}→
 
 \right]
 
