@@ -9,9 +9,7 @@ x_2
 \right]→
 \left[
 g(z^{(2)}
-\right]
-
-→
+\right]→
 h_\theta(x)
 
 
