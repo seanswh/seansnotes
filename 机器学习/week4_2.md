@@ -5,9 +5,8 @@
 (x0是一個bias unit，代表其對應的θ0為獨立的常數，所以x0為1)
 如果建立成一个三层网络，则如下图所示
 ![](/机器学习/images/28.png)
-Our input nodes (layer 1), also known as the "input layer", go into another node (layer 2), which finally outputs the hypothesis function, known as the "output layer".
-
  In neural networks, we use the same logistic function as in classification,$$\frac{1}{1 + e^{-\theta^Tx}} $$, yet we sometimes call it a **sigmoid (logistic) activation functio**n. In this situation, our "theta" parameters are sometimes called "**weights**".
+Our input nodes (layer 1), also known as the "input layer", go into another node (layer 2), which finally outputs the hypothesis function, known as the "output layer".
 
 每一層都可以看到有著：輸入、處理跟輸出，而除了第一層跟最後一層之外，中間的層都通稱為hidden layer
 下圖表示著輸入、處理跟輸出的函式
