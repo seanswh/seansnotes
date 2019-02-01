@@ -28,4 +28,5 @@ x0就是前面所提到的數字 1
 那為什麼會有個g()包住這些多項式呢？
 因為這是個用來解決 logistic regression問題的Neural Network，g(z) 代表的是一個 sigmoid的函數
 
-2.
+2.We're going to define a new variable $$z_k^{(j)}$$ that encompasses the parameters inside our g function. In our previous example if we replaced by the variable z for all the parameters we would get:
+![](/机器学习/images/31.png)
