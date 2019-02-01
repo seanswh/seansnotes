@@ -23,4 +23,5 @@
   * [第三周3 多类别分类](机器学习/week3_3.md)
   * [第三周4 过拟合](机器学习/week3_4.md)
   * [第四周1 Neurons network](/机器学习/week4_1.md)
+  * [第四周2 Neural Networks](机器学习/di-si-zhou-2-neural-networks.md)
 
