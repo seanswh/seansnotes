@@ -24,11 +24,7 @@ j
 j+1
 ​	  units in layer j+1, then Θ 
 (j)
-  will be of dimension s 
-j+1
-​	 ×(s 
-j
-​	 +1).
+  will be of dimension s_{j+1} ×(s_j+1).
 $$
 
 
