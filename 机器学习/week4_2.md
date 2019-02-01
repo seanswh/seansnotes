@@ -7,8 +7,12 @@
 ![](/机器学习/images/28.png)
  In neural networks, we use the same logistic function as in classification,$$\frac{1}{1 + e^{-\theta^Tx}} $$, yet we sometimes call it a **sigmoid (logistic) activation functio**n. In this situation, our "theta" parameters are sometimes called "**weights**".
 Our input nodes (layer 1), also known as the "input layer", go into another node (layer 2), which finally outputs the hypothesis function, known as the "output layer".
+除了第一層跟最後一層之外，中間的層都通稱為hidden layer,we label these intermediate or "hidden" layer nodes $$a^2_0 \cdots a^2_n $$ and call them "activation units."
+$$
+a^(j)_i="activation" of unit i in layer j
+Θ(j)=matrix of weights controlling function mapping from layer j to layer j+1
+$$
 
-每一層都可以看到有著：輸入、處理跟輸出，而除了第一層跟最後一層之外，中間的層都通稱為hidden layer
 下圖表示著輸入、處理跟輸出的函式
 ![](/机器学习/images/29.png)
 activation表示該單位的值，θij代表輸入單位j與與輸出單位i的處理權重
