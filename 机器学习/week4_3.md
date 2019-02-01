@@ -15,5 +15,8 @@ $$
  $$x_0$$ is our bias variable and is always 1.
  加入第一个theta矩阵为：
  $$
- 
+ \Theta^{(1)}=
+ \left[
+ -30 & 20 & 20
+ \right]
  $$
