@@ -11,6 +11,9 @@ x_2
 g(z^{(2)}
 \right]→
 h_\theta(x)
-
-
 $$
+ $$x_0$$ is our bias variable and is always 1.
+ 加入第一个theta矩阵为：
+ $$
+ 
+ $$
