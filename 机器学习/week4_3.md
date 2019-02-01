@@ -8,8 +8,11 @@ x_2
 \end{matrix}
 \right]→
 \left[
-g(z^{(2)}→
-
+g(z^{(2)}
 \right]
+
+→
+h_\theta(x)
+
 
 $$
