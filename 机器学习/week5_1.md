@@ -14,15 +14,3 @@ K = number of output units/classes
 $$\Theta$$矩阵中的列数为当前层次的unit（include the bias unit）个数，行数为下一层unit的个数
 **注意**：double sum simply adds up the logistic regression costs calculated for each cell in the **output **layer。triple sum simply adds up the squares of all the individual Θs in the **entire **network。
 
-2.反向传播算法（Backpropagation Algorithm）
-在前面所有的章节学习了基础准备概念之后，这周开始学习关于神经网络的算法了。
-与之前学习线性回归、逻辑回归的思路一样，神经网络也需要找到使得损失函数(cost function)最小的方法，我们的目标同样是 $$min_\Theta J(\Theta)$$
-跟之前第一週、第二週提到的Gradient Descent原理一樣，我們要先求出各個參數的偏導項(partial derivative)，之後再用迭代地方式减去這些偏導項，那首先的目标是计算$$\frac{\partial}{\partial \Theta^{l}_{i,j}} J\Theta$$
-因為推導過程過於複雜，因此我們先知道大概的步骤和結論就好:
-![](/机器学习/images/35.png)
-反向传播：
-（1）Given training set $$\lbrace (x^{(1)}, y^{(1)}) \cdots (x^{(m)}, y^{(m)})\rbrace$$
-   Set $$\Delta^{(l)}_{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros)
-   For training example t =1 to m:
-   1) Set $$a^{(1)} := x^{(t)}$$
-   2) Perform forward propagation to compute $$a^{(l)}$$ for l=2,3,…,L
