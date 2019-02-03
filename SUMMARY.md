@@ -26,5 +26,5 @@
   * [第四周2 Neural Networks](机器学习/week4_2.md)
   * [第四周3 Neural Networks](机器学习/week4_3.md)
   * [第五周1 损失函数](机器学习/week5_1.md)
-  * [第五周2](机器学习/week5_2.md)
+  * [第五周2 反向传播](机器学习/week5_2.md)
 
