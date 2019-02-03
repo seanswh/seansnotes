@@ -5,7 +5,9 @@
  ![](/机器学习/images/36.png)
  说明：
 （1）. Δ(大寫delta)是用來求出偏導向的誤差和，在本節最後面會提到如何計算。而Δ需要由δ(小寫delta)跟a的乘積來求得
-（2）.
+   (1.1)a是由 forward propagation求得的activation(見前面的Model Representation)，就是前面在計算cost function時會得到的各個unit的數值
+   (1.2) δ則需由以下的函式來計算，δ可以將之理解為各個節點上的數值誤差.除了最後一層(output layer，這邊是4)外，其他層的運算函式都一樣
+   
  反向传播： 
  （1）Given training set $$\lbrace (x^{(1)}, y^{(1)}) \cdots (x^{(m)}, y^{(m)})\rbrace$$ Set $$\Delta^{(l)}{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros) For training example t =1 to m:
       Set $$a^{(1)} := x^{(t)}$$
