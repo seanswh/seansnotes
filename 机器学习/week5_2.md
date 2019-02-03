@@ -10,5 +10,9 @@
    ![](/机器学习/images/37.png)
    除了最後一層(output layer，這邊是4)外，其他層的運算函式都一樣.而第一層(input layer)無須計算，因為用來輸入的數值不存在誤差的現象。
   具体计算方式： 
+  ![](/机器学习/images/35.png)
+  For training example t =1 to m:
  （1）Given training set $$\lbrace (x^{(1)}, y^{(1)}) \cdots (x^{(m)}, y^{(m)})\rbrace$$ Set $$\Delta^{(l)}{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros) For training example t =1 to m:
       Set $$a^{(1)} := x^{(t)}$$
+ （2）開始算第二、三、四...一直到輸出層的a
+ (3) Using $$y^{(t)}$$, compute $$\delta^{(L)} = a^{(L)} - y^{(t)}$$
