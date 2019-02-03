@@ -14,6 +14,5 @@ K = number of output units/classes
 $$\Theta$$矩阵中的列数为当前层次的unit（include the bias unit）个数，行数为下一层unit的个数
 **注意**：double sum simply adds up the logistic regression costs calculated for each cell in the **output **layer。triple sum simply adds up the squares of all the individual Θs in the **entire **network。
 
-2.反向传播算法（Backpropagation Algorithm
-）
+2.反向传播算法（Backpropagation Algorithm）
 在前面所有的章节学习了基础准备概念之后，这周开始学习关于神经网络的算法了。
