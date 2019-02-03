@@ -3,5 +3,4 @@
  跟之前第一週、第二週提到的Gradient Descent原理一樣，我們要先求出各個參數的偏導項(partial derivative)，之後再用迭代地方式减去這些偏導項。首先的目标是计算$$\frac{\partial}{\partial \Theta^{l}{i,j}} J\Theta$$ 因為推導過程過於複雜，因此我們先知道大概的步骤和結論就好: 
  
  反向传播： （1）Given training set $$\lbrace (x^{(1)}, y^{(1)}) \cdots (x^{(m)}, y^{(m)})\rbrace$$ Set $$\Delta^{(l)}{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros) For training example t =1 to m:
-
-        Set $$a^{(1)} := x^{(t)}$$
+Set $$a^{(1)} := x^{(t)}$$
