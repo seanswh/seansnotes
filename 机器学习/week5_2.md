@@ -12,7 +12,8 @@
   具体计算方式： 
   ![](/机器学习/images/35.png)
   For training example t =1 to m:
- （1）Given training set $$\lbrace (x^{(1)}, y^{(1)}) \cdots (x^{(m)}, y^{(m)})\rbrace$$ Set $$\Delta^{(l)}{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros) For training example t =1 to m:
-      Set $$a^{(1)} := x^{(t)}$$
- （2）開始算第二、三、四...一直到輸出層的a
+ （1）Given training set $$\lbrace (x^{(1)}, y^{(1)}) \cdots (x^{(m)}, y^{(m)})\rbrace$$ Set $$\Delta^{(l)}{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros)
+ （2）Set $$a^{(1)} := x^{(t)}$$, 開始算第二、三、四...一直到輸出層的a,使用下图所示公式：
+ ![](/机器学习/images/38.png)
  (3) Using $$y^{(t)}$$, compute $$\delta^{(L)} = a^{(L)} - y^{(t)}$$
+ (4) Compute $$\delta^{(L-1)}, \delta^{(L-2)},\dots,\delta^{(2)}$$ using $$\delta^{(l)} = ((\Theta^{(l)})^T \delta^{(l+1)})\ .*\ a^{(l)}\ .*\ (1 - a^{(l)})$$
