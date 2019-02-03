@@ -22,3 +22,7 @@ $$\Theta$$矩阵中的列数为当前层次的unit（include the bias unit）个
 ![](/机器学习/images/35.png)
 反向传播：
 （1）Given training set $$\lbrace (x^{(1)}, y^{(1)}) \cdots (x^{(m)}, y^{(m)})\rbrace$$
+   Set $$\Delta^{(l)}_{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros)
+   For training example t =1 to m:
+   1) Set $$a^{(1)} := x^{(t)}$$
+   2)
