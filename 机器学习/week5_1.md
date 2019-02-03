@@ -25,4 +25,4 @@ $$\Theta$$矩阵中的列数为当前层次的unit（include the bias unit）个
    Set $$\Delta^{(l)}_{i,j}$$:= 0 for all (l,i,j), (hence you end up having a matrix full of zeros)
    For training example t =1 to m:
    1) Set $$a^{(1)} := x^{(t)}$$
-   2)
+   2) Perform forward propagation to compute $$a^{(l)}$$ for l=2,3,…,L
