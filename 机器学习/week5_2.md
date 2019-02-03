@@ -17,3 +17,6 @@
  ![](/机器学习/images/38.png)
  (3) Using $$y^{(t)}$$, compute $$\delta^{(L)} = a^{(L)} - y^{(t)}$$
  (4) Compute $$\delta^{(L-1)}, \delta^{(L-2)},\dots,\delta^{(2)}$$ using $$\delta^{(l)} = ((\Theta^{(l)})^T \delta^{(l+1)})\ .*\ a^{(l)}\ .*\ (1 - a^{(l)})$$
+ (5) $$Δ_{i,j}^{(l)} :=Δ_{i,j}^{(l)}+a_j^{(l)}	​δ_i^{(l+1)} $$ or with vectorization, $$\Delta^{(l)} := \Delta^{(l)} + \delta^{(l+1)}(a^{(l)})^T$$
+ 
+ 从1到m, we update our new $$\Delta$$ matrix
