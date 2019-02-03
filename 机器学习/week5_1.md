@@ -12,3 +12,8 @@ K = number of output units/classes
 這邊表示方式稍微複雜了點，但是其所做的事情跟上述所提如出一徹，最外面的Σ是為了要從layer 1一直算到layer n，第二個Σ跟第三個 layer是為了求兩個 layer之間的theta值(請將其想像成是連接不同單位、unit的線)
 (θji代表後一層輸入單位j與前一層輸出單位i的處理權重、連接線)，由於通常會忽略bias unit，也就是我們通常不會去把θj0：從某個layer的bias uni連出去的線列入考量，因此 j從1開始。
 $$\Theta$$矩阵中的列数为当前层次的unit（include the bias unit）个数，行数为下一层unit的个数
+**注意**：double sum simply adds up the logistic regression costs calculated for each cell in the **output **layer。triple sum simply adds up the squares of all the individual Θs in the **entire **network。
+
+2.反向传播算法（Backpropagation Algorithm
+）
+在前面所有的章节学习了基础准备概念之后，这周开始学习关于神经网络的算法了。
