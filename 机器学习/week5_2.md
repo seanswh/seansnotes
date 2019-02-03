@@ -22,4 +22,4 @@
  从1到m, we update our new $$\Delta$$ matrix
  最终：
  $$D_{i,j}^{(l)}:= \frac{1}{m}(Δ_{i,j}^{(l)} +λΘ_{i,j}^{(l)}),  if j≠0.$$
- $$D_{i,j}^{(l)}:=\frac{1}{m}Δ_{i,j}^{(l)},  if j=0$$
+ $$D_{i,j}^{(l)}:=\frac{1}{m}Δ_{i,j}^{(l)}$$,  if j=0
