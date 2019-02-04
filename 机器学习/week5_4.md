@@ -23,4 +23,6 @@ Theta3 = reshape(thetaVector(221:231),1,11)
 
 2.Gradient Checking
 我们使用 $$\Theta = \Theta - \frac {\partial}{\partial \Theta}J$$ 来多次对初始$$\Theta$$进行订正，但如何保证 $$\frac {\partial}{\partial \Theta}J$$每次都计算正确呢，本节就是探讨这个话题
-
+根据偏导的定义，微分所做的事情就是求得某個點的切線斜率，如下图所示，偏导就是斜率(y2-y1)/(x2-x1)
+![](/机器学习/images/42.png)
+為了求得某點的切線斜率，我們分別往上(+ε)跟往下(-ε)，ε可以想像為一個個極小的變數(小寫epsilon，ε 大概为$$10^{-4}$$)。取兩個極近的點，並透過取這兩點的斜率來得到近似於切線斜率的數值k,最後再透過確認原本偏導項的數值與k是否相近來確信back propagation是否運作正確。
