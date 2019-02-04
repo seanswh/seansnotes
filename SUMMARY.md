@@ -27,5 +27,5 @@
   * [第四周3 Neural Networks](机器学习/week4_3.md)
   * [第五周1 损失函数](机器学习/week5_1.md)
   * [第五周2 反向传播](机器学习/week5_2.md)
-  * [第五周 3 反向传递解释](机器学习/di-wu-zhou-3-fan-xiang-chuan-di-jie-shi.md)
+  * [第五周 3 反向传递解释](机器学习/week5_3.md)
 
