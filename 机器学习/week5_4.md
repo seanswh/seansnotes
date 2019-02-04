@@ -22,3 +22,5 @@ Theta3 = reshape(thetaVector(221:231),1,11)
 总之，就是为了使用现成的函数而将Matrix转化成Vector，计算出结果后再反算回来的技巧
 
 2.Gradient Checking
+我们使用 $$\Theta = \Theta - \frac {\partial}{\partial \Theta}J$$ 来多次对初始$$\Theta$$进行订正，但如何保证 $$\frac {\partial}{\partial \Theta}J$$每次都计算正确呢，本节就是探讨这个话题
+
