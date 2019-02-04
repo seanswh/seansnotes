@@ -19,3 +19,4 @@ Theta3 = reshape(thetaVector(221:231),1,11)
 
 ```
 
+总之，就是为了使用现成的函数而将Matrix转化成Vector，计算出结果后再反算回来的技巧
