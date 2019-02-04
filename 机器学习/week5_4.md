@@ -29,3 +29,5 @@ Theta3 = reshape(thetaVector(221:231),1,11)
 因此，当得出以下结论时，就说明梯度下降参数正确
 $$\frac {\partial}{\partial \Theta}J ≈ \frac {J(Θ+ϵ)−J(Θ−ϵ)}{2ϵ}$$
 对于复杂函数，![](/机器学习/images/43.png)
+
+Once you have verified once that your backpropagation algorithm is correct, you don't need to compute gradApprox again. The code to compute gradApprox can be very slow.记得检查完以后关闭~~
