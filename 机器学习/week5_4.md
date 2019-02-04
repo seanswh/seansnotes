@@ -7,3 +7,5 @@ thetaVector = [ Theta1(:); Theta2(:); Theta3(:); ]
 deltaVector = [ D1(:); D2(:); D3(:) ]
 ```
 
+
+
