@@ -16,4 +16,8 @@ $$\Theta$$的初始值要用一个猜测值，那这个猜测值用全Zero是不
   （3）Implement the cost function（第五周1）
   ![](/机器学习/images/34.png)
   （4）Implement backpropagation to compute partial derivatives（第五周2）
+  ![](/assets/45.png)
+  上述的流程為輸入一組資料(x)後的流程，實際上會執行m次(假設資料有m組)
+  （5）Use gradient checking to confirm that your backpropagation works. Then disable gradient checking.
+  （6）Use gradient descent or a built-in optimization function to minimize the cost function with the weights in theta
   
