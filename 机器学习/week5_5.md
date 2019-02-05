@@ -19,5 +19,5 @@ $$\Theta$$的初始值要用一个猜测值，那这个猜测值用全Zero是不
   ![](/assets/45.png)
   上述的流程為輸入一組資料(x)後的流程，實際上會執行m次(假設資料有m組)
   （5）Use gradient checking to confirm that your backpropagation works. Then disable gradient checking.
-  （6）Use gradient descent or a built-in optimization function to minimize the cost function with the weights in theta
+  （6）Use gradient descent or a built-in optimization function to minimize the cost function with the weights in theta.  選擇Gradient Descent或是其他advanced optimization的方式來進行實際運算
   
