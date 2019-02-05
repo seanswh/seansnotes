@@ -29,4 +29,5 @@
   * [第五周2 反向传播](机器学习/week5_2.md)
   * [第五周 3 反向传递解释](机器学习/week5_3.md)
   * [第五周 4 Unrolling parameters](机器学习/week5_4.md)
+  * [第五周 5 ](机器学习/week5_5.md)
 
