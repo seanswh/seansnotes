@@ -14,4 +14,6 @@ $$\Theta$$的初始值要用一个猜测值，那这个猜测值用全Zero是不
   （1）Randomly initialize the weights.上一节讲过了
   （2）Implement forward propagation to get $$h_\Theta(x^{(i)})$$ for any $$x^{(i)}$$
   （3）Implement the cost function（第五周1）
+  ![](/机器学习/images/34.png)
   （4）Implement backpropagation to compute partial derivatives（第五周2）
+  
