@@ -13,3 +13,7 @@ The new procedure using these two sets is then:
   (1) Learn $$\Theta$$ and minimize $$J_{train}(\Theta)$$ using the training set
   (2) Compute the test set error $$J_{test}(\Theta)$$
 ![](/机器学习/images/47.png)
+
+3. 模型选择
+前面一步可以**评估**一个模型的好坏,但是还有一个问题，是如何选择一个**最好**的模型。这是什么意思呢？假設我們用跟前面的方式將資料分成兩種：Training set跟Test set，且目前我們手上有多個不同的模型(二次方、三次方...等)
+![](/assets/48.png)
