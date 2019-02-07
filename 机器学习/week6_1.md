@@ -26,4 +26,5 @@ The new procedure using these two sets is then:
     ....
     一直到所有的模型都運算完畢，也得到每個不同模型的error值，如下图所示
     ![](/assets/49.png)
-    
+    我們再從這些error值(error1 ... error10)中挑選出最小的值，（如：挑選出model4），作為最適合的hypothesis
+    最後再透過Test set來評估此模型的績效。
