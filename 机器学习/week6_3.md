@@ -7,8 +7,9 @@
 ![](/机器学习/images/53.png)
 我們可以發現当m从一个很小的值增大时$$J_{train}$$_會大幅上升，到一定程度後就趨於緩慢，而_$$J_{cv}$$則會在下降到一定程度後便幾乎不再下降，而兩者趨同，但最终两个误差值都会很高
 结论：If a learning algorithm is suffering from high bias, getting more training data will not (by itself) help much.
-
+![](/机器学习/images/54.png)
   2）如果训练模型有overfit呢？
   Low training set size: $$J_{train}(\Theta)$$ will be low and $$J_{CV}(\Theta)$$ will be high.
   Large training set size: $$J_{train}(\Theta)$$ increases with training set size and $$J_{CV}(\Theta)$$ continues to decrease without leveling off. Also, $$J_{train}(\Theta) < J_{CV}(\Theta)$$ but the difference between them remains significant.
   结论：If a learning algorithm is suffering from high variance, getting more training data is likely to help.
+  ![](/机器学习/images/55.png)
