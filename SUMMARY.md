@@ -31,4 +31,5 @@
   * [第五周 4 Unrolling parameters](机器学习/week5_4.md)
   * [第五周 5 ](机器学习/week5_5.md)
   * [第六周 1 ](机器学习/week6_1.md)
+  * [第六周2 偏差 bias vs variance](机器学习/week6_2.md)
 
