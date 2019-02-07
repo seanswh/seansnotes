@@ -4,4 +4,11 @@
      Bias即所謂的Underfitting，因為參數過少連Training set都會有頗大的預測誤差.
     Variance即所謂的Overfitting，因為參數過多導致過度符合Training set的資料特性，使得其無法預測較為普遍的資料集.
     我们所要做的，就是找到a golden mean between these two，介于underfit和overfit之间的一个合适次数。
-    
+    The training error will tend to decrease as we increase the degree d of the polynomial.
+At the same time, the cross validation error will tend to decrease as we increase d up to a point, and then it will increase as d is increased, forming a convex curve.如下图所示：
+
+![](/assets/50.png)
+根据上图可断言：
+High bias (underfitting): both $$J_{train}(\Theta)$$ and $$J_{CV}(\Theta)$$ will be high. Also, $$J_{CV}(\Theta) \approx J_{train}(\Theta)$$。
+
+High variance (overfitting): $$J_{train}(\Theta)$$ will be low and $$J_{CV}(\Theta)$$ will be much greater than $$J_{train}(\Theta)$$.
