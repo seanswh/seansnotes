@@ -12,3 +12,4 @@ The new procedure using these two sets is then:
 
   (1) Learn $$\Theta$$ and minimize $$J_{train}(\Theta)$$ using the training set
   (2) Compute the test set error $$J_{test}(\Theta)$$
+![](/机器学习/images/47.png)
