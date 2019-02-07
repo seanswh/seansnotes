@@ -17,4 +17,13 @@ The new procedure using these two sets is then:
 3. 模型选择
 前面一步可以**评估**一个模型的好坏,但是还有一个问题，是如何选择一个**最好**的模型。这是什么意思呢？假設我們用跟前面的方式將資料分成兩種：Training set跟Test set，且目前我們手上有多個不同的模型(二次方、三次方...等)
 ![](/assets/48.png)
-原先的做法應該是透過Training set來訓練這些不同的模型，然後再透過Test set來得到這些不同模型的預測誤差，最後我們再從中挑選出最好的模型A(Test set中最小的預測誤差)
+原先的做法應該是透過Training set來訓練這些不同的模型，然後再透過Test set來得到這些不同模型的預測誤差，最後我們再從中挑選出最好的模型A(Test set中最小的預測誤差)，但是如此一来，如何去评估这个”**最好**“的模型A呢？因为A就是由Test set选出来的，再去用Test set去评估显然行不通。
+
+  因此我們還需要多一個資料集，這意味著我們要將所有的資料分成Training set, Cross Validation set, Test set
+
+    首先，我們透過Training set訓練模型1，然後算出其Cross Validation set的預測誤差error1
+    然後我們再透過Training set訓練模型2，然後算出其Cross Validation set的預測誤差error2
+    ....
+    一直到所有的模型都運算完畢，也得到每個不同模型的error值，如下图所示
+    ![](/assets/49.png)
+    
