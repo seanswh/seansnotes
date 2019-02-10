@@ -15,6 +15,11 @@
  
  1)可以先快速的建立一個簡單所需的演算法，然後用其驗證cross-validation的資料
 
- 2)Plot learning curves to decide if more data, more features, etc. are likely to help
+ 2)Plot learning curves to decide if more data（variance problem）, more features(bias problem), etc. are likely to help
 
-另外可以透過Error analysis來人工檢驗出錯的郵件，藉此觀察是哪邊可能出了系統性的錯誤(下圖將詳細說明Error analysis)
+ 3)透過Error analysis來人工檢驗出錯的郵件，藉此觀察是哪邊可能出了系統性的錯誤(下圖將詳細說明Error analysis)
+ 
+ 假設在cross validation set中我們發現有100個分類錯誤，接下來以人工的方式檢驗：分類這些錯誤的資料(像是釣魚郵件)、或許可以改善的特點(不尋常的字母编写方式或邮件路由地址等)
+ 最后，我们应该使用定量化的评估结果。For example if we use stemming, which is the process of treating the same word with different forms (fail/failing/failed) as one word (fail), and get a 3% error rate instead of 5%, then we should definitely add it to our model. However, if we try to distinguish between upper case and lower case letters and end up getting a 3.2% error rate instead of 3%, then we should avoid using this new feature.
+ 
+ we should try new things, get a numerical value for our error rate, and based on our result decide whether we want to keep the new feature or not.
