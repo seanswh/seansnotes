@@ -32,5 +32,5 @@
   * [第五周 5 ](机器学习/week5_5.md)
   * [第六周 1 ](机器学习/week6_1.md)
   * [第六周2 偏差 bias vs variance](机器学习/week6_2.md)
-  * [第六周3](机器学习/di-liu-zhou-3.md)
+  * [第六周3](机器学习/week6_3.md)
 
