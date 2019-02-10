@@ -11,4 +11,10 @@
  而以上三种方式很难说哪个更加有效。
  
 （2）Error Analysis
+ 建议用以下顺序来解决机器学习问题：
  
+ 1)可以先快速的建立一個簡單所需的演算法，然後用其驗證cross-validation的資料
+
+ 2)Plot learning curves to decide if more data, more features, etc. are likely to help
+
+另外可以透過Error analysis來人工檢驗出錯的郵件，藉此觀察是哪邊可能出了系統性的錯誤(下圖將詳細說明Error analysis)
