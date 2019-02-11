@@ -5,3 +5,9 @@
 我们使用precision和recall来评估~如下图所示：
 ![](/机器学习/images/57.png)
 
+True positive：預測為1，實際也為1
+False positive：預測為1，實際為0
+False negative：預測為0，實際為1
+True negative：預測為0，實際也為0
+
+Precision: 預測為1的狀況下，實際的值為1的比率
