@@ -27,4 +27,5 @@ $$h_x(\theta) < 0.5 => y = 0$$
 其实，就是说，如果想要结果很严谨，只有十足把握得时候才确定，那样会造成漏报很多结果，precision很高，但是recall很低。如果宁可“错杀一千，不放过一个”，这样保证所有疑似癌症得都要命中，这时recall很高，precision很低。
 可见，precision和recall不可兼得，那怎么评估呢？
 我们引入一个新的评估函数F1
-F1 = (Precision+Recall) / (Precision*Recall)這樣子當Precision或是Recall很低的時候(ex:0)或是兩者都很高時，我們就可以得到一個相對合理很多的比較標準。
+F1 = (Precision+Recall) / (Precision*Recall)
+這樣子當Precision或是Recall很低的時候(ex:0)或是兩者都很高時，我們就可以得到一個相對合理很多的比較標準。
