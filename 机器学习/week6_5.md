@@ -11,4 +11,7 @@ False negative：預測為0，實際為1
 True negative：預測為0，實際也為0
 
 Precision: 預測為1的狀況下，實際的值為1的比率
+$$\frac{True Positive}{True positive+false positive}$$
 Recall:實際的值為1下，預測為1的比率為多少
+$$\frac{True positive}{true positive+false negative}$$
+这样，上面”优化“后得算法precision和recall结果都很差
