@@ -14,4 +14,6 @@ Precision: 預測為1的狀況下，實際的值為1的比率
 $$\frac{True Positive}{True positive+false positive}$$
 Recall:實際的值為1下，預測為1的比率為多少
 $$\frac{True positive}{true positive+false negative}$$
+一个好的分类器算法应该保证precision 和recall效果都好
 这样，上面”优化“后得算法precision和recall结果都很差
+
