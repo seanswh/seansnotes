@@ -20,3 +20,4 @@ $$\frac{True positive}{true positive+false negative}$$
 回想逻辑回归得定义：
 $$h_x(\theta) \ge 0.5 => y=1$$
 $$h_x(\theta) < 0.5 => y = 0$$
+
