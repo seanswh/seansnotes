@@ -11,4 +11,9 @@
 ![](/机器学习/images/60.png)
 这样，上面第一幅图中的公式便可精简为如下图所示：
 ![](/机器学习/images/61.png)
-如果把系数$$\frac{1}{m}$$去掉，让C=$$\frac{1}{\lambda}$$
+如果把系数$$\frac{1}{m}$$去掉，让C=$$\frac{1}{\lambda}$$,最终结果cost function为：
+![](/机器学习/images/62.png)
+2.Large Margin Intuition
+支持向量机如下图所示：
+![](/机器学习/images/63.png)
+支持向量机所需要找到一个合适的θ，使得y=1与y=0时，cost function结果最小，又根据前一章节对$$cost_0(z)$$和$$cost_1(z)$$的定义，得知支持向量机与logistic regression的区别在于前者是要对z取两个范围，这个范围也就构成了 margin
