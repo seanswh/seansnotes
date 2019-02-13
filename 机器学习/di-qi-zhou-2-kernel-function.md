@@ -13,3 +13,5 @@ $$f(x) = ae^{-(x-b)^2/(2c^2)}$$,而高斯核的f定义如下图所示：
 其中，a = 1 b=l ，l为landmark，在实际编程中，直接把training set放置到landmark位置上即可，c = $$\sigma$$;
 高斯核函数 f 实际上计算了x和某个landmark l之间的近似度(similarity)，这个近似度用欧氏距离来描述（计算向量内积）
 $$\sigma$$ 用于控制高斯核的陡峭程度，$$\sigma$$ 越大，函数越平滑.
+
+![](/机器学习/images/66.png)
