@@ -7,3 +7,9 @@ SVM引入kernel的概念，是logistic regression的进一步简化。将z=$$\th
 （1）Linear Kernel 线性核
 实际上就是不使用Kernel，直接使用\theta^{T} X作为cost function的自变量
 （2）Gaussian Kernel 高斯核
+顾名思义，高斯核用的就是高斯函数，高斯函数定义为：
+$$f(x) = ae^{-(x-b)^2/(2c^2)}$$,而高斯核的f定义如下图所示：
+![](/机器学习/images/65.PNG)
+其中，a = 1 b=l ，l为landmark，在实际编程中，直接把training set放置到landmark位置上即可，c = $$\sigma$$;
+高斯核函数 f 实际上计算了x和某个landmark l之间的近似度，这个近似度用欧氏距离来描述（计算向量内积）
+$$\sigma$$ 用于控制高斯核的陡峭程度，$$\sigma$$ 越大，函数越平滑
