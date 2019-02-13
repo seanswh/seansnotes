@@ -36,4 +36,5 @@
   * [第六周4](机器学习/week6_4.md)
   * [第六周5](机器学习/week6_5.md)
   * [第七周1 支持向量机](机器学习/week7_1.md)
+  * [第七周2 kernel](机器学习/di-qi-zhou-2-kernel-function.md)
 
