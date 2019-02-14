@@ -6,3 +6,6 @@ logistic regression(LR)、神经网络、support vector machine的目的都是�
 另外，similarity function 除了高斯函数以外还有很多，在SVM实践中，只要符合Mercer's Theorem都可以作为核函数。
 
 3. 关于landmark $$l_{(i)}$$的选取，一般选择所有的test data作为l
+
+4.最后，LR、神经网络、SVM如何选择，有以下建议：
+![](/机器学习/images/69.png)
