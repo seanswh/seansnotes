@@ -6,4 +6,4 @@
 Clusting(聚类分析)就是非监督学习的一类方法。
 
 2.Clusting K-means algorithm
-
+输入： K(number of clusters)、Training Set { $$x^{(1)},x^{(2)},x^{(3)}...$$ }
