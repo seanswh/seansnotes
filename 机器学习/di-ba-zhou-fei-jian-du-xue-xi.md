@@ -3,3 +3,7 @@
 非监督学习：训练集{xi},没有label
 
 应用领域：市场划分、社交网络划分、集群自动划分 等。
+Clusting(聚类分析)就是非监督学习的一类方法。
+
+2.Clusting K-means algorithm
+
