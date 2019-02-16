@@ -38,5 +38,5 @@
   * [第七周1 支持向量机](机器学习/week7_1.md)
   * [第七周2 kernels](机器学习/week7_2.md)
   * [第七周3 SVM实践](机器学习/week7_3.md)
-  * [第八周 非监督学习](机器学习/di-ba-zhou-fei-jian-du-xue-xi.md)
+  * [第八周 非监督学习](机器学习/week8_1.md)
 
