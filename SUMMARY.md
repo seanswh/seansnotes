@@ -39,4 +39,5 @@
   * [第七周2 kernels](机器学习/week7_2.md)
   * [第七周3 SVM实践](机器学习/week7_3.md)
   * [第八周1 非监督学习](机器学习/week8_1.md)
+  * [第八周2 非监督学习应用](机器学习/di-ba-zhou-2-fei-jian-du-xue-xi-ying-yong.md)
 
