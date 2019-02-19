@@ -7,4 +7,4 @@
 （1）对输入样本集进行标准化预处理
 ![](/机器学习/images/73.PNG)
 （2）计算输入样本矩阵的特征向量 $$\Sigma= \frac{1}{m}\sum_{i=1}^{n}(x^{(i)})(x^{(i)})^T$$
-（3）使用octave中的svd方法计算向量 [u,s,v] = svd(Sigma);
+（3）使用octave中的svd方法计算向量 [u,s,v] = svd(Sigma);其中u即为结果矩阵，如果需要降维到k，则从u中取前k列即可。
