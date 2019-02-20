@@ -1,0 +1,1 @@
+1.在机器学习过程中，可以通过PCA将输入x的feature维度降低，但注意训练$$U_{reduce}$$只能通过traning set来得到，而训练出来的
