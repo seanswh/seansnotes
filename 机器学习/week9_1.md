@@ -8,3 +8,7 @@
 
 2.正态分布 （Gaussian Distribution)
 统计学中一个很重要的分布方式即为“正态分布”，它的表述方式如下图所示：
+![](/机器学习/images/78.PNG)
+正态分布的参数有2个,$$\mu,\sigma$$,前者为均值，后者为均方差，而函数描述即为：
+$$x \sim N(\mu,\sigma)$$表示x符合正态分布，$$P(x;\mu,\sigma)=\frac{1}{\sqrt{2\pi}\sigma}exp^{-\frac{(x-u)^2}{2\sigma^2}}$$
+
