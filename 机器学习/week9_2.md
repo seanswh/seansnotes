@@ -1,6 +1,6 @@
 Evaluating the method
 
-如何评估异常检测算法是否有效呢？
+（1）如何评估异常检测算法是否有效呢？
 如果我们有一些真值(real-number),按照以前的评估和检验的方式，我们把这些值划分为三类:training set,cross validation set, test set,对于anormal detaction来说，可以把这些数据做标记(label),其中，异常数据对应的x，标记y=1，其他的x，标记y=0。
 例如用如下方式：
 ![](/机器学习/images/82.PNG)
@@ -8,3 +8,9 @@ Evaluating the method
 （下面那个分组方式是错误的）
 因为错误的样本数量很小，因此就算算法判断所有的结果均为合格(y=0)，那么成功率也很高，因此评估应使用之前的算法F1-score
 ![](/机器学习/images/83.PNG)
+（2）Anomaly detaction vs. supervised learning
+上一节介绍评估的时候给每一个样本做了标记，那为何不直接只用之前的监督学习中的支持向量机或者神经网络呢？区别如下图所示：
+![](/机器学习/images/84.PNG)
+总的来说，异常检测方法适用于以下几种情况：
+1. y=1的情况相当少；y=0的情况相当大
+2.异常情况造成的原因非常多，而且未来可能出现的情况之前未预料过
