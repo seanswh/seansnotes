@@ -11,3 +11,5 @@
  代码中再次加载。
       与此同时，模块启动时会加载Script\Python\preLoad.py脚本，这个脚本主要是把CMA.MICAPS.ExtentTool.dll加载进Python环境中，并简写为M4.
   此时，MICAPS4与Python运行时连接搭建完成。
+  
+ 注：Pythonnet解决方案为一个开源方案，可以让C#调用Python解析器程序
