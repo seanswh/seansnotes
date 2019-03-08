@@ -9,4 +9,4 @@
       Python脚本存放路径：Script\Python目录下
       默认初始化的时候是会ImportNumpy库和ImportMatplotlib库的，所以不需要在python
  代码中再次加载。
-      与此同时，会加载Script\Python\preLoad.py脚本
+      与此同时，模块启动时会加载Script\Python\preLoad.py脚本，这个脚本主要是把CMA.MICAPS.ExtentTool.dll加载进Python环境中，并简写为M4.
