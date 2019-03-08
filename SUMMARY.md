@@ -10,6 +10,8 @@
 ## Part II
 
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
+* [预备知识](/M4Python/preparation.md)
+
   * [第一章](/M4Python/Chapter1.md)
 
 ## Coursera
