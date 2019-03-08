@@ -1,0 +1,3 @@
+环境配置
+
+MICAPS4Python工具箱支持MICAPS4.5及以上版本
