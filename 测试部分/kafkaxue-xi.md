@@ -6,4 +6,6 @@ https://itnext.io/kafka-vs-rabbitmq-f5abc02e3912
 之前韩丰设计了消息格式
 使用该格式在10.28.30.43机器上的jupyter上做了测试，分别写了测试端与服务器端，测试了单消息发送、中文消息发送、将Dictionary封装成Json字符串后发送，隔1ms发送1000条消息等，效率和结果都还不错~
 ![](/测试部分/images/1.png)
+![](/测试部分/images/2.png)
+
 尚未测试回滚历史消息
