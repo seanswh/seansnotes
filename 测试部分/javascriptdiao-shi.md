@@ -6,3 +6,7 @@
 
 2）VisualStudio Code，进入后搜索一个插件，叫Live Server。然后通过VC打开主页文件，Ctrl+P调出运行框，输入&gt;  Live Server:Open with Live Server即可
 
+
+
+2. D3的selector
+
