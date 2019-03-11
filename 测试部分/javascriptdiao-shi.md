@@ -6,7 +6,7 @@
 
 2）VisualStudio Code，进入后搜索一个插件，叫Live Server。然后通过VC打开主页文件，Ctrl+P调出运行框，输入&gt;  Live Server:Open with Live Server即可
 
-2.D3的selector功能相当强大，可以通过d3.select或者d3.selectAll来选择
+2.D3的selector功能相当强大，可以通过d3.select或者d3.selectAll来选择一个selection,然后可以修改attribute和text
 
 
 
