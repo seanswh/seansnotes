@@ -4,5 +4,5 @@
 
 1）Python 进入到网站主页所在的目录，然后启动如下命令：python.exe -m http.server 7800 最后一个是端口号
 
-2）VisualStudio Code，进入后搜索一个插件，叫
+2）VisualStudio Code，进入后搜索一个插件，叫Live Server
 
