@@ -24,4 +24,4 @@ consumer = KafkaConsumer(
 for message in consumer:
     print(message)
 ```
-
+另外，设置不同的group_id，可以确保不同的进程都能获取到消息。
