@@ -11,6 +11,7 @@ https://itnext.io/kafka-vs-rabbitmq-f5abc02e3912
 发现一个问题，测试了好久：jupyter notebook由于采用了异步机制，造成可能会同时执行多个consumer的情况，因此在执行cosumer的时候，最好还是在命令行下执行py文件好了~~
 
 consumer代码如下，这里增加了offset的设置机制，确保客户端down机一段时间后重启也能拿到历史数据的情况。
+另外，为了避免每次启动都会从 offset=0开始获取，这里增加了enable_auto_commit=True语句，记录客户端down机前识别的最后一个offset。
 ```
 consumer = KafkaConsumer(
     'test',
