@@ -7,6 +7,7 @@
   * [Introduction](/测试部分/README.md)
   * [办理老年证](测试部分/ban-li-lao-nian-zheng.md)
   * [Kafka学习](测试部分/kafkaxue-xi.md)
+  * [D3.js学习](测试部分/javascriptdiao-shi.md)
 
 ## Part II
 
