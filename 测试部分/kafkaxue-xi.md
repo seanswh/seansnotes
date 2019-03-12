@@ -8,4 +8,4 @@ https://itnext.io/kafka-vs-rabbitmq-f5abc02e3912
 ![](/测试部分/images/1.png)
 ![](/测试部分/images/2.png)
 
-尚未测试回滚历史消息
+发现一个问题，测试了好久：jupyter notebook由于采用了异步机制，造成可能会同时执行多个cosumer的情况，因此在执行cosumer的时候，最好还是在命令行下执行py文件好了~~
