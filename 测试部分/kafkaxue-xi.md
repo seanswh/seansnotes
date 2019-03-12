@@ -8,4 +8,19 @@ https://itnext.io/kafka-vs-rabbitmq-f5abc02e3912
 ![](/测试部分/images/1.png)
 ![](/测试部分/images/2.png)
 
-发现一个问题，测试了好久：jupyter notebook由于采用了异步机制，造成可能会同时执行多个cosumer的情况，因此在执行cosumer的时候，最好还是在命令行下执行py文件好了~~
+发现一个问题，测试了好久：jupyter notebook由于采用了异步机制，造成可能会同时执行多个consumer的情况，因此在执行cosumer的时候，最好还是在命令行下执行py文件好了~~
+
+consumer代码如下，这里增加了offset的设置机制，确保客户端down机一段时间后重启也能拿到历史数据的情况。
+```
+consumer = KafkaConsumer(
+    'test',
+     bootstrap_servers=['10.20.90.35:9092'],
+     auto_offset_reset='earliest',
+     enable_auto_commit=True,
+     value_deserializer=lambda m: json.loads(m.decode('utf8')),
+     group_id='my-group',
+    )
+for message in consumer:
+    print(message)
+```
+
