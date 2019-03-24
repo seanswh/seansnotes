@@ -66,5 +66,6 @@
     * [第十一周2](机器学习/week11_2.md)
 ## edx
 * [计算机图形学导论](/Computer_Graphics/SUMMARY.md)
+  * [第一周](/机器学习/week.md)
 
 
