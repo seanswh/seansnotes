@@ -68,5 +68,6 @@
 * [计算机图形学导论](/Computer_Graphics/SUMMARY.md)
   * [第一周 transformation1](/Computer_Graphics/week.md)
   * [第一周 transformation2](/Computer_Graphics/week2.md)
+  * [第一周 transformation3](/Computer_Graphics/week3.md)
 
 
