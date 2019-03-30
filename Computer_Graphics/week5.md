@@ -13,3 +13,5 @@ cos(theta)×x - sin(theta)×y, sin(theta)×x  cos(theta)×y，所以，这是你
 ![](/Computer_Graphics/images/14.png)
 对于旋转点和旋转坐标系的关系，你可以认为这个点是固定的，而坐标系向反方向做了旋转。的确，这就是坐标系旋转后的样子，这是新的u轴，这是新的v轴，这个坐标系顺时针旋转了theta角度，相反，这个点逆时针旋转了theta角度。
 实际上，新的uv坐标系在老的xy坐标系下的位置为：cos(theta)·x - sin(theta)·y，sin(theta)·x + cos(theta)·y。这也很好地给出我们前面讨论过的三维旋转的几何解释：**旋转矩阵的每一行都是一个单位向量，这些单位向量构成了新的坐标系**。因此，大家可以从任意的3个正交向量构建一个旋转矩阵。
+
+（2）gluLookAt
