@@ -71,5 +71,6 @@
   * [第一周 transformation3](/Computer_Graphics/week3.md)
   * [第一周 transformation4](/Computer_Graphics/week4.md)
   * [第一周 transformation5](/Computer_Graphics/week5.md)
+  * [第一周 transformation6](/Computer_Graphics/week6.md)
 
 
