@@ -20,3 +20,4 @@ gluPerspective有4个参数，它们如何影响gluPerspective的变换矩阵？
 ![](/Computer_Graphics/images/23.png)事实上，这里画的是Y方向上的视野，X方向与Y方向上的视野可以不同。然后你有一个一定宽度width、一定高度height的屏幕。纵横比就是width和height的比例。
 Y方向的视野和纵横比决定了X方向上和Y方向上的视野，zNear和zFar决定了视体。这是屏幕的俯视图，我们想要计算的是值theta和d。![](/Computer_Graphics/images/24.png)theta，它可以很简单地通过Y方向上的视野除以2求出，d等于什么呢？从我们想映射到单位立方体上的几何关系来看，这里是1个单位。根据三角公式我们知道，tan(theta)等于 1 / d，这就意味d等于cot(theta)。所以我们把d写作cot theta。
 得到如下矩阵：
+![](/Computer_Graphics/images/25.png)
