@@ -9,3 +9,4 @@
 ![](/Computer_Graphics/images/19.png)
 我们还剩下最后一步来得到glOrtho的公式。在OpenGL中有一个约定，即你的观察方向是-z轴方向。因此n和f都是负数。n比f近，所以它是一个比f小的负数。然而，当你给定参数的时候，你给定的n和f是正的。因此，在公式中，你需要用-n替换n，用-f替换f。最终，它使得矩阵的一个元素值变成了相反数。
 ![](/Computer_Graphics/images/20.png)
+(2) 透视投影
