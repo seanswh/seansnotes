@@ -30,4 +30,4 @@ Y方向的视野和纵横比决定了X方向上和Y方向上的视野，zNear和
 2）总结一下观察管线：
 ![](/Computer_Graphics/images/28.png)
 从这里的模型坐标开始，对模型施加一个变换，有放缩变换、平移变换、旋转变换，它是一个4×4的矩阵。最终你得到了模型的世界坐标。然后你施加相机变换，gluLookAt，现在物体在视点坐标（eye coordinates）下了。所以这个高亮的区域是这一讲中讲到的
-透视变换gluPerspective。当你进行gluPerspective变换的时候，记住你应该对gluLookAt的结果应用gluPerspective，最终的变换矩阵是投影矩阵乘以一个叫做模型视图矩阵的矩阵，或gluPerspective * gluLookAt然后就得到了屏幕坐标，它也被叫做规格化设备坐标。它从-1到+1，是一个立方体。然后，你需要使用视口变换，将它变换到你实际使用的窗口中。最后变成设备坐标。
+透视变换gluPerspective。当你进行gluPerspective变换的时候，记住你应该对gluLookAt的结果应用gluPerspective，最终的变换矩阵是投影矩阵乘以一个叫做模型视图矩阵的矩阵，或gluPerspective * gluLookAt然后就得到了屏幕坐标，它也被叫做规格化设备坐标。它从-1到+1，是一个立方体。然后，你需要使用视口变换，将它变换到你实际使用的窗口中。最后变成设备坐标。所有的这些内容都在观察管线里。
