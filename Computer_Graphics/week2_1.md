@@ -10,3 +10,4 @@ OPENGL的缓冲区包括颜色(front back left right)、深度(z)、累计缓存
 OPENGL中的显示(viewing)包含两部分工作：模型定位(object positioning),使用模型的位置变换矩阵；视觉投影(View projection)，使用投影变换矩阵。
 （3）shadder
 着色器编程步骤:
+![](/Computer_Graphics/images/30.png)
