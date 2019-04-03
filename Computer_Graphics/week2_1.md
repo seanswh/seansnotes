@@ -11,4 +11,4 @@ OPENGL中的显示(viewing)包含两部分工作：模型定位(object positioni
 （3）shadder
 着色器编程步骤:
 ![](/Computer_Graphics/images/30.png)
-着色器:是一系列代码的组合，需要编译后使用。包括vertext shader和fragment shader，
+着色器:是一系列代码的组合，需要编译后使用。包括vertext shader和fragment shader，使用GLSL语言进行编写，而且每次都是在程序执行时进行编译，主要是因为GLSL是编译/执行在GPU中，它的指令集架构与CPU不同，因此CPU中的编译无用。
