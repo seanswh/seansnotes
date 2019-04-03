@@ -11,3 +11,4 @@ OPENGL中的显示(viewing)包含两部分工作：模型定位(object positioni
 （3）shadder
 着色器编程步骤:
 ![](/Computer_Graphics/images/30.png)
+着色器:是一系列代码的组合，需要编译后使用
