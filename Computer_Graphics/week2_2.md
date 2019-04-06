@@ -20,4 +20,4 @@ flat shading的复杂度：N * L
 Gouraud shading 的复杂度：N * (3 * L + B * A)
 Phong shading的复杂度：(B + L) * N * A
 数学好的人很容易计算出复杂度：Flat < Gouraud < Phong Shading。这里也因此说明了为何早期电脑都只支援Gouraud shading，就算已经知道Phong shading的效果比Gouraud shading好，但还是选择效能好而效果不错的Gouraud shading！如今GPU发展迅速，Phong Shading的效能已得到提升。
-Phong着色不是对光照进行插值，而是对所有的像素的法线进行插值
+Phong着色不是对光照进行插值，而是对所有的像素的法线进行插值，而且Phong着色器可以在片元着色器中(fragment shader)进行执行,
