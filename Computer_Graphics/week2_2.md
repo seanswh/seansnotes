@@ -10,4 +10,4 @@
 
 （2）Gouraud 着色和 Phong 着色
 Gouraud Shading是PC最常使用的著色法，因为效能好、效果还不错。而近年来，随着GPU快速的发展，Phong Shading逐渐应用在更真实的著色上。
-Gouraud shading：三角形的顶点都有各自的法向量，打光时三个顶点有各自的颜色，接着做双线性内插（bilinear interpolation）来求得颜色，使整个三角形有渐层的颜色变化。
+Gouraud shading：三角形的顶点都有各自的法向量，打光时三个顶点有各自的颜色，接着做双线性内插（bilinear interpolation）来求得三角形内部各个像素上的颜色(光照)，使整个三角形有渐层的颜色变化。
