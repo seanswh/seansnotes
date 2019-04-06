@@ -13,10 +13,11 @@ Gouraud Shading是PC最常使用的著色法，因为效能好、效果还不错
 Gouraud shading：三角形的顶点都有各自的法向量，打光时三个顶点有各自的颜色，接着做双线性内插（bilinear interpolation）来求得三角形内部各个像素上的颜色(光照)，使整个三角形有渐层的颜色变化。
 ![](/Computer_Graphics/images/32.png)
 Gouraud 一些缺点：由于该方法是由顶点开始进行三角面内的插值，但结果仍然会出现平面化的效果，而且在有些情况下，顶点处光照为0，但不能代表定点内的各个地方光照为0，比如在某些极端情况下，顶点法向量与光线夹角大于90度（光照为0），但是有可能面上的点夹角<90度。这个时候就不适合用Gouraud着色。
-Phong着色：Gouraud着色用在早期GPU计算能力不强的情况下，效果和计算量都折中。
+Gouraud着色用在早期GPU计算能力不强的情况下，效果和计算量都折中，如果想要有较好的效果，只能尽可能多的分成多个三角形。
 对比一下**计算复杂度**：
 假设三角形面积为 A 。三角形个数为 N 。而且我们知道打一次光需要6次乘法和2次加法和1次查表的运算，此设定为 L 。双线性内插设定为 B 。
 flat shading的复杂度：N * L
 Gouraud shading 的复杂度：N * (3 * L + B * A)
 Phong shading的复杂度：(B + L) * N * A
 数学好的人很容易计算出复杂度：Flat < Gouraud < Phong Shading。这里也因此说明了为何早期电脑都只支援Gouraud shading，就算已经知道Phong shading的效果比Gouraud shading好，但还是选择效能好而效果不错的Gouraud shading！如今GPU发展迅速，Phong Shading的效能已得到提升。
+Phong着色不是对光照进行插值，而是对所有的像素的法线进行插值
