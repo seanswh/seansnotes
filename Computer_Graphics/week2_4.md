@@ -5,3 +5,4 @@
 首先计算漫反射，根据Lambert计算公式求得lambert光照结果，然后根据Blinn-Phong公式计算镜面反射光照。最后把漫反射和镜面反射光照求和。这里面注意，direction指的是离开物体的反射光方向，halfvec也是离开物体的半角方向，因此retval也是离开物体的方向。
 下面再看一下main函数：
 ![](/Computer_Graphics/images/39.PNG)
+首先检查一下该片元上是否有纹理，如果有，那颜色就通过texture函数获得，
