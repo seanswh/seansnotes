@@ -14,6 +14,7 @@
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
+* [matplotlib](/M4Python/SUMMARY.md)
 
 ## Coursera
 
