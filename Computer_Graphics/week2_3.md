@@ -22,5 +22,5 @@
    再看Blinn-Phong方法：只要使用入射光线和视觉方向，取它们之间的半角，也就是H。如果它们是标量，就等于 (L + E) / 2。归一化后可写成：$$H = \frac{L+E}{|| L + E ||}$$,最后可以把漫反射的公式改写成：
    ![](/Computer_Graphics/images/37.png)公式还有一个控制波瓣尖锐程度的额外的系数 shininess（光泽度）项。所以，如果光泽度非常大，那么反射就集中在
 半角方向和镜面方向。如果光泽度是0，那么它和Lambertian（漫反射）的情况就很像了，除了这里使用的是半角，而不是漫反射使用的光源方向。
-   最后，一定要注意
+   最后，一定要注意both light and view directions point **TO** the light or viewer (and away from the surface). The signs on some formulas, such as for the reflection vector R, would be different if L pointed toward the surface instead.
 
