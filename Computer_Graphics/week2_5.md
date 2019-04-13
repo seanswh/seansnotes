@@ -6,3 +6,5 @@ OpenGL作为图形API，制定的是绘图标准，采用的是CS模式。它将
 然后，Geometry and many other types of attributes are stored in buffers called Vertx Buffer Objects (or VBOs). These buffers are allocated on the GPU and filled by your CPU program.
 
 具体来说，就是：The data for an OpenGL object to be displayed is stored in a vertex array object (VAO). A VAO encapsulates geometry and related attributes whose values can change from one vertex to another. Each such attribute (coordinates, color, etc.) is sent to the GPU in a vertex buffer object (VBO). In general, one VAO can reference an arbitrary number of VBOs. 
+
+VAOs and VBOs are "named" using unsigned integers. Each such "name" must be assigned by an OpenGL name broker routine. VAO names are assigned by glGenVertexArrays; VBO names are assigned by glGenBuffers. Note that the interface to the name broker routines allows an arbitrary number of names to be assigned at once. Here we are asking for only a single name of each type.VAO和VBO都是一个无符号整型数字定义，
