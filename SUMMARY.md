@@ -79,4 +79,5 @@
   * [第二周 OPENGL1](/Computer_Graphics/week2_1.md)
   * [第二周 OPENGL2](/Computer_Graphics/week2_2.md)
   * [第二周 OPENGL3](/Computer_Graphics/week2_3.md)
+  * [第二周 OPENGL4](/Computer_Graphics/week2_4.md)
 
