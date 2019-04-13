@@ -10,3 +10,5 @@ OpenGL作为图形API，制定的是绘图标准，采用的是CS模式。它将
 VAOs and VBOs are "named" using unsigned integers. Each such "name" must be assigned by an OpenGL name broker routine. VAO names are assigned by **glGenVertexArrays**; VBO names are assigned by glGenBuffers. Note that the interface to the name broker routines allows an arbitrary number of names to be assigned at once. Here we are asking for only a single name of each type.VAO和VBO都是一个无符号整型数字定义，而且该值必须由OPENGL创建
 
 We make the VAO and VBOs active (i.e., open for editing or use) by binding them. Binding is accomplished by passing a single assigned name to glBindVertexArray (for a VAO) or glBindBuffer (for VBOs).创建或申请完VAO和VBO后还要绑定激活。
+
+Once a VBO has been bound, the routine glBufferData can be used to both (i) dynamically allocate GPU storage for the buffer and (ii) send CPU data to the dynamically allocated GPU buffer storage.
