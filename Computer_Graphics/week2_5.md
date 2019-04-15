@@ -50,9 +50,12 @@ glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, NULL);
 ```
 绘制部分：
 
-
 ```
-
+glBindVertexArray(m_nQuadVAO);  
+  
+glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, NULL);  
+  
+glBindVertexArray(NULL); 
 ```
 
 
