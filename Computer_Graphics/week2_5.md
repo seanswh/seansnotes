@@ -39,9 +39,9 @@ glVertexAttribPointer(VAT_POSITION, 2, GL_INT, GL_FALSE, 0, NULL);
 glGenBuffers(1, &m_nQuadTexcoordVBO);  
 /* Bind our second VBO as being the active buffer and storing vertex attributes (texture) */  
 glBindBuffer(GL_ARRAY_BUFFER, m_nQuadTexcoordVBO);  
-/* Copy the texture data from fQuadTexcoordto our buffer */
+/* Copy the texture data from fQuadTexcoord to our buffer */
 glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadTexcoord), fQuadTexcoord, GL_STREAM_DRAW);  
-  
+/* Enable attribute index VAT_TEXCOORD as being used */  
 glEnableVertexAttribArray(VAT_TEXCOORD);  
 glVertexAttribPointer(VAT_TEXCOORD, 2, GL_INT, GL_FALSE, 0, NULL);  
   
