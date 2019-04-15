@@ -33,7 +33,7 @@ glBindBuffer(GL_ARRAY_BUFFER, m_nQuadPositionVBO);
 glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadPos), fQuadPos, GL_STREAM_DRAW);  
   
 glEnableVertexAttribArray(VAT_POSITION);  
-/* Specify that our coordinate data is going into attribute index 0, and contains two floats per vertex */
+/* Specify that our coordinate data is going into attribute index VAT_POSITION, and contains two floats per vertex */
 glVertexAttribPointer(VAT_POSITION, 2, GL_INT, GL_FALSE, 0, NULL);
   
 glGenBuffers(1, &m_nQuadTexcoordVBO);  
