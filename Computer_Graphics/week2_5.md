@@ -42,7 +42,8 @@ glBindBuffer(GL_ARRAY_BUFFER, m_nQuadTexcoordVBO);
 /* Copy the texture data from fQuadTexcoord to our buffer */
 glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadTexcoord), fQuadTexcoord, GL_STREAM_DRAW);  
 /* Enable attribute index VAT_TEXCOORD as being used */  
-glEnableVertexAttribArray(VAT_TEXCOORD);  
+glEnableVertexAttribArray(VAT_TEXCOORD); 
+/* Specify that our color data is going into attribute index VAT_TEXCOORD, and contains three floats per vertex */ 
 glVertexAttribPointer(VAT_TEXCOORD, 2, GL_INT, GL_FALSE, 0, NULL);  
   
 glGenBuffers(1, &m_nQuadIndexVBO);  
