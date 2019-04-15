@@ -15,4 +15,5 @@ Once a VBO has been bound, the routine glBufferData can be used to both (i) dyna
 
 Finally, the glEnableVertexAttribArray call tells the "vertex fetch" processor (see the OpenGL pipeline) to actually obtain values for this attribute from the VBO. It might seem like you would always want to do this, but we will see an alternative possibility and motivations for it later.
 ------------------------代码------------------
-来源：
+来源：http://www.zwqxin.com/archives/opengl/vao-and-vbo-stuff.html
+下列代码很好的解释了
