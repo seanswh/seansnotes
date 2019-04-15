@@ -26,7 +26,8 @@ glGenVertexArrays(1, &m_nQuadVAO);
 glBindVertexArray(m_nQuadVAO);  
   
  /* Allocate and assign one Vertex Buffer Object to our handle */  
-glGenBuffers(1, &m_nQuadPositionVBO);  
+glGenBuffers(1, &m_nQuadPositionVBO); 
+/* Bind our first VBO as being the active buffer and storing vertex attributes (coordinates) */ 
 glBindBuffer(GL_ARRAY_BUFFER, m_nQuadPositionVBO);  
 glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadPos), fQuadPos, GL_STREAM_DRAW);  
   
