@@ -22,7 +22,7 @@ Finally, the glEnableVertexAttribArray call tells the "vertex fetch" processor (
 ```
 /* Allocate and assign a Vertex Array Object to our handle */
 glGenVertexArrays(1, &m_nQuadVAO); 
- 
+ /* Bind our Vertex Array Object as the current used object */
 glBindVertexArray(m_nQuadVAO);  
   
   
