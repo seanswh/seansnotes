@@ -22,10 +22,10 @@ Finally, the glEnableVertexAttribArray call tells the "vertex fetch" processor (
 ```
 /* Allocate and assign a Vertex Array Object to our handle */
 glGenVertexArrays(1, &m_nQuadVAO); 
- /* Bind our Vertex Array Object as the current used object */
+/* Bind our Vertex Array Object as the current used object */
 glBindVertexArray(m_nQuadVAO);  
   
-  
+ /* Allocate and assign one Vertex Buffer Object to our handle */  
 glGenBuffers(1, &m_nQuadPositionVBO);  
 glBindBuffer(GL_ARRAY_BUFFER, m_nQuadPositionVBO);  
 glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadPos), fQuadPos, GL_STREAM_DRAW);  
