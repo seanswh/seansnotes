@@ -16,4 +16,36 @@ Once a VBO has been bound, the routine glBufferData can be used to both (i) dyna
 Finally, the glEnableVertexAttribArray call tells the "vertex fetch" processor (see the OpenGL pipeline) to actually obtain values for this attribute from the VBO. It might seem like you would always want to do this, but we will see an alternative possibility and motivations for it later.
 ------------------------代码------------------
 来源：http://www.zwqxin.com/archives/opengl/vao-and-vbo-stuff.html
-下列代码很好的解释了
+下列代码很好的解释了VAO、VBO的关系，代码分为2个部分，构建部分与绘制部分
+初始化部分：
+
+```
+glGenVertexArrays(1, &m_nQuadVAO);  
+glBindVertexArray(m_nQuadVAO);  
+  
+  
+glGenBuffers(1, &m_nQuadPositionVBO);  
+glBindBuffer(GL_ARRAY_BUFFER, m_nQuadPositionVBO);  
+glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadPos), fQuadPos, GL_STREAM_DRAW);  
+  
+glEnableVertexAttribArray(VAT_POSITION);  
+glVertexAttribPointer(VAT_POSITION, 2, GL_INT, GL_FALSE, 0, NULL);
+  
+glGenBuffers(1, &m_nQuadTexcoordVBO);  
+glBindBuffer(GL_ARRAY_BUFFER, m_nQuadTexcoordVBO);  
+glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadTexcoord), fQuadTexcoord, GL_STREAM_DRAW);  
+  
+glEnableVertexAttribArray(VAT_TEXCOORD);  
+glVertexAttribPointer(VAT_TEXCOORD, 2, GL_INT, GL_FALSE, 0, NULL);  
+  
+glGenBuffers(1, &m_nQuadIndexVBO);  
+glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_nQuadIndexVBO);  
+glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(nQuadIndex), nQuadIndex, GL_STREAM_DRAW);  
+  
+  
+glBindVertexArray(NULL);  
+  
+glBindBuffer(GL_ARRAY_BUFFER, NULL);  
+glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, NULL); 
+```
+
