@@ -31,7 +31,7 @@ glGenBuffers(1, &m_nQuadPositionVBO);
 glBindBuffer(GL_ARRAY_BUFFER, m_nQuadPositionVBO); 
 /* Copy the vertex data from diamond to our buffer */ 
 glBufferData(GL_ARRAY_BUFFER, sizeof(fQuadPos), fQuadPos, GL_STREAM_DRAW);  
-  
+ /* Enable attribute index 0 as being used */  
 glEnableVertexAttribArray(VAT_POSITION);  
 /* Specify that our coordinate data is going into attribute index VAT_POSITION, and contains two floats per vertex */
 glVertexAttribPointer(VAT_POSITION, 2, GL_INT, GL_FALSE, 0, NULL);
