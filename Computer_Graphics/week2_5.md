@@ -56,7 +56,6 @@ glBindVertexArray(NULL);
 glBindBuffer(GL_ARRAY_BUFFER, NULL);  
 glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, NULL); 
 ```
-
 注意：1.没有一个合适的地方给glDisableVertexAttribArray了，事实上调用glBindVertexArray(NULL)的时候里面所有状态都”关掉“了，也就没所谓针对顶点属性的location做其他什么；2.glBindBuffer(GL_ARRAY_BUFFER, NULL)/glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, NULL)一定要在glBindVertexArray(NULL)后面（不然VAO就把它们也包含了，最后就渲染不出东西了）；
 绘制部分：
 
