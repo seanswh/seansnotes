@@ -48,4 +48,12 @@ glBindVertexArray(NULL);
 glBindBuffer(GL_ARRAY_BUFFER, NULL);  
 glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, NULL); 
 ```
+绘制部分：
+
+
+```
+
+```
+
+
 
