@@ -7,4 +7,4 @@ OPENGL编程中，顶点变化管线(vertex transforms pipeline)渲染顺序如�
 3)Thereafter you apply the projection matrix,which goes from 3D to 2D,and this corresponds to glm::perspective.mapping the world essentially into a unit cube, everything is in the range of -1 to +1. 
 4) do the prospective division of dehomogenization,whereupon you get what is known as normalized device coordinates,which are then moved on to the pixels in the screen by using the viewport transformation and finally appear on your window.
 5) then moved on to the pixels in the screen by using the viewport transformation and finally appear on your window.
-参考网站：1.[](https://open.gl/transformations) 2.[transformations](https://www.khronos.org/opengl/wiki/Vertex_Transformation#Example)
+参考网站：1.[transformations](https://open.gl/transformations) 2.[](https://www.khronos.org/opengl/wiki/Vertex_Transformation#Example)
