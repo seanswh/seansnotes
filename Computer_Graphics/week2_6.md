@@ -3,4 +3,4 @@ OPENGL编程中，管线(pipeline)渲染顺序如下图所示：
 
 ![](/Computer_Graphics/images/41.png)
 1）We start with an object defined in object coordinates that's in the native coordinate system of the object.
-2)apply the modelview transforms which corresponds to the modelview matrix.
+2)apply the modelview transforms which corresponds to the modelview matrix.Note that this has both a model transformation, which is the object transformation,and the view transformation, which is glm::lookAt,which positions the camera appropriately.
