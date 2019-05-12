@@ -82,6 +82,8 @@
   * [第二周 OPENGL4](/Computer_Graphics/week2_4.md)
   * [第二周 OPENGL5](/Computer_Graphics/week2_5.md)
   * [第三周 Ray Trace1](/Computer_Graphics/week3_1.md)
+  * [第三周 Ray Trace2](/Computer_Graphics/week3_2.md)
+
 
 
 
