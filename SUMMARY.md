@@ -10,7 +10,7 @@
   * [D3.js学习](测试部分/javascriptdiao-shi.md)
 
 ## Part II
-* [OPENGL学习](/OPENGL/SUMMARY.md)
+* [OPENGL学习](/OPENGL/README.md)
 
 
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
