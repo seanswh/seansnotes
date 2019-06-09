@@ -11,7 +11,7 @@
 
 ## Part II
 * [OPENGL学习](/OPENGL/README.md)
-
+  * [Introduction](/OPENGL/Day1.md)
 
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
