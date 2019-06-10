@@ -16,3 +16,5 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 `glBindBuffer(GL_ARRAY_BUFFER, VBO);`
 
+从这一刻起，我们使用的任何（在GL\_ARRAY\_BUFFER目标上的）缓冲调用都会用来配置当前绑定的缓冲\(VBO\)。然后我们可以调用glBufferData函数，它会把之前定义的顶点数据复制到缓冲的内存中
+
