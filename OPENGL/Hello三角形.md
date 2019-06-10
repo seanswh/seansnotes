@@ -26,7 +26,7 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 2。 顶点着色器
 
-如果我们打算做渲染的话，现代OpenGL需要我们至少设置一个顶点和一个片段着色器，因此顶点着色器\(vertex shadex\)是我们要编写的第一个着色器。
+如果我们打算做渲染的话，现代OpenGL需要我们至少设置一个顶点以及一个片段着色器，因此顶点着色器\(vertex shadex\)是我们要编写的第一个着色器。
 
 我们需要做的第一件事是用着色器语言GLSL\(OpenGL Shading Language\)编写顶点着色器，然后编译这个着色器，这样我们就可以在程序中使用它了。
 
@@ -44,9 +44,11 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 下一步我们把这个着色器源码附加到着色器对象上，然后编译它：
 
-`glShaderSource(vertexShader,1, &vertexShaderSource, NULL); `
+`glShaderSource(vertexShader,1, &vertexShaderSource, NULL);`
 
 `glCompileShader(vertexShader);`
+
+4.片段着色器\(fragment shader\)
 
 
 
