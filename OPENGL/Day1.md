@@ -12,3 +12,5 @@ Day1.:[https://learnopengl-cn.readthedocs.io/zh/latest/01 Getting started/04 Hel
 
 图形渲染管线的第一个部分是**顶点着色器\(Vertex Shader\)**，它把一个单独的顶点作为输入。顶点着色器主要的目的是把3D坐标转为另一种3D坐标（后面会解释），同时顶点着色器允许我们对顶点属性进行一些基本处理。
 
+
+
