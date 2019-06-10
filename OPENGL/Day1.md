@@ -8,4 +8,4 @@ Day1.:https://learnopengl-cn.readthedocs.io/zh/latest/01%20Getting%20started/04%
 ![](/assets/pipeline.png)
 图形渲染管线包含很多部分，每个部分都将在转换顶点数据到最终像素这一过程中处理各自特定的阶段
 
-我们以数组的形式传递3D坐标作为图形渲染管线的源头输入，
+我们以数组的形式传递3D坐标作为图形渲染管线的源头输入，这个数组叫做顶点数据(Vertex Data)；顶点数据是一系列顶点的集合。一个顶点(Vertex)是一个3D坐标的数据的集合。而顶点数据是用顶点属性(Vertex Attribute)表示的，它可以包含任何我们想用的数据，
