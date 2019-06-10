@@ -54,9 +54,13 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 `GLuint fragmentShader;`
 
-`fragmentShader = glCreateShader(GL_FRAGMENT_SHADER); `
+`fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);`
 
 `glShaderSource(fragmentShader,1, &fragmentShaderSource, null);`
 
 `glCompileShader(fragmentShader);`
+
+5.着色器程序
+
+
 
