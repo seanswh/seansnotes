@@ -8,4 +8,4 @@ Day1.:https://learnopengl-cn.readthedocs.io/zh/latest/01%20Getting%20started/04%
 ![](/assets/pipeline.png)
 图形渲染管线包含很多部分，每个部分都将在转换顶点数据到最终像素这一过程中处理各自特定的阶段
 
-我们以数组的形式传递3个3D坐标作为图形渲染管线的输入
+我们以数组的形式传递3D坐标作为图形渲染管线的源头输入，
