@@ -10,5 +10,5 @@ Day1.:[https://learnopengl-cn.readthedocs.io/zh/latest/01 Getting started/04 Hel
 
 我们以**数组的形式传递3D坐标作为图形渲染管线的源头输入**，这个数组叫做顶点数据\(Vertex Data\)；顶点数据是一系列顶点的集合。一个顶点\(Vertex\)是一个3D坐标的数据的集合。而顶点数据是用顶点属性\(Vertex Attribute\)表示的，它可以包含任何我们想用的数据。
 
-
+图形渲染管线的第一个部分是**顶点着色器\(Vertex Shader\)**，它把一个单独的顶点作为输入。顶点着色器主要的目的是把3D坐标转为另一种3D坐标（后面会解释），同时顶点着色器允许我们对顶点属性进行一些基本处理。
 
