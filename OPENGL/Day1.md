@@ -14,5 +14,5 @@ Day1.:[https://learnopengl-cn.readthedocs.io/zh/latest/01 Getting started/04 Hel
 
 二、  图元装配\(Primitive Assembly\)阶段将顶点着色器输出的**所有顶点**作为输入（如果是GL\_POINTS，那么就是一个顶点），并装配成指定图元的形状；图元装配阶段（上图为shape assembly）的输出会传递给几何着色器\(Geometry Shader\)。
 
-三、几何着色器把图元形式的一系列顶点的集合作为输入，它可以通过产生新顶点构造出新的（或是其它的）图元来生成其他形状。
+三、几何着色器把组成图元的一系列顶点集合作为输入，它也可以产生新顶点从而构造出新的（或是其它的）图元来生成新的形状。
 
