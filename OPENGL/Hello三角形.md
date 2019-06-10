@@ -38,7 +38,15 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 编译的第一步是调用glCreateShader函数创建一个着色器对象（shader object）,注意还是用ID\(GLunit类型\)来引用的。
 
-`unsigned int vertexShader; `
+`unsigned int vertexShader;`
 
 `vertexShader = glCreateShader(GL_VERTEX_SHADER);`
+
+下一步我们把这个着色器源码附加到着色器对象上，然后编译它：
+
+`glShaderSource(vertexShader,1, &vertexShaderSource, NULL); `
+
+`glCompileShader(vertexShader);`
+
+
 
