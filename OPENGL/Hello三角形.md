@@ -52,3 +52,11 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 片段着色器的全部工作就是计算像素的颜色。片段着色器只需要一个输出变量，这个变量是一个4分量向量，它表示的是最终的输出颜色。编译片段着色器的过程与顶点着色器类似，只不过我们使用GL\_FRAGMENT\_SHADER常量作为着色器类型：
 
+`GLuint fragmentShader;`
+
+`fragmentShader = glCreateShader(GL_FRAGMENT_SHADER); `
+
+`glShaderSource(fragmentShader,1, &fragmentShaderSource, null);`
+
+`glCompileShader(fragmentShader);`
+
