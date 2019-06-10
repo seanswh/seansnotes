@@ -62,5 +62,35 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 5.着色器程序
 
-两个着色器现在都编译了，剩下的事情是把两个着色器对象链接到一个用来渲染的着色器程序\(Shader Program\)中。着色器程序对象\(Shader Program Object\)是多个着色器合并之后并最终链接完成的版本。如果要使用刚才编译的着色器我们必须把它们链接为一个着色器程序对象，然后在渲染对象的时候激活这个着色器程序。当链接着色器至一个程序的时候，它会把每个着色器的输出链接到下个着色器的输入。当输出和输入不匹配的时候，你会得到一个连接错误。
+两个着色器现在都编译了，剩下的事情是把两个着色器对象链接到一个用来渲染的着色器程序\(Shader Program\)中。着色器程序对象\(Shader Program Object\)是多个着色器合并之后并最终链接完成的版本。如果要使用刚才编译的着色器我们必须把它们链接为一个着色器程序对象，然后在渲染对象的时候激活这个着色器程序。当链接着色器至一个程序的时候，它会把每个着色器的输出链接到下个着色器的输入。当输出和输入不匹配的时候，你会得到一个连接错误。创建一个程序对象很简单：
+
+```
+GLuint shaderProgram;
+shaderProgram = glCreateProgram();
+```
+
+glCreateProgram函数创建一个程序，并返回新创建程序对象的ID引用。现在我们需要把之前编译的着色器附加到程序对象上，然后用glLinkProgram链接它们：
+
+```
+glAttachShader(shaderProgram, vertexShader);
+glAttachShader(shaderProgram, fragmentShader);
+glLinkProgram(shaderProgram);
+```
+
+得到的结果就是一个程序对象，我们可以调用glUseProgram函数，用刚创建的程序对象作为它的参数，以激活这个程序对象：
+
+```
+glUseProgram(shaderProgram);
+
+```
+
+在glUseProgram函数执行之后的着色器调用和渲染调用都会使用这个程序对象（也就是之前写的着色器\)了。对了，**在把着色器对象链接到程序对象以后，记得删除着色器对象**，我们不再需要它们了：
+
+```
+glDeleteShader(vertexShader);
+glDeleteShader(fragmentShader);
+
+```
+
+现在，我们已经把输入顶点数据发送给了GPU，并指示了GPU如何在顶点和片段着色器中处理它。
 
