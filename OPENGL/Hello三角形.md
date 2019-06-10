@@ -16,7 +16,9 @@ OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRA
 
 `glBindBuffer(GL_ARRAY_BUFFER, VBO);`
 
-从这一刻起，我们使用的任何GL\_ARRAY\_BUFFE缓冲调用都会用来配置当前绑定的缓冲\(VBO\)。然后我们可以调用glBufferData函数，它会把之前定义的顶点数据复制到缓冲的内存中（从内存到显存）：
+从这一刻起，**我们使用的任何GL\_ARRAY\_BUFFE缓冲调用都会用来配置当前绑定的缓冲\(VBO\)**。然后我们可以调用glBufferData函数，它会把之前定义的顶点数据复制到缓冲的内存中（从内存到显存）：
 
 `glBufferData(GL_ARRAY_BUFFER,sizeof(vertices), vertices, GL_STATIC_DRAW);`
+
+现在我们已经把顶点数据储存在**显存中**了，用VBO这个顶点缓冲对象管理。下面我们会创建一个顶点和片段着色器来真正处理这些数据。现在我们开始着手创建它们吧。
 
