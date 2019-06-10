@@ -10,15 +10,14 @@
   * [D3.js学习](测试部分/javascriptdiao-shi.md)
 
 ## Part II
-* [OPENGL学习](/OPENGL/README.md)
-  * [Hello三角形](/OPENGL/Day1.md)
 
+* [OPENGL学习](/OPENGL/README.md)
+* [pipeline介绍](/OPENGL/Day1.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
-
 
 ## Coursera
 
@@ -87,7 +86,4 @@
   * [第三周 Ray Trace1](/Computer_Graphics/week3_1.md)
   * [第三周 Ray Trace2](/Computer_Graphics/week3_2.md)
   * [第三周 Ray Trace3](/Computer_Graphics/week3_3.md)
-
-
-
 
