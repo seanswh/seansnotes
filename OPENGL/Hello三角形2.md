@@ -12,3 +12,12 @@
 
 位置数据被储存为32-bit（4字节）浮点值。每个位置包含3个这样的值。在这3个值之间没有空隙（或其他值）。这几个值在数组中紧密排列。数据中第一个值在缓冲开始的位置。
 
+如何把上述信息传递给OPENGL，从而对该内存进行有效解析——使用glVertexAttribPointer函数
+
+```
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
+glEnableVertexAttribArray(0);
+```
+
+
+
