@@ -12,7 +12,7 @@
 
 `glGenBuffers(1, &VBO);`
 
-OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRAY\_BUFFER。OpenGL允许我们同时绑定多个缓冲，只要它们是不同的缓冲类型，每一类缓冲绑定一次。我们可以使用glBindBuffer函数把新创建的缓冲绑定到GL\_ARRAY\_BUFFER目标上
+OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRAY\_BUFFER。OpenGL允许我们同时绑定多个缓冲，只要它们是不同的缓冲类型，每一个类型的缓冲绑定一次。我们可以使用glBindBuffer函数把新创建的缓冲绑定到GL\_ARRAY\_BUFFER目标上
 
 `glBindBuffer(GL_ARRAY_BUFFER, VBO);`
 
@@ -81,7 +81,6 @@ glLinkProgram(shaderProgram);
 
 ```
 glUseProgram(shaderProgram);
-
 ```
 
 在glUseProgram函数执行之后的着色器调用和渲染调用都会使用这个程序对象（也就是之前写的着色器\)了。对了，**在把着色器对象链接到程序对象以后，记得删除着色器对象**，我们不再需要它们了：
@@ -89,7 +88,6 @@ glUseProgram(shaderProgram);
 ```
 glDeleteShader(vertexShader);
 glDeleteShader(fragmentShader);
-
 ```
 
 现在，我们已经把输入顶点数据发送给了GPU，并指示了GPU如何在顶点和片段着色器中处理它。
