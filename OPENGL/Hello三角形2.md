@@ -19,5 +19,5 @@ glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0)
 glEnableVertexAttribArray(0);
 ```
 
-
+第一个参数指定我们要配置的顶点属性。
 
