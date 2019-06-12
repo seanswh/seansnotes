@@ -4,7 +4,7 @@
 
 顶点着色器允许我们指定任何格式来输入顶点属性，因此我们必须必须在渲染前指定输入数据的哪一个部分对应顶点着色器的哪一个顶点属性。
 
-比如我们自定义的定点数据组织如下：
+比如我们自定义的顶点数据组织如下：
 
 ![](/OPENGL/images/vertex_attribute_pointer.png)
 
@@ -31,5 +31,7 @@ glEnableVertexAttribArray(0);
 
 最后一个参数是**偏移，**意思是当前属性\(position\)在整个数据段中起始位置的偏移，因为当前属性\(position\)是从整个数据的起始位置开始，因此这里赋值为GLVoid\*.
 
-**注意：**所有的顶点属性均从VBO通过GL\_ARRAY\_BUFFER绑定的显存数据中来，这个绑定是在调用glVetexAttribPointer函数前确定的，因此顶点属性0会关联到顶点数据上。
+> **注意：**所有的顶点属性均从VBO通过GL\_ARRAY\_BUFFER绑定的显存数据中来，这个绑定是在调用glVetexAttribPointer函数前确定的，因此顶点属性0会关联到顶点数据上。
+
+现在我们已经指明了OPENGL如何解析顶点数据，我们就可以调用glEnableVertexAttribArray来应用这个属性了，参数是该属性的位置值\(当前为0\)
 
