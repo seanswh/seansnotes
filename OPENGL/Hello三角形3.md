@@ -41,7 +41,6 @@ glBindVertexArray(0);
 [...]
 // ..:: 绘制代码（游戏循环中） :: ..
 // 5. 绘制物体
-
 glUseProgram(shaderProgram);
 glBindVertexArray(VAO);
 someOpenGLFunctionThatDrawsOurTriangle();
