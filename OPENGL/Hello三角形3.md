@@ -14,7 +14,12 @@ OPENGL的核心模式要求必须使用VAO，如果VAO绑定失败，则OPENGL�
 
 ![](/OPENGL/images/vertex_array_objects.png)
 
-VAO的创建和使用：
+VAO的创建和使用与VBO类似：
+
+```
+GLuint VAO;
+glGenVertexArrays(1, &VAO); 
+```
 
 
 
