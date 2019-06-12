@@ -14,7 +14,9 @@ OPENGL的核心模式要求必须使用VAO，如果VAO绑定失败，则OPENGL�
 
 ![](/OPENGL/images/vertex_array_objects.png)
 
-从上图来看....VAO存放的是属性指针~~~
+从上图来看....VAO存放的是属性指针~~~真正的顶点属性数据在VBO里~
+
+
 
 VAO的创建和使用与VBO类似：
 
