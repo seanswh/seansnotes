@@ -2,5 +2,19 @@
 
 VAO\(Vertex Array Object\)
 
-就像VBO\(顶点缓存对象\)，VAO也可以被绑定，而且包括VBO以及后续的顶点属性
+就像VBO\(顶点缓存对象\)，VAO也可以被绑定，而且VAO包括了VBO以及后续的顶点属性。这样的好处就是只需配置一次，后续绘制的时候直接绑定相应的VAO即可。这使在不同顶点数据和属性配置之间切换变得非常简单。
+
+OPENGL的核心模式要求必须使用VAO，如果VAO绑定失败，则OPENGL绘制不出任何东西出来。
+
+一个顶点数组对象会储存以下这些内容：
+
+* glEnableVertexAttribArray和glDisableVertexAttribArray的调用。
+* 通过glVertexAttribPointer设置的顶点属性配置。
+* 通过glVertexAttribPointer调用进行的顶点缓冲对象与顶点属性链接。
+
+![](/OPENGL/images/vertex_array_objects.png)
+
+VAO的创建和使用：
+
+
 
