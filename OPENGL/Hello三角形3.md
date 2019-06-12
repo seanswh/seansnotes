@@ -18,8 +18,8 @@ VAO的创建和使用与VBO类似：
 
 ```
 GLuint VAO;
-glGenVertexArrays(1, &VAO); 
+glGenVertexArrays(1, &VAO);
 ```
 
-
+如果需要使用VAO也是首先要通过glBindVertexArray函数进行绑定，
 
