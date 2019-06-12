@@ -2,3 +2,5 @@
 
 VAO\(Vertex Array Object\)
 
+就像VBO\(顶点缓存对象\)，
+
