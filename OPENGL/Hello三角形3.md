@@ -14,6 +14,8 @@ OPENGL的核心模式要求必须使用VAO，如果VAO绑定失败，则OPENGL�
 
 ![](/OPENGL/images/vertex_array_objects.png)
 
+从上图来看....VAO存放的是属性指针~~~
+
 VAO的创建和使用与VBO类似：
 
 ```
@@ -27,7 +29,7 @@ glGenVertexArrays(1, &VAO);
 // ..:: 初始化代码（只运行一次 (除非你的物体频繁改变)） :: ..
 // 1. 绑定VAO
 glBindVertexArray(VAO);
-    
+
 // 2. 把顶点数组复制到缓冲中供OpenGL使用
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);    
