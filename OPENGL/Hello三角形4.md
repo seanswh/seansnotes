@@ -3,7 +3,7 @@ EBO主要用在不同物体之间有很多重叠的顶点时，如果不使用EB
 与VBO一样，EBO也是一个缓冲，只不过存储的是索引。  
 创建索引缓冲对象：
 
-`GLuint EBO;          
+`GLuint EBO;            
 glGenBuffers(1, &EBO);`
 
 与VBO类似，首先绑定EBO，然后用glBufferData把索引复制到缓冲里。和VBO类似，我们会把这些函数调用放在绑定和解绑函数调用之间，只不过这次我们把缓冲的类型定义为GL\_ELEMENT\_ARRAY\_BUFFER。
@@ -33,6 +33,30 @@ VAO的结构图会变成这样：
 当目标是GL\_ELEMENT\_ARRAY\_BUFFER的时候，VAO会储存glBindBuffer的函数调用。这也意味着它也会**储存解绑调用**，所以在解绑VAO之前一定不要解绑EBO，否则它就没有这个EBO配置了。
 
 最后，代码看起来类似于这样：
+
+最后的初始化和绘制代码现在看起来像这样：
+
+```
+// ..:: 初始化代码 :: ..
+// 1. 绑定顶点数组对象
+glBindVertexArray(VAO);    
+// 2. 把我们的顶点数组复制到一个顶点缓冲中，供OpenGL使用
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);    
+// 3. 复制我们的索引数组到一个索引缓冲中，供OpenGL使用
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);    
+// 3. 设定顶点属性指针
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
+    glEnableVertexAttribArray(0);
+// 4. 解绑VAO（不是EBO！）
+glBindVertexArray(0);
+[...]
+// ..:: 绘制代码（游戏循环中） :: ..
+glUseProgram(shaderProgram);
+glBindVertexArray(VAO);glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0)
+glBindVertexArray(0);
+```
 
 
 
