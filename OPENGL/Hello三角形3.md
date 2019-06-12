@@ -21,5 +21,30 @@ GLuint VAO;
 glGenVertexArrays(1, &VAO);
 ```
 
-如果需要使用VAO也是首先要通过glBindVertexArray函数进行绑定，
+如果需要使用VAO也是首先要通过glBindVertexArray函数进行绑定，然后我们就可以对VBO进行绑定和配置了，然后**解绑VAO**供后续使用。当绘制时，我们再把之前配置好的VAO进行绑定，代码顺序类似如下：
+
+```
+// ..:: 初始化代码（只运行一次 (除非你的物体频繁改变)） :: ..
+// 1. 绑定VAO
+glBindVertexArray(VAO);
+    
+// 2. 把顶点数组复制到缓冲中供OpenGL使用
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);    
+// 3. 设置顶点属性指针
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
+    glEnableVertexAttribArray(0);
+//4. 解绑VAO
+glBindVertexArray(0);
+[...]
+// ..:: 绘制代码（游戏循环中） :: ..
+// 5. 绘制物体
+
+glUseProgram(shaderProgram);
+glBindVertexArray(VAO);
+someOpenGLFunctionThatDrawsOurTriangle();
+glBindVertexArray(0);
+```
+
+
 
