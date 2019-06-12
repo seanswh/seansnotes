@@ -33,5 +33,7 @@ glEnableVertexAttribArray(0);
 
 > **注意：**所有的顶点属性均从VBO通过GL\_ARRAY\_BUFFER绑定的显存数据中来，这个绑定是在调用glVetexAttribPointer函数前确定的，因此顶点属性0会关联到顶点数据上。
 
-现在我们已经指明了OPENGL如何解析顶点数据，我们就可以调用glEnableVertexAttribArray来应用这个属性了，参数是该属性的位置值\(当前为0，也是glVertexAttribPointer的第一个参数\)
+现在我们已经指明了OPENGL如何解析顶点数据，我们就可以调用glEnableVertexAttribArray来应用这个属性了，参数是该属性的位置值\(当前为0，也是glVertexAttribPointer的第一个参数\)，默认情况下属性是被禁用的。
+
+至此，所有的设置都做完了，我们把顶点数据放在了VBO\(顶点缓冲区对象\)中，设置了顶点和片段着色器，
 
