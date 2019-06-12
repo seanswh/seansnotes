@@ -39,7 +39,6 @@ glEnableVertexAttribArray(0);
 
 ```
 // 0. 复制顶点数组到缓冲中供OpenGL使用
-
 glBindBuffer(GL_ARRAY_BUFFER, VBO);
 glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 // 1. 设置顶点属性指针
