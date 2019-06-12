@@ -2,5 +2,5 @@
 
 VAO\(Vertex Array Object\)
 
-就像VBO\(顶点缓存对象\)，
+就像VBO\(顶点缓存对象\)，VAO也可以被绑定，而且包括VBO以及后续的顶点属性
 
