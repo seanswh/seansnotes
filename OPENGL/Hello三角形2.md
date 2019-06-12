@@ -21,5 +21,7 @@ glEnableVertexAttribArray(0);
 
 第一个参数指定我们要配置的顶点属性。我们在顶点着色器中使用`layout(location = 0)`定义了position顶点属性的位置值\(Location\)，这里这个参数也为0 ，代表当前数据段中的数据是给顶点着色器中的position属性的。
 
-第二个参数指明了该属性的大小，由于在顶点着色器中position属性是vec3，因此这里是3个连续的
+第二个参数指明了该属性的大小，由于在顶点着色器中position属性是vec3，因此这里是3个连续的变量。
+
+第三个参数
 
