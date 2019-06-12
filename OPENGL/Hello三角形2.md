@@ -37,5 +37,19 @@ glEnableVertexAttribArray(0);
 
 至此，所有的设置都做完了，我们把顶点数据放在了VBO\(顶点缓冲区对象\)中，设置了顶点和片段着色器，也告诉OPENGL如何把顶点属性与顶点数据关联起来了。现在就可以像下面代码这样绘制了：
 
+```
+// 0. 复制顶点数组到缓冲中供OpenGL使用
+
+glBindBuffer(GL_ARRAY_BUFFER, VBO);
+glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+// 1. 设置顶点属性指针
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
+glEnableVertexAttribArray(0);
+// 2. 当我们渲染一个物体时要使用着色器程序
+glUseProgram(shaderProgram);
+// 3. 绘制物体
+someOpenGLFunctionThatDrawsOurTriangle();
+```
+
 
 
