@@ -49,5 +49,28 @@ glBindVertexArray(0);
 
 最后，VAO存储了**顶点属性配置**和配置与VBO的关联\(指针\)。一般当你打算绘制多个物体时，你首先要生成/配置所有的VAO（和必须的VBO及属性指针\)，然后储存它们供后面使用。当我们打算绘制物体的时候就拿出相应的VAO，绑定它，绘制完物体后，再解绑VAO。
 
-后记，关于VAO、VBO的说明，有一个介绍比较详细的文章：[http://www.photoneray.com/opengl-vao-vbo/](http://www.photoneray.com/opengl-vao-vbo/)可以参考，里面介绍了VAO的代码结构
+后记，关于VAO、VBO的说明，有一个介绍比较详细的文章：[http://www.photoneray.com/opengl-vao-vbo/](http://www.photoneray.com/opengl-vao-vbo/)可以参考，里面介绍了VAO的代码结构。
+
+VAO不是 buffer-object，所以不作数据存储；与**顶点的绘制**息息相关，即是说与VBO强相关。如上，VAO本质上是state-object（状态对象）,记录的是一次绘制所需要的信息，包括数据在哪，数据格式之类的信息。如果抽象成数据结构，VAO 的数据结构如下：
+
+```
+struct VertexAttribute
+{
+    bool bIsEnabled =GL_FALSE;
+    int iSize = 4;//This is the number of elements in this attribute, 1-4.  
+    unsigned int iStride = 0;
+    VertexAttribType eType = GL_FLOAT;
+    bool bIsNormalized = GL_FALSE;
+    bool bIsIntegral =GL_FALSE;
+    void* pBufferObjectOffset = 0;
+    BufferObject *pBufferObj = 0;
+};
+struct VertexArrayObject
+{
+    BufferObject* pElementArrayBufferObject = NULL;
+    VertexAttribute attributes[GL_MAX_VERTEX_ATTRIB];
+}
+```
+
+
 
