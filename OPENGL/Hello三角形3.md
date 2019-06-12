@@ -56,7 +56,7 @@ VAO不是 buffer-object，所以不作数据存储；与**顶点的绘制**息�
 ```
 struct VertexAttribute
 {
-    bool bIsEnabled =GL_FALSE;
+    bool bIsEnabled = GL_FALSE;
     int iSize = 4;//This is the number of elements in this attribute, 1-4.  
     unsigned int iStride = 0;
     VertexAttribType eType = GL_FLOAT;
