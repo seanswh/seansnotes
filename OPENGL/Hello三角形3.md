@@ -50,5 +50,5 @@ glBindVertexArray(0);
 
 最后，VAO存储了**顶点属性配置**和配置与VBO的关联\(指针\)。一般当你打算绘制多个物体时，你首先要生成/配置所有的VAO（和必须的VBO及属性指针\)，然后储存它们供后面使用。当我们打算绘制物体的时候就拿出相应的VAO，绑定它，绘制完物体后，再解绑VAO。
 
-后记，关于VAO、VBO的说明，有一个介绍比较详细的文章：[http://www.photoneray.com/opengl-vao-vbo/](http://www.photoneray.com/opengl-vao-vbo/)可以参考
+后记，关于VAO、VBO的说明，有一个介绍比较详细的文章：[http://www.photoneray.com/opengl-vao-vbo/](http://www.photoneray.com/opengl-vao-vbo/)可以参考，里面介绍了VAO的代码结构
 
