@@ -19,7 +19,7 @@
   * [hello，三角形4](/OPENGL/Hello三角形4.md)
   * [着色器1](/OPENGL/着色器1.md)
   * [着色器2](/OPENGL/着色器2.md)
-  * [着色器2](/OPENGL/着色器2.md)
+  * [着色器2](/OPENGL/着色器3.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
