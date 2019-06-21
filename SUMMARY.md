@@ -26,6 +26,8 @@
   * [第一章](/M4Python/Chapter1.md)
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
+* [kafka学习](/kafka/README.md)
+
 
 ## Coursera
 
