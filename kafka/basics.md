@@ -18,5 +18,5 @@ MQ\(消息队列\)：是在服务端存储一个队列.生产者把消息丢到M
 
 partition\(分区\)是kafka独有的东西,也是kafka实现横向扩展和高并发的一个重要设计.我们试想一下,如果每个topic只有一个队列,随着业务增加topic里消息越来越多.多到一台server装不下了怎么办.为了解决这个问题,我们引入了partition这个概念.一个partition\(分区\)代表了一个物理上存在的队列.topic只是一组partition\(分区\)的总称,也就是说topic仅是逻辑上的概念.这样一来当topic上的消息越来越多.我们就可以将新增的partition\(分区\)放在其他server上.也就是说topic里边的partition\(分区\)可以分属于不同的机器.
 
-
+从Producer\(生产者\)角度,一个消息丢到topic中任务就完成了.至于具体丢到了topic中的哪个partition\(分区\),Producer\(生产者\)不需要关注.这里kafka自动帮助我们做了负载均衡.当然如果我们指定某个partition\(分区\)也是可以的.
 
