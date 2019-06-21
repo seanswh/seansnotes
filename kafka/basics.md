@@ -20,3 +20,5 @@ partition\(分区\)是kafka独有的东西,也是kafka实现横向扩展和高�
 
 从Producer\(生产者\)角度,一个消息丢到topic中任务就完成了.至于具体丢到了topic中的哪个partition\(分区\),Producer\(生产者\)不需要关注.这里kafka自动帮助我们做了负载均衡.当然如果我们指定某个partition\(分区\)也是可以的.
 
+Consumer Group\(消费组\)顾名思义就是一组Consumer\(消费者\)的总称.那有了组的概念以后能起到什么作用.如果只有一组内且组内只有一个Consumer,那这个就是传统的点对点模式,如果有多组,每组内都有一个Consumer,那这个就是发布-订阅\(pub-sub\)模式.每组都会收到同样的消息.
+
