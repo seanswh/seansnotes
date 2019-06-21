@@ -27,7 +27,8 @@
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
 * [kafka学习](/kafka/README.md)
-  * [基本概念](/kafka/kafkaxue-xi.md)
+  * [基本概念](/kafka/basics.md)
+  * [项目尝试](/kafka/kafkaxue-xi.md)
 
 
 
