@@ -22,3 +22,19 @@ partition\(分区\)是kafka独有的东西,也是kafka实现横向扩展和高�
 
 Consumer Group\(消费组\)顾名思义就是一组Consumer\(消费者\)的总称.如果只有一组内且组内只有一个Consumer,那这个就是传统的点对点模式,如果有多组,每组内都有一个Consumer,那这个就是发布-订阅\(pub-sub\)模式.每组都会收到同样的消息.
 
+首先,一个Consumer\(消费者\)的一个线程在某个时刻只能接收一个partition\(分区\)的数据,一个partition\(分区\)某个时刻也只会把消息发给一个Consumer\(消费者\).我们设计出来几种场景:
+
+**场景一:** topic-1 下有partition-1和partition-2 。group-1 下有consumer-1和consumer-2和consumer-3 
+
+所有consumer只有一个线程,且都消费topic-1的消息. 消费情况 : consumer-1只消费partition-1的数据 
+
+consumer-2只消费partition-2的数据 consumer-3不会消费到任何数据 原因 : 只能接受一个partition\(分区\)的数据
+
+**场景二: **topic-1 下有partition-1和partition-2 ，group-1 下有consumer-1 。consumer只有一个线程,且消费topic-1的消息. 消费情况 : consumer-1先消费partition-1的数据 consumer-1消费完partition-1数据后开始消费partition-2的数据 
+
+原因 : 这里是kafka检测到当前consumer-1消费完partition-1处于空闲状态,自动帮我做了负载.所以大家看到这里在看一下上边那句话的”某个时刻” 
+
+特例: consumer在消费消息时必须指定topic,可以不指定partition,场景二的情况就是发生在不指定partition的情况下,如果consumer-1指定了partition-1,那么consumer-1消费完partition-1后哪怕处于空闲状态了也是不会消费partition-2的消息的.
+
+
+
