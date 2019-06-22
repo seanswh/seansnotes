@@ -28,6 +28,7 @@
   * [基本概念](/matplotlib/1.md)
 * [kafka学习](/kafka/README.md)
   * [基本概念](/kafka/basics.md)
+  * [消息发布/消费模式](/kafka/message_send_mode.md)
   * [项目尝试](/kafka/kafkaxue-xi.md)
 
 
