@@ -44,5 +44,9 @@ Consumer Group\(消费组\)顾名思义就是一组Consumer\(消费者\)的总�
 
 ## Kafka的持久化
 
+一个Topic可以认为是一类消息，每个topic将被分成多partition\(区\),每个partition在存储层面是append log文件。任何发布到此partition的消息都会被直接追加到log文件的尾部，每条消息在文件中的位置称为offset（偏移量），partition是以文件的形式存储在文件系统中。2、Logs文件根据broker中的配置要求,保留一定时间后删除来释放磁盘空间。
+
+![](/assets/20160421172657875.jpg)
+
 
 
