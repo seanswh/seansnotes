@@ -27,9 +27,10 @@
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
 * [kafka学习](/kafka/README.md)
-  * [基本概念](/kafka/basics.md)
   * [消息发布/消费模式](/kafka/message_send_mode.md)
+  * [基本概念](/kafka/basics.md)
   * [项目尝试](/kafka/kafkaxue-xi.md)
+
 
 ## Coursera
 
@@ -98,6 +99,4 @@
   * [第三周 Ray Trace1](/Computer_Graphics/week3_1.md)
   * [第三周 Ray Trace2](/Computer_Graphics/week3_2.md)
   * [第三周 Ray Trace3](/Computer_Graphics/week3_3.md)
-
-
 

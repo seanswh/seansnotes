@@ -28,11 +28,7 @@ Consumer Group\(消费组\)顾名思义就是一组Consumer\(消费者\)的总�
 
 我们设计出来几种场景:
 
-**场景一:** topic-1 下有partition-1和partition-2 。group-1 下有consumer-1和consumer-2和consumer-3
-
-所有consumer只有一个线程,且都消费topic-1的消息. 消费情况 : consumer-1只消费partition-1的数据
-
-consumer-2只消费partition-2的数据 consumer-3不会消费到任何数据 原因 : 只能接受一个partition\(分区\)的数据
+**场景一:** topic-1 下有partition-1和partition-2 。group-1 下有consumer-1和consumer-2和consumer-3所有consumer只有一个线程,且都消费topic-1的消息. 消费情况 : consumer-1只消费partition-1的数据consumer-2只消费partition-2的数据 consumer-3不会消费到任何数据 原因 : 只能接受一个partition\(分区\)的数据
 
 **场景二: **topic-1 下有partition-1和partition-2 ，group-1 下有consumer-1 。consumer只有一个线程,且消费topic-1的消息. 消费情况 : consumer-1先消费partition-1的数据 consumer-1消费完partition-1数据后开始消费partition-2的数据
 
