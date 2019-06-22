@@ -40,3 +40,7 @@ consumer-2只消费partition-2的数据 consumer-3不会消费到任何数据 �
 
 特例: consumer在消费消息时必须指定topic,可以不指定partition,场景二的情况就是发生在不指定partition的情况下,如果consumer-1指定了partition-1,那么consumer-1消费完partition-1后哪怕处于空闲状态了也是不会消费partition-2的消息的.
 
+关于分组、partition、consumer之间的关系，这个网站有更好的说明：
+
+[https://blog.csdn.net/liyiming2017/article/details/82805479](https://blog.csdn.net/liyiming2017/article/details/82805479)
+
