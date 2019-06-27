@@ -32,3 +32,5 @@ GLfloat texCoords[] = {
 
 当纹理坐标超出默认范围时，每个选项都有不同的视觉效果输出。我们来看看这些纹理图像的例子：
 
+![](/assets/texture_wrapping.png)
+
