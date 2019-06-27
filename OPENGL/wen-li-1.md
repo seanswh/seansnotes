@@ -34,3 +34,5 @@ GLfloat texCoords[] = {
 
 ![](/assets/texture_wrapping.png)
 
+上述的每一个环绕参数都可通过glTexParameter\*函数对指定的坐标轴来分别设置，\(s,t,r对应x,y,z轴\)：
+
