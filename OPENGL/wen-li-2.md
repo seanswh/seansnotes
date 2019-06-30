@@ -14,7 +14,7 @@ GL\_LINEAR（也叫线性过滤，\(Bi\)linear Filtering）它会基于纹理坐
 
 当进行放大\(Magnify\)和缩小\(Minify\)操作的时候可以设置纹理过滤的选项，比如你可以在纹理被缩小的时候使用邻近过滤，被放大时使用线性过滤。我们需要使用glTexParameter\*函数为放大和缩小指定过滤方式。这段代码看起来会和纹理环绕方式的设置很相似：
 
-`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);                  
+`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);                    
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);`
 
 3.MipMaps
@@ -36,5 +36,13 @@ OPENGL引入了MipMaps技术来解决上述问题，这个就是提供一个纹�
 | GL\_NEAREST\_MIPMAP\_LINEAR | 在两个最匹配像素大小的Mipmaps之间进行线性插值，使用邻近插值进行采样 |
 | GL\_LINEAR\_MIPMAP\_LINEAR | 在两个邻近的Mipmaps纹理之间使用线性插值，并使用线性插值进行采样 |
 
+就像纹理过滤一样，我们可以使用glTexParameteri将过滤方式设置为前面四种提到的方法之一：
 
+```
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+```
+
+一个常见的错误是，将放大过滤的选项设置为多级渐远纹理过滤选项之一。这样没有任何效果，因为多级渐远纹理主要是使用在纹理被缩小的情况下的：纹理放大不会使用多级渐远纹理，为放大过滤设置多级渐远纹理的选项会产生一个GL\_INVALID\_ENUM错误代码。
 
