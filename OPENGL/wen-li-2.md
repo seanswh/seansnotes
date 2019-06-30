@@ -14,7 +14,7 @@ GL\_LINEAR（也叫线性过滤，\(Bi\)linear Filtering）它会基于纹理坐
 
 当进行放大\(Magnify\)和缩小\(Minify\)操作的时候可以设置纹理过滤的选项，比如你可以在纹理被缩小的时候使用邻近过滤，被放大时使用线性过滤。我们需要使用glTexParameter\*函数为放大和缩小指定过滤方式。这段代码看起来会和纹理环绕方式的设置很相似：
 
-`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);            
+`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);              
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);`
 
 3.MipMaps
@@ -23,5 +23,7 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);`
 
 OPENGL引入了MipMaps技术来解决上述问题，这个就是提供一个纹理图像集合\(collection\)，纹理图像依次是前一张的一半。Mipmaps的使用原理很简单，当物体距离观察者超过一个阈值之后，OPENGL 就会从集合中选择一个最为合适的纹理。由于距离观察者较远，因此分辨率较低也不会有较大影响，另外这样带来的计算成本降低也是很显著的。
 
+![](/OPENGL/images/mipmaps.png)
 
+上图就是Mipmaps的一个例子
 
