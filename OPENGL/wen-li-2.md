@@ -14,7 +14,7 @@ GL\_LINEAR（也叫线性过滤，\(Bi\)linear Filtering）它会基于纹理坐
 
 当进行放大\(Magnify\)和缩小\(Minify\)操作的时候可以设置纹理过滤的选项，比如你可以在纹理被缩小的时候使用邻近过滤，被放大时使用线性过滤。我们需要使用glTexParameter\*函数为放大和缩小指定过滤方式。这段代码看起来会和纹理环绕方式的设置很相似：
 
-`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);          
+`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);            
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);`
 
 3.MipMaps
