@@ -8,14 +8,16 @@ OPENGL默认使用的方式是GL\_NEAREST，当使用该选项时，OpenGL会选
 GL\_LINEAR（也叫线性过滤，\(Bi\)linear Filtering）它会基于纹理坐标附近的纹理像素，计算出一个插值，近似出这些纹理像素之间的颜色。一个纹理像素的中心距离纹理坐标越近，那么这个纹理像素的颜色对最终的样本颜色的贡献越大。下图中你可以看到返回的颜色是邻近像素的混合色：  
 ![](/assets/filter_linear.png)
 
-
-
 下面这个例子可以更好的解释“邻近过滤”和“线性过滤”
 
 ![](/assets/texture_filtering.png)
 
 当进行放大\(Magnify\)和缩小\(Minify\)操作的时候可以设置纹理过滤的选项，比如你可以在纹理被缩小的时候使用邻近过滤，被放大时使用线性过滤。我们需要使用glTexParameter\*函数为放大和缩小指定过滤方式。这段代码看起来会和纹理环绕方式的设置很相似：
 
-`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);  
+`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);    
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);`
+
+3.MipMaps
+
+
 
