@@ -14,7 +14,7 @@ GL\_LINEAR（也叫线性过滤，\(Bi\)linear Filtering）它会基于纹理坐
 
 当进行放大\(Magnify\)和缩小\(Minify\)操作的时候可以设置纹理过滤的选项，比如你可以在纹理被缩小的时候使用邻近过滤，被放大时使用线性过滤。我们需要使用glTexParameter\*函数为放大和缩小指定过滤方式。这段代码看起来会和纹理环绕方式的设置很相似：
 
-`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);                
+`glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);                  
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);`
 
 3.MipMaps
@@ -26,4 +26,15 @@ OPENGL引入了MipMaps技术来解决上述问题，这个就是提供一个纹�
 ![](/OPENGL/images/mipmaps.png)
 
 上图就是Mipmaps的一个例子。手工为每个纹理图像创建一系列多级渐远纹理很麻烦，幸好OpenGL有一个glGenerateMipmaps函数，在创建完一个纹理后调用它OpenGL就会承担接下来的所有工作了。
+
+在渲染中切换Mipmaps不同级别时，OpenGL在两个不同级别的纹理之间会产生不真实的生硬边界。就像普通的纹理过滤一样，切换Mipmaps不同级别时也可以在两个不同级别之间使用NEAREST和LINEAR过滤。为了指定不同级别之间的过滤方式，你可以使用下面四个选项中的一个代替原有的过滤方式：
+
+| 过滤方式 | 描述 |
+| :--- | :--- |
+| GL\_NEAREST\_MIPMAP\_NEAREST | 使用最邻近的Mipmaps纹理来匹配像素大小，并使用邻近插值进行纹理采样 |
+| GL\_LINEAR\_MIPMAP\_NEAREST | 使用最邻近的Mipmaps纹理级别，并使用线性插值进行采样 |
+| GL\_NEAREST\_MIPMAP\_LINEAR | 在两个最匹配像素大小的Mipmaps之间进行线性插值，使用邻近插值进行采样 |
+| GL\_LINEAR\_MIPMAP\_LINEAR | 在两个邻近的Mipmaps纹理之间使用线性插值，并使用线性插值进行采样 |
+
+
 
