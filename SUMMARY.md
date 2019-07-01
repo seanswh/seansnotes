@@ -23,6 +23,7 @@
   * [着色器4](/OPENGL/着色器4.md)
   * [纹理1](OPENGL/wen-li-1.md)
   * [纹理2](OPENGL/wen-li-2.md)
+  * [纹理3](OPENGL/wen-li-3.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
