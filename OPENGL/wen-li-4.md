@@ -16,5 +16,10 @@ GLfloat vertices[] = {
 
 ![](/OPENGL/images/vertex_attribute_pointer_interleaved_textures.png)
 
+  
 
+
+`glVertexAttribPointer(2,2, GL_FLOAT,GL_FALSE,8*sizeof(GLfloat), (GLvoid*)(6*sizeof(GLfloat))); glEnableVertexAttribArray(2);`
+
+注意，这里的步长变成了8\*sizeof\(GLfloat\)
 
