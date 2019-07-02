@@ -40,5 +40,43 @@ void main()
 }
 ```
 
+片段着色器应该把输出变量`TexCoord`作为输入变量。
 
+片段着色器也应该能访问纹理对象，但是我们怎样能把纹理对象传给片段着色器呢？GLSL有一个供纹理对象使用的内建数据类型，叫做采样器\(Sampler\)，它以纹理类型作为后缀，比如`sampler1D`、`sampler3D`，或在我们的例子中使用`sampler2D`。我们可以简单声明一个`uniform sampler2D`把一个纹理添加到片段着色器中，稍后我们会把纹理赋值给这个uniform。
+
+```
+#version 330 core
+
+in vec3 ourColor;
+in vec2 TexCoord;
+out vec4 color;
+
+uniform sampler2D ourTexture;
+
+void main()
+{
+    color = texture(ourTexture, TexCoord);
+}
+```
+
+我们使用GLSL内建的texture函数来采样纹理的颜色，它第一个参数是纹理采样器，第二个参数是对应的纹理坐标。
+
+texture函数会使用之前设置的纹理参数对相应的颜色值进行采样。这个片段着色器的输出就是纹理图片在（插值）纹理坐标上的\(过滤后的\)颜色。
+
+现在只剩下在调用glDrawElements之前绑定纹理了，它会自动把纹理赋值给片段着色器的采样器：
+
+```
+glBindTexture(GL_TEXTURE_2D, texture);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+glBindVertexArray(0);
+```
+
+我们还可以把得到的纹理颜色与顶点颜色混合，来获得更有趣的效果。我们只需把纹理颜色与顶点颜色在片段着色器中相乘来混合二者的颜色：
+
+```
+color = texture(ourTexture, TexCoord) * vec4(ourColor,1.0f);
+```
+
+最终的效果应该是顶点颜色和纹理颜色的混合色：
 
