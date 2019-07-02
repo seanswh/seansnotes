@@ -16,10 +16,29 @@ GLfloat vertices[] = {
 
 ![](/OPENGL/images/vertex_attribute_pointer_interleaved_textures.png)
 
-  
-
-
 `glVertexAttribPointer(2,2, GL_FLOAT,GL_FALSE,8*sizeof(GLfloat), (GLvoid*)(6*sizeof(GLfloat))); glEnableVertexAttribArray(2);`
 
-注意，这里的步长变成了8\*sizeof\(GLfloat\)
+注意，这里的步长变成了8\*sizeof\(GLfloat\),而该属性所在的偏移为距离开头6个float位置。
+
+接下来，我们会调整顶点着色器以接受纹理坐标作为顶点属性，然后将这个坐标传递给片元着色器：
+
+```
+#version 330 core
+
+layout (location = 0) in vec3 position;
+layout (location = 1) in vec3 color;
+layout (location = 2) in vec2 texCoord;
+
+out vec3 ourColor;
+out vec2 TexCoord;
+
+void main()
+{
+    gl_Position = vec4(position, 1.0f);
+    ourColor = color;
+    TexCoord = texCoord;
+}
+```
+
+
 
