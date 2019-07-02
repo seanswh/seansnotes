@@ -78,5 +78,5 @@ glBindVertexArray(0);
 color = texture(ourTexture, TexCoord) * vec4(ourColor,1.0f);
 ```
 
-最终的效果应该是顶点颜色和纹理颜色的混合色：
+最终的效果应该是顶点颜色和纹理颜色的混合色。
 
