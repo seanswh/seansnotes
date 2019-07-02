@@ -14,5 +14,7 @@ GLfloat vertices[] = {
 
 上面的顶点数据中增加了一个顶点属性，因此我们需要再一次通知OPENGL顶点数据中的结构，更新后的定点数据结构如下图所示:
 
+![](/OPENGL/images/vertex_attribute_pointer_interleaved_textures.png)
+
 
 
