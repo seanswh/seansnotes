@@ -29,7 +29,19 @@ void main()
 
 最终输出颜色现在是两个纹理的结合。GLSL内建的mix函数需要接受两个值作为原始输入，然后通过第三个值进行线性插值。如果第三个值是0，则全部使用第一个纹理颜色，如果第三个值是1.0，则全部使用第二个纹理颜色。`0.2`会返回`80%`的第一个输入颜色和`20%`的第二个输入颜色，即返回两个纹理的混合色。
 
-使用纹理的顺序大致为：创建纹理对象-&gt;加载图片-&gt;使用glTexImage2D将图片创建成纹理。使用的时候先激活这个纹理对象，然后绑定。除此之外，我们还要用glUniform1i告诉我们的片段着色器，哪个着色采样器对应哪个纹理单元\(texture unit\)
+使用纹理的顺序大致为：创建纹理对象-&gt;加载图片-&gt;使用glTexImage2D将图片创建成纹理。使用的时候先激活这个纹理对象，然后绑定。除此之外，我们还要用glUniform1i告诉我们的片段着色器，哪个着色采样器对应哪个纹理单元\(texture unit\)：
 
+```
+glActiveTexture(GL_TEXTURE0);
+glBindTexture(GL_TEXTURE_2D, texture1);
+glUniform1i(glGetUniformLocation(ourShader.Program, "ourTexture1"), 0);
+glActiveTexture(GL_TEXTURE1);
+glBindTexture(GL_TEXTURE_2D, texture2);
+glUniform1i(glGetUniformLocation(ourShader.Program, "ourTexture2"), 1);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+glBindVertexArray(0);
+```
 
+还需要注意一点，在纹理坐标中，\(0,0\)这个位置对应图片的顶部，而OPENGL中\(0,0\)对应的是底部，因此我们需要预先处理一下图片。
 
