@@ -11,5 +11,22 @@ glBindTexture(GL_TEXTURE_2D, texture);
 
 激活纹理单元之后，接下来的glBindTexture函数调用会绑定这个纹理到被激活的纹理单元，由于纹理单元GL\_TEXTURE0默认总是被激活状态，所以我们在前面使用`glBindTexture`的时候，无需激活任何纹理单元。
 
+如果我们使用了多个采样器\(sampler\)，那么我们需要在片段着色器中接收它：
 
+```
+#version 330 core
+
+...
+
+uniform sampler2D ourTexture1;
+uniform sampler2D ourTexture2;
+
+void main()
+{
+    color = mix(texture(ourTexture1, TexCoord), texture(ourTexture2, TexCoord), 0.2);
+}
+
+```
+
+最终输出颜色现在是两个纹理的结合。GLSL内建的mix函数需要接受两个值作为原始输入，然后通过第三个值进行线性插值。如果第三个值是0，则全部使用第一个纹理颜色，如果第三个值是1.0，则全部使用第二个纹理颜色。
 
