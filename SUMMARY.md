@@ -26,6 +26,7 @@
   * [纹理3](OPENGL/wen-li-3.md)
   * [纹理4](OPENGL/wen-li-4.md)
   * [纹理5](OPENGL/wen-li-5.md)
+  * [变换1](OPENGL/bian-huan-1.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
@@ -104,4 +105,6 @@
   * [第三周 Ray Trace1](/Computer_Graphics/week3_1.md)
   * [第三周 Ray Trace2](/Computer_Graphics/week3_2.md)
   * [第三周 Ray Trace3](/Computer_Graphics/week3_3.md)
+
+
 
