@@ -9,8 +9,8 @@ GLM是Open**GL M**athematics的缩写，它是一个**只有头文件的**库，
 ```
 glm::mat4 trans;
 trans = glm::rotate(trans, 90.0f, glm::vec3(0.0, 0.0, 1.0));
-trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));  
+trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
 ```
 
-首先，我们把箱子在每个轴都缩放到0.5倍，然后沿z轴旋转90度。
+首先，我们把箱子在每个轴都缩放到0.5倍，然后沿z轴旋转90度。因为我们把这个矩阵传递给了GLM的rotate、scale各个函数，GLM会自动将矩阵相乘，返回的结果是一个包括了多个变换的变换矩阵。
 
