@@ -50,5 +50,13 @@ z\\
 1
 \end{matrix}
 \right)
+=\left(
+\begin{matrix}
+x+T_x \\
+y+T_y\\
+z+T_z\\
+1
+\end{matrix}
+\right)
 $$
 
