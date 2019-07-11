@@ -10,5 +10,9 @@ netCDF数据格式的定义初衷是为了尽可能的使用一种通用的格�
 # 自描述
 netcdf文件内包含了元信息，可分为变量、纬度、属性：
 1)Variables. Variables contain data stored in the NetCDF file. This data is typically in the form of a multidimensional array. Scalar values are stored as 0-dimension arrays.
-Dimensions. Dimensions can be used to describe physical space (latitude, longitude, height, and time) or indices of other quantities (e.g. weather station identifiers).
-Attributes. Attributes are modifiers for variables and dimensions. Attributes act as ancillary data to help provide context. An example of an attribute would be a variable's units or fill/missing values.
+2)Dimensions. Dimensions can be used to describe physical space (latitude, longitude, height, and time) or indices of other quantities (e.g. weather station identifiers).
+3)Attributes. Attributes are modifiers for variables and dimensions. Attributes act as ancillary data to help provide context. An example of an attribute would be a variable's units or fill/missing values.
+## 公约
+过度的开放和灵活性必然会带来自定义的无序，从而造成发展和使用的无序，因此许多机构和组织建立了NetCDF的应用公约，目前主要应用的公约是 CF Conventions (Climate and Forecast：http://cfconventions.org/)
+
+## 自描述是什么样的？
