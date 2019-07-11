@@ -15,4 +15,4 @@ netcdf文件内包含了元信息，可分为变量、纬度、属性：
 ## 公约
 过度的开放和灵活性必然会带来自定义的无序，从而造成发展和使用的无序，因此许多机构和组织建立了NetCDF的应用公约，目前主要应用的公约是 CF Conventions (Climate and Forecast：http://cfconventions.org/)
 
-## 自描述是什么样的？
+## 自描述的描述什么样的？
