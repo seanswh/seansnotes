@@ -6,3 +6,9 @@ netCDF数据格式的定义初衷是为了尽可能的使用一种通用的格�
 4）Appendable. Data may be appended to a properly structured NetCDF file without copying the dataset or redefining its structure.
 5）Sharable. One writer and multiple readers may simultaneously access the same NetCDF file.
 6）Archivable. Access to all earlier forms of NetCDF data will be supported by current and future versions of the software.
+
+# 自描述
+netcdf文件内包含了元信息，可分为变量、纬度、属性：
+1)Variables. Variables contain data stored in the NetCDF file. This data is typically in the form of a multidimensional array. Scalar values are stored as 0-dimension arrays.
+Dimensions. Dimensions can be used to describe physical space (latitude, longitude, height, and time) or indices of other quantities (e.g. weather station identifiers).
+Attributes. Attributes are modifiers for variables and dimensions. Attributes act as ancillary data to help provide context. An example of an attribute would be a variable's units or fill/missing values.
