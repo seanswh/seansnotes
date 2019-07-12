@@ -18,3 +18,11 @@ netcdf文件内包含了元信息，可分为变量、纬度、属性：
 ## 自描述的描述什么样的？
 在原来的内容中，提到了使用ncdump这样的方法来辅助查看netcdf文件中的结构，在网上找了一圈，才发现这个ncdump不是一个package，而只是一个函数，这个函数可以把netcdf文件中的元信息按照规定的格式打印出来，我把这个文件也附在这里了，以后省得来回找了。
 
+# NetCDF文件的Python读取
+
+```
+nc_file = Dataset(r"E:\data\rhum.2003.nc")
+nc_attrs, nc_dims, nc_vars = ncdump(nc_file)
+```
+
+
