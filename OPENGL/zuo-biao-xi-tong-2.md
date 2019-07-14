@@ -10,7 +10,5 @@
 
 ### 观察空间\(view space\)
 
-
-
-
+观察空间也就是OPENGL所说的相机空间\(camera space\)。
 
