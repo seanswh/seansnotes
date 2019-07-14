@@ -28,5 +28,5 @@
 
 在这一阶段之后，坐标经过转换的结果将会被映射到屏幕空间\(可由`glViewport函数中的参数`设置\),这一步被称为视口变换\(Viewport Transform\),且被转换成片段。
 
-投影矩阵将观察坐标转换为裁剪坐标的过程采用两种不同的方式，每种方式分别定义自己的平截头体\(frustum.\)。我们可以创建一个正射投影矩阵\(Orthographic Projection Matrix\)或一个透视投影矩阵\(Perspective Projection Matrix\)。
+投影矩阵将观察坐标转换为裁剪坐标的过程采用两种不同的方式，每种方式分别定义自己的平截头体\(frustum\)。我们可以创建一个正射投影矩阵\(Orthographic Projection Matrix\)或一个透视投影矩阵\(Perspective Projection Matrix\)。
 
