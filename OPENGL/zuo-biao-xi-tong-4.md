@@ -38,5 +38,24 @@ glm::mat4 projection;
 projection = glm::perspective(45.0f, screenWidth / screenHeight, 0.1f, 100.0f);
 ```
 
+4.我们将定义好的一系列变换矩阵传递到我们的着色器中，首先我们在顶点着色器中定义uniform的变换矩阵，然后传递进去，最后将它们乘以顶点坐标：
+
+```
+#version 330 core
+
+layout (location = 0) in vec3 position;
+...
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+
+void main()
+{
+    // 注意从右向左读
+    gl_Position = projection * view * model * vec4(position, 1.0f);
+    ...
+}
+```
+
 
 
