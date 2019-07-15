@@ -33,5 +33,10 @@ view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 
 3.最后，我们定义投影矩阵，我们想使用透视投影，因此我们声明的投影矩阵如下段代码所示：
 
+```
+glm::mat4 projection;
+projection = glm::perspective(45.0f, screenWidth / screenHeight, 0.1f, 100.0f);
+```
+
 
 
