@@ -26,5 +26,13 @@ z/w
 
 因为距离观察者越远，w越大，因此坐标就会越小，这也是为什么w非常重要的一个原因。
 
+在GLM中可以这样创建一个透视投影矩阵：
 
+```
+glm::mat4 proj = glm::perspective(45.0f, (float)width/(float)height, 0.1f, 100.0f);
+```
+
+![](/OPENGL/images/perspective_frustum.png)
+
+第一个参数是视野（Field of View）,
 
