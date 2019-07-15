@@ -57,5 +57,14 @@ void main()
 }
 ```
 
+变换矩阵一般都在每次渲染的时候传递到着色器中：
+
+```
+GLint modelLoc = glGetUniformLocation(ourShader.Program, "model");
+glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+... 
+// 观察矩阵和投影矩阵与之类似
+```
+
 
 
