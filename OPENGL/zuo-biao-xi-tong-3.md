@@ -34,5 +34,7 @@ glm::mat4 proj = glm::perspective(45.0f, (float)width/(float)height, 0.1f, 100.0
 
 ![](/OPENGL/images/perspective_frustum.png)
 
-第一个参数是视野（Field of View）,
+第一个参数是视野（Field of View）,一般来说都是45度，但如果想要看到更多的结果可以设置大一些。
+
+
 
