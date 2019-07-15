@@ -23,5 +23,13 @@ model = glm::rotate(model, -55.0f, glm::vec3(1.0f, 0.0f, 0.0f));
 
 因为OPENGL中的坐标轴符合右手定理，因此将整个场景向前移动，也就是朝着Z轴的正方向移动。代码中我们的视图矩阵是这样的：
 
+```
+glm::mat4 view;
+
+// 注意，我们将矩阵向我们要进行移动场景的反向移动。
+
+view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f)); 
+```
+
 
 
