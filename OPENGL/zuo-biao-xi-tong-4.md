@@ -8,5 +8,9 @@ Vclip=Mprojection⋅Mview⋅Mmodel⋅Vlocal
 
 > 顶点着色器的输出保证所有的顶点坐标都在裁剪空间之内，这也是我们变换矩阵所做的。OPENGL随后会使用透视划分的方法将裁剪空间内的坐标转换成NDC坐标，然后使用glViewPort函数及其参数，将NDC坐标转换成屏幕坐标，这个过程叫做视口变换。
 
+### 3D例子
+
+
+
 
 
