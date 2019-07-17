@@ -31,5 +31,40 @@ glm::mat4 view;
 view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
 ```
 
-3.最后，我们定义投影矩阵，
+3.最后，我们定义投影矩阵，我们想使用透视投影，因此我们声明的投影矩阵如下段代码所示：
+
+```
+glm::mat4 projection;
+projection = glm::perspective(45.0f, screenWidth / screenHeight, 0.1f, 100.0f);
+```
+
+4.我们将定义好的一系列变换矩阵传递到我们的着色器中，首先我们在顶点着色器中定义uniform的变换矩阵，然后传递进去，最后将它们乘以顶点坐标：
+
+```
+#version 330 core
+
+layout (location = 0) in vec3 position;
+...
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+
+void main()
+{
+    // 注意从右向左读
+    gl_Position = projection * view * model * vec4(position, 1.0f);
+    ...
+}
+```
+
+变换矩阵一般都在每次渲染的时候传递到着色器中：
+
+```
+GLint modelLoc = glGetUniformLocation(ourShader.Program, "model");
+glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+... 
+// 观察矩阵和投影矩阵与之类似
+```
+
+
 
