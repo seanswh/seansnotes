@@ -35,5 +35,16 @@ nc\_file.variables 是一个有序字典，直接获取某一个变量可直接�
 
 nc\_file.dimensions同理
 
+当获取variable对象以后，查看该对象有哪些属性可以使用ncattrs\(\)函数
+
+当查找到某一属性后，获取该属性的值，可以使用Variable对象的getncattr\("属性名称"\)即可，如下代码所示：
+
+```
+rhum = ds.variables['rhum']
+print(rhum.ncattrs())
+add_offset = rhum.getncattr("add_offset")
+scale_factor = rhum.getncattr("scale_factor")
+```
+
 
 
