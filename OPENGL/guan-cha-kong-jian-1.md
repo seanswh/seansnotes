@@ -18,3 +18,15 @@
 
 这个是相机坐标系的y轴正方向，还是用之前两个轴叉乘后标准化可得。
 
+### LOOKAT
+
+使用矩阵的一个好处是，一旦定义了三个相互垂直的坐标轴，就可以利用这些坐标轴再加上一个平移向量创建一个新的矩阵，这个矩阵可以将任何向量变换到这个矩阵所定义的坐标系空间中。
+
+这就是LookAt矩阵要做的工作，经过上面的几步，我们已经有了三个互相垂直的坐标系，也有了一个位置向量，从而可以定义摄像机空间了，因此我们的LookAt矩阵如下图所示：
+
+$$
+LookAt = \begin{bmatrix} \color{red}{R_x} & \color{red}{R_y} & \color{red}{R_z} & 0 \\ \color{green}{U_x} & \color{green}{U_y} & \color{green}{U_z} & 0 \\ \color{blue}{D_x} & \color{blue}{D_y} & \color{blue}{D_z} & 0 \\ 0 & 0 & 0  & 1 \end{bmatrix} * \begin{bmatrix} 1 & 0 & 0 & -\color{purple}{P_x} \\ 0 & 1 & 0 & -\color{purple}{P_y} \\ 0 & 0 & 1 & -\color{purple}{P_z} \\ 0 & 0 & 0  & 1 \end{bmatrix}
+$$
+
+
+
