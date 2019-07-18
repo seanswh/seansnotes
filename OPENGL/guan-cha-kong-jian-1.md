@@ -28,5 +28,7 @@
 $$
 LookAt = \begin{bmatrix} \color{red}{R_x} & \color{red}{R_y} & \color{red}{R_z} & 0 \\ \color{green}{U_x} & \color{green}{U_y} & \color{green}{U_z} & 0 \\ \color{blue}{D_x} & \color{blue}{D_y} & \color{blue}{D_z} & 0 \\ 0 & 0 & 0  & 1 \end{bmatrix} * \begin{bmatrix} 1 & 0 & 0 & -\color{purple}{P_x} \\ 0 & 1 & 0 & -\color{purple}{P_y} \\ 0 & 0 & 1 & -\color{purple}{P_z} \\ 0 & 0 & 0  & 1 \end{bmatrix}
 $$
-R是右轴，U是上轴，D是方向向量，P是摄像机的位置，注意这里面位置向量相反的，因为我们最终需要将世界按照我们希望的相反方向移动\(移动场景与移动相机正好相反\)
+
+
+R是右轴，U是上轴，D是方向向量，P是摄像机的位置，注意这里面位置向量相反的，因为我们最终需要将世界按照我们希望的相反方向移动\(移动场景与移动相机正好相反\)。
 
