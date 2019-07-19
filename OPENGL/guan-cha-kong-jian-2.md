@@ -25,5 +25,11 @@ direction.z = cos(glm::radians(pitch)) * sin(glm::radians(yaw));
 glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 ```
 
-这个函数调用后，无论我们怎么去移动鼠标，它都不会显示了，也不会离开窗口。对于FPS摄像机系统来说很好：
+这个函数调用后，无论我们怎么去移动鼠标，它都不会显示了，也不会离开窗口。对于FPS摄像机系统来说很好。为计算俯仰角和偏航角我们需要告诉GLFW监听鼠标移动事件。我们用下面的原型创建一个回调函数来做这件事\(和键盘输入差不多\)：
+
+```
+void mouse_callback(GLFWwindow* window, double xpos, double ypos);
+```
+
+
 
