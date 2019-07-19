@@ -32,6 +32,7 @@
   * [坐标系统4](OPENGL/zuo-biao-xi-tong-4.md)
   * [坐标系统5](OPENGL/zuo-biao-xi-tong-5.md)
   * [观察空间1](OPENGL/guan-cha-kong-jian-1.md)
+  * [观察空间2](OPENGL/guan-cha-kong-jian-2.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
