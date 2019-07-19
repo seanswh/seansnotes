@@ -38,11 +38,42 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 3. 对偏航角和俯仰角进行最大和最小值的限制。
 4. 计算方向向量。
 
-1. 计算鼠标自上一帧的偏移量。我们必须先储存上一帧的鼠标位置，我们把它的初始值设置为屏幕的中心\(屏幕的尺寸是800乘600\)：
+1）计算鼠标自上一帧的偏移量。我们必须先储存上一帧的鼠标位置，我们把它的初始值设置为屏幕的中心\(屏幕的尺寸是800乘600\)：
 
-   ```
-   GLfloat lastX = 400, lastY = 300;
-   ```
+```
+GLfloat lastX = 400, lastY = 300;
+```
+
+然后在回调函数中我们计算当前帧和上一帧鼠标位置的偏移量：
+
+```
+GLfloat xoffset = xpos - lastX;
+GLfloat yoffset = lastY - ypos; 
+// 注意这里是相反的，因为y坐标的范围是从下往上的
+
+lastX = xpos;
+lastY = ypos;
+
+GLfloat sensitivity = 0.05f;
+xoffset *= sensitivity;
+yoffset *= sensitivity;
+```
+
+2）我们把偏移量加到全局变量`pitch`和`yaw`上：
+
+```
+yaw   += xoffset;
+pitch += yoffset;  
+```
+
+3）第三步我们给摄像机添加一些限制，这样摄像机就不会发生奇怪的移动了：
+
+```
+if (pitch >89.0f)
+  pitch =  89.0f;
+if (pitch < -89.0f)
+  pitch = -89.0f;
+```
 
 
 
