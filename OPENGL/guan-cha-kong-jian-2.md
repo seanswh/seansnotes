@@ -63,7 +63,7 @@ yoffset *= sensitivity;
 
 ```
 yaw   += xoffset;
-pitch += yoffset;  
+pitch += yoffset;
 ```
 
 3）第三步我们给摄像机添加一些限制，这样摄像机就不会发生奇怪的移动了：
@@ -73,6 +73,16 @@ if (pitch >89.0f)
   pitch =  89.0f;
 if (pitch < -89.0f)
   pitch = -89.0f;
+```
+
+4）也是最后一步，就是通过俯仰角和偏航角来计算以得到前面提到的实际方向向量：
+
+```
+glm::vec3 front;
+front.x = cos(glm::radians(pitch)) * cos(glm::radians(yaw));
+front.y = sin(glm::radians(pitch));
+front.z = cos(glm::radians(pitch)) * sin(glm::radians(yaw));
+cameraFront = glm::normalize(front);
 ```
 
 
