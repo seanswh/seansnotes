@@ -31,5 +31,18 @@ glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 ```
 
+在处理FPS风格的摄像机鼠标输入的时候，我们必须在获取最终的方向向量之前做下面这几步：
+
+1. 计算鼠标和上一帧的偏移量。
+2. 把偏移量添加到摄像机和俯仰角和偏航角中。
+3. 对偏航角和俯仰角进行最大和最小值的限制。
+4. 计算方向向量。
+
+1. 计算鼠标自上一帧的偏移量。我们必须先储存上一帧的鼠标位置，我们把它的初始值设置为屏幕的中心\(屏幕的尺寸是800乘600\)：
+
+   ```
+   GLfloat lastX = 400, lastY = 300;
+   ```
+
 
 
