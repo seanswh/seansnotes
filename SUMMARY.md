@@ -10,7 +10,7 @@
   * [D3.js学习](测试部分/javascriptdiao-shi.md)
   * [NetCDF格式](测试部分/netcdfge-shi.md)
 * [OPENGL学习](/OPENGL/README.md)
-  * [入门](/OPENGL/Day1.md)
+  * [入门]()
     * [pipeline介绍](/OPENGL/Day1.md)
     * [hello，三角形](/OPENGL/Hello三角形.md)
     * [hello，三角形2](/OPENGL/Hello三角形2.md)
