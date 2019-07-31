@@ -48,7 +48,7 @@
   * [一个例子](kafka/yi-ge-li-zi.md)
   * [项目尝试](/kafka/kafkaxue-xi.md)
 * [C#学习](/C#/README.md)
-  * [LINQ](/M4Python/EnvConfig.md)
+  * [LINQ](/C#/LINQ/README.md)
 
 
 
