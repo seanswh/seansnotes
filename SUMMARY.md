@@ -48,6 +48,10 @@
   * [一个例子](kafka/yi-ge-li-zi.md)
   * [项目尝试](/kafka/kafkaxue-xi.md)
 * [C#](/CSharp/README.md)
+  * [LINQ](/CSharp/LINQ/README.md)
+
+
+
 
 
 ## Coursera
