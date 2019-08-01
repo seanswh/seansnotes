@@ -8,5 +8,9 @@ Enumerable类
 
 该类实现了对IEnumerable接口的扩展，下图绘制了所有被扩展的内置IEnumerable&lt;T&gt;的类
 
+![](/CSharp/LINQ/images/Enumerable-extension-methods.png)
+
+下图显示了所有扩展函数
+
 
 
