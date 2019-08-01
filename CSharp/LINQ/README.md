@@ -4,5 +4,9 @@ LINQ（[https://www.tutorialsteacher.com/linq/linq-api](https://www.tutorialstea
 
 C\#使用**扩展函数**的方式对IEnumerable和IQueryable的接口实现扩展，Enumerable类和Queryable两个静态类实现了对上述接口的LINQ查询扩展。
 
+Enumerable类
+
+该类实现了对IEnumerable接口的扩展，下图绘制了所有被扩展的内置IEnumerable&lt;T&gt;的类
+
 
 
