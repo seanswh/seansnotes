@@ -19,5 +19,5 @@ IList<string> stringList = new List<string>() {
 
 ![](/CSharp/LINQ/images/linq-method-syntax.png)
 
-
+method syntax comprises of extension methods and Lambda expression. The extension method **Where\(\) **is defined in the Enumerable class.
 
