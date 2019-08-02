@@ -29,5 +29,5 @@ where s.Contains("Tutorials")
 select s;
 ```
 
-
+上述代码的语法分析如下图所示：![](/CSharp/LINQ/images/linq-query-syntax.png)
 
