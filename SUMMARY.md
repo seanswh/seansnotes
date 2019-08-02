@@ -48,7 +48,7 @@
   * [一个例子](kafka/yi-ge-li-zi.md)
   * [项目尝试](/kafka/kafkaxue-xi.md)
 * [C\#](/CSharp/README.md)
-*   [Lambda](lambda.md)
+*   [Lambda](/CSharp/lambda.md)
 *   [LINQ](/CSharp/LINQ/README.md)
   *   [定义](CSharp/LINQ/ding-yi.md)
   *   [LINQ API接口](CSharp/LINQ/linq-apijie-kou.md)
