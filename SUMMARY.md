@@ -51,6 +51,7 @@
   * [LINQ](/CSharp/LINQ/README.md)
     * [定义](CSharp/LINQ/ding-yi.md)
     * [LINQ API接口](CSharp/LINQ/linq-apijie-kou.md)
+    * [查询语法](CSharp/LINQ/cha-xun-yu-fa.md)
 
 ## Coursera
 
