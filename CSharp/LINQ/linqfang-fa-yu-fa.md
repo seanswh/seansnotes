@@ -21,3 +21,5 @@ IList<string> stringList = new List<string>() {
 
 method syntax comprises of extension methods and Lambda expression. The extension method **Where\(\) **is defined in the Enumerable class.
 
+If you check the signature of the Where extension method, you will find the Where method accepts a [predicate](https://www.tutorialsteacher.com/csharp/csharp-predicate) delegate as Func&lt;Student, bool&gt;. This means you can pass any delegate function that accepts a Student object as an input parameter and returns a Boolean value as shown in the below figure. The lambda expression works as a delegate passed in the Where clause.
+

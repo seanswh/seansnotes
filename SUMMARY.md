@@ -48,11 +48,12 @@
   * [一个例子](kafka/yi-ge-li-zi.md)
   * [项目尝试](/kafka/kafkaxue-xi.md)
 * [C\#](/CSharp/README.md)
-  * [LINQ](/CSharp/LINQ/README.md)
-    * [定义](CSharp/LINQ/ding-yi.md)
-    * [LINQ API接口](CSharp/LINQ/linq-apijie-kou.md)
-    * [查询语法](CSharp/LINQ/cha-xun-yu-fa.md)
-    * [LINQ方法语法](CSharp/LINQ/linqfang-fa-yu-fa.md)
+* [Lambda](lambda.md)
+* [LINQ](/CSharp/LINQ/README.md)
+  * [定义](CSharp/LINQ/ding-yi.md)
+  * [LINQ API接口](CSharp/LINQ/linq-apijie-kou.md)
+  * [查询语法](CSharp/LINQ/cha-xun-yu-fa.md)
+  * [LINQ方法语法](CSharp/LINQ/linqfang-fa-yu-fa.md)
 
 ## Coursera
 
