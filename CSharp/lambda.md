@@ -14,5 +14,7 @@ Lambda表达式是C\# 3.0版本引入的一个功能，它是一种匿名函数�
 (Student s,int youngAge) => s.Age >= youngage;
 ```
 
+如果表达式中有多个语句，可以把它们用大括号括起来。
 
+Lambda表达式可以赋值给内嵌的委托类型，如Func，Action，Predicate等。
 
