@@ -1,0 +1,4 @@
+# LINQ Method Syntax
+
+
+
