@@ -18,3 +18,15 @@ Lambda表达式是C\# 3.0版本引入的一个功能，它是一种匿名函数�
 
 Lambda表达式可以赋值给内嵌的委托类型，如Func，Action，Predicate等。
 
+### Func委托
+
+```
+Func<Student,bool> isStudentTeenAger = s => s.age> 12&& s.age< 20;
+Student std = new Student() { age = 21 };
+bool isTeen = isStudentTeenAger(std);// returns false
+```
+
+Func&lt;in T,out TResult&gt;委托中，最后一个参数是返回值，其他参数是输入参数
+
+
+
