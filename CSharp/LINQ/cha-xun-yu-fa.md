@@ -15,3 +15,19 @@ from <range variable> in <IEnumerable<T> or IQueryable<T> Collection>
 
 上述语法以 `from`关键字开头，以`select`关键字结尾。下面是一个简单的例子，从一个字符串短语列表中查询带"Tutorials"的短语
 
+```
+// string collection
+IList<string> stringList = new List<string>() { 
+"C# Tutorials",    
+"VB.NET Tutorials",  
+"Learn C++",    
+"MVC Tutorials" , 
+"Java" };
+// LINQ Query Syntax
+var result = from s in stringList            
+where s.Contains("Tutorials")             
+select s;
+```
+
+
+
