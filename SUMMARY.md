@@ -50,6 +50,7 @@
 * [C\#](/CSharp/README.md)
   * [LINQ](/CSharp/LINQ/README.md)
     * [定义](CSharp/LINQ/ding-yi.md)
+    * [LINQ API接口](CSharp/LINQ/linq-apijie-kou.md)
 
 ## Coursera
 

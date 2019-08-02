@@ -1,0 +1,1 @@
+LINQ 查询使用了C#的扩展函数技术，对IEnumerable和IQueryable两个接口的实现类进行了功能扩展
