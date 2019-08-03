@@ -54,6 +54,7 @@
     * [LINQ API接口](CSharp/LINQ/linq-apijie-kou.md)
     * [查询语法](CSharp/LINQ/cha-xun-yu-fa.md)
     * [LINQ方法语法](CSharp/LINQ/linqfang-fa-yu-fa.md)
+    * [标准查询1](CSharp/LINQ/biao-zhun-cha-xun-1.md)
 
 ## Coursera
 
