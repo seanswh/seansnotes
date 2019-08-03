@@ -43,5 +43,11 @@ foreach (var std in filteredResult)
            Console.WriteLine(std.StudentName);
 ```
 
+ofType操作符
+
+#### Query Syntax
+
+
+
 
 
