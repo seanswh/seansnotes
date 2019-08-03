@@ -24,7 +24,16 @@ var  filteredResult = from s in studentList
 
 #### Method Syntax
 
-与Query Syntax不同，Method Syntax需要传入完整的lambda函数体
+与Query Syntax不同，Method Syntax需要传入完整的lambda函数体，Where函数支持一个重载函数，参数可以使用集合的索引var
+
+```
+ filteredResult = studentList.Where((s, i) => { 
+            if(i % 2 ==  0)// if it is even element
+                return true;
+                   return false;});
+foreach (var std in filteredResult)
+           Console.WriteLine(std.StudentName);
+```
 
 
 
