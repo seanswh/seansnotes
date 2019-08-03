@@ -47,7 +47,16 @@ ofType操作符
 
 #### Query Syntax
 
+```
+var stringResult = from s in mixedList.OfType<string>()
+            select s;
+```
 
+#### Query Syntax
+
+```
+var stringResult = mixedList.OfType<string>();
+```
 
 
 
