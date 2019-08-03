@@ -11,7 +11,7 @@ Where 操作符
 
 #### Query Syntax
 
-可以使用任何符合Func type 的委托，如下段代码所示：
+可以使用任何符合Func type 的委托，注意该委托的返回值为false如下段代码所示：
 
 ```
 Func<Student,bool> isTeenAger = delegate(Student s) {      
