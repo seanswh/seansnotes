@@ -24,5 +24,7 @@ var  filteredResult = from s in studentList
 
 #### Method Syntax
 
+与Query Syntax不同，Method Syntax需要传入完整的lambda函数体
+
 
 
