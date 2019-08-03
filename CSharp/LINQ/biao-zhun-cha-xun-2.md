@@ -11,6 +11,14 @@ Where 操作符
 
 #### Query Syntax
 
+Query Syntax只需要判断的表达式部分，不需要参数声明部分，如下面所示：
+
+```
+var filteredResult = from s in studentList
+                    where s.Age > 12&& s.Age< 20
+                    select s.StudentName;
+```
+
 可以使用任何符合Func type 的委托，注意该委托的返回值为false如下段代码所示：
 
 ```
