@@ -51,5 +51,18 @@ uniform Material material;
 
 有了物体的材质属性，我们修正一下物体的颜色，我们将光照颜色偏量与物体的各个属性颜色相乘，最后得到最终片元的颜色。
 
-当给着色器中的结构体赋值时，一个结构体值扮演uniform变量的封装体，所以如果我们希望填充这个结构体，我们就仍然必须设置结构体中的各个元素的uniform值，但是这次带有结构体名字作为前缀：
+当给着色器中的结构体赋值时，一个结构体值扮演uniform变量的封装体，所以如果我们希望给这个结构体赋值，我们就仍然必须设置结构体中的各个元素的uniform值，但是这次带有结构体名字作为前缀：
+
+```
+GLint matAmbientLoc = glGetUniformLocation(lightingShader.Program, "material.ambient");
+GLint matDiffuseLoc = glGetUniformLocation(lightingShader.Program, "material.diffuse");
+GLint matSpecularLoc = glGetUniformLocation(lightingShader.Program, "material.specular");
+GLint matShineLoc = glGetUniformLocation(lightingShader.Program, "material.shininess");
+glUniform3f(matAmbientLoc, 1.0f, 0.5f, 0.31f);
+glUniform3f(matDiffuseLoc, 1.0f, 0.5f, 0.31f);
+glUniform3f(matSpecularLoc, 0.5f, 0.5f, 0.5f);
+glUniform1f(matShineLoc, 32.0f);
+```
+
+
 
