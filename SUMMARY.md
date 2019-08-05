@@ -39,6 +39,7 @@
     * [基本光照2](OPENGL/ji-ben-guang-zhao-2.md)
     * [材质1](OPENGL/cai-zhi-1.md)
     * [材质2](OPENGL/cai-zhi-2.md)
+    * [贴图光照1](OPENGL/tie-tu-guang-zhao-1.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
