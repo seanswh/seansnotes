@@ -34,13 +34,13 @@
     * [坐标系统5](OPENGL/zuo-biao-xi-tong-5.md)
     * [观察空间1](OPENGL/guan-cha-kong-jian-1.md)
     * [观察空间2](OPENGL/guan-cha-kong-jian-2.md)
-  * 光照
+  * [光照](OPENGL/guang-zhao.md)
     * [基本光照1](OPENGL/ji-ben-guang-zhao-1.md)
     * [基本光照2](OPENGL/ji-ben-guang-zhao-2.md)
     * [材质1](OPENGL/cai-zhi-1.md)
     * [材质2](OPENGL/cai-zhi-2.md)
     * [贴图光照1](OPENGL/tie-tu-guang-zhao-1.md)
-  * 投光物
+    * [投光物1](OPENGL/tou-guang-wu-1.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [第一章](/M4Python/Chapter1.md)
