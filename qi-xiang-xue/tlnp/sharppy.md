@@ -11,5 +11,5 @@ sharppy-&gt;PySide-&gt;Numpy
 
 一开始还打算自己安装Python环境，后来一上午查找各种匹配的依赖库，所以放弃，还是使用anaconda来进行安装
 
-装好所有需要的环境以后，在sharppy的目录下执行python setup.py install报错，推断是全局路径下有中文字符串的原因，把该目录切换另外一个文件夹，再次执行python setup.py install，正常安装
+装好所有需要的环境以后，在sharppy的目录下执行python setup.py install报错，推断是全局路径下有中文字符串的原因，把该目录切换另外一个文件夹，再次执行python setup.py install，安装正常
 
