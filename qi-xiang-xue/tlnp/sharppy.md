@@ -15,5 +15,9 @@ sharppy-&gt;PySide-&gt;Numpy
 
 --------------------后续---------------------
 
-使用anaconda安装以后，通过VS CODE运行sharppy代码提示运行不起来，后来查看网上提供的方法，提示用pip uninstall以后，再重新安装即可
+使用anaconda安装以后，通过VS CODE运行sharppy代码提示运行不起来，后来查看网上提供的方法，提示用pip uninstall numpy 以及 netcdf这两个包以后，再重新安装即可
+
+-----------------再后续---------------------
+
+调试了很多次依然有问题，后来决定从github上下载一个master代码，启动成功~~
 
