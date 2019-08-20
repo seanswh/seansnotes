@@ -37,3 +37,5 @@ sharppy-&gt;PySide-&gt;Numpy
 
 [https://zhuanlan.zhihu.com/p/58199926](https://zhuanlan.zhihu.com/p/58199926)
 
+在sharppy-master\runsharp目录下有各种spec文件，直接使用该文件执行即可
+
