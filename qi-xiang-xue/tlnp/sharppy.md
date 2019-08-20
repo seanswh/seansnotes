@@ -27,3 +27,5 @@ sharppy-&gt;PySide-&gt;Numpy
 
 但是转换完以后一直提示“arange: cannot compute length”，遂考虑用“秒探空”数据来显示
 
+秒探空转化成功，但是由于效率问题，把秒探空的数据过了过滤处理
+
