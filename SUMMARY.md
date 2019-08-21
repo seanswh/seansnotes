@@ -133,5 +133,6 @@
 
 * [TLNP](qi-xiang-xue/tlnp.md)
   * [sharppy](qi-xiang-xue/tlnp/sharppy.md)
+  * [sharppy\_2](qi-xiang-xue/tlnp/sharppy2.md)
   * [TLNP其他资源](qi-xiang-xue/tlnp/tlnpqi-ta-zi-yuan.md)
 
