@@ -7,6 +7,8 @@ PythonTool工具箱问题记录
 
 1.窗口大小水平方向调整后，控件大小不变，留白会越来越大
 
+2.
+
 2.没有办法在当前激活的section下增加代码或markdown，只能加在最后面
 
 3.markdown目前不支持markdown语法
