@@ -4,7 +4,7 @@ Python中用来做科学计算，难免使用Pandas、matplotlib、Numpy等库�
 
 定义：[`Series`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html#pandas.Series)is a one-dimensional labeled array capable of holding any data type \(integers, strings, floating point numbers, Python objects, etc.\). The axis labels are collectively referred to as the **index**.
 
+[**DataFrame**](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html#dsintro)** **is a 2-dimensional labeled data structure with columns of potentially different types. You can think of it like a spreadsheet or SQL table, or a dict of Series objects. It is generally the most commonly used pandas object.
 
-
-为了能对数据有更多的描述，我们尽量使用Dateframe格式
+为了能对数据有更多的描述，同时也为了能在一次访问中返回更多的结果，我们尽量使用Dateframe格式来使用M4返回的字符串结果。
 
