@@ -17,3 +17,5 @@ PythonTool工具箱问题记录
 
 6.所有的markdown section在加载的时候就应该被执行
 
+7. Ctrl+S保存快捷键
+
