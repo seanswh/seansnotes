@@ -11,7 +11,7 @@ PythonTool工具箱问题记录
 
 3.左侧树形图里没有当前正在编辑的激活状态信息
 
-2.没有办法在当前激活的section下增加代码或markdown，只能加在最后面
+4.没有办法在当前激活的section下增加代码或markdown，只能加在最后面
 
-3.markdown目前不支持markdown语法
+5.markdown目前不支持markdown语法
 
