@@ -15,7 +15,9 @@ PythonTool工具箱问题记录
 
 5.markdown目前不支持markdown语法
 
-6.所有的markdown section在加载的时候就应该被执行
+6.所有的markdown section在加载的时候就应该被执行7.
 
-7. Ctrl+S保存快捷键
+7.Ctrl+S保存快捷键
+
+
 
