@@ -23,3 +23,5 @@ PythonTool工具箱问题记录
 
 9.每一个section执行的时候，要先把原来的输出清空，然后执行，最后把结果填上
 
+10.如果使用的是IPython的javascript实现，考虑把%matplotlib inline也实现
+
