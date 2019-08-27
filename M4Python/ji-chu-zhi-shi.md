@@ -6,7 +6,5 @@ pandas 的两个主要数据结构，[Series](https://pandas.pydata.org/pandas-d
 
 pandas 建立在[NumPy](https://www.numpy.org/)之上，旨在与许多其他第三方库完美地集成在科学计算环境中。
 
-为了系列学习Pandas，在[这个](https://pythonprogramming.net/dataset-data-analysis-python-pandas-tutorial/)网址里看到了一个包含各种数据集的网站[https://www.quandl.com/](https://www.quandl.com/)，注册用户名密码之后就可以使用该网站的API接口访问数据，于是注册了一个账号，使用邮箱：sean.sgao@gmail.com 密码Sean5406
-
-
+为了系列学习Pandas，在[这个](https://pythonprogramming.net/dataset-data-analysis-python-pandas-tutorial/)网址里看到了一个包含各种数据集的网站[https://www.quandl.com/](https://www.quandl.com/)，注册用户名密码之后就可以使用该网站的API接口访问数据，于是注册了一个账号，使用邮箱：sean.sgao@gmail.com 密码S\*\*\*\*5\*\*6
 
