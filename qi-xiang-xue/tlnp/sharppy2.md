@@ -10,3 +10,15 @@
 
 所有的物理量计算函数
 
+--------------------------执行顺序-------------------------------
+
+full\_gui.py是入口文件，打开文件后会进入到skewApp函数
+
+decoder.py是所有decoder类的父类，在读取文件后会依次判断解析器，其中，spcdecoder、buf_decoder、pecan_decoder都是decoder的一个子类。
+
+spc_decoder.py_中的parse函数会对解码后的文件内容进行规整，然后调用profile.py中的create\_profile函数创建一个profile对象（此时还没有进行计算，只是创建了一个对象\)
+
+随后会调用spcwindow.py中的addprofilecollection，进而调用spc\_widget的addprofilecollection函数。
+
+在spc\_widget的addprofilecollection函数中，利用更新的profile进行updateProfs函数操作
+
