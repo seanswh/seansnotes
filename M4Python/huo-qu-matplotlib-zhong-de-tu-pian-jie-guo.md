@@ -8,5 +8,3 @@ Jupyter Notebook中，在使用了“神奇的"%matplotlib inline以后，所有
 
 下面修改PythonConnection类，增加了一个局部变量 PyDict local\_dic，这个是一个很有意思的功能，搭配类中的PopLocal和PushLocal函数使用，另外，注意下面这个函数：
 
-
-
