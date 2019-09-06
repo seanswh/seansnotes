@@ -10,17 +10,15 @@ Jupyter Notebook中，在使用了“神奇的"%matplotlib inline以后，所有
 
 这样，在执行下面的这个代码：
 
-`x = np.linspace(0,10,1000)`
+`x = np.linspace(0,10,1000)`
 
-`y = np.sin(x)`
+`y = np.sin(x)`
 
-`fig = plt.figure()`
+`fig = plt.figure()`
 
 `plt.plot(x,y,label="$sin(x)$",color="b",linewidth=2)`
 
-之后，local\_dic中会包含如下信息：![](/assets/3.PNG)这个里面包含了fig这个变量，剩下的就是把这个变量读取出来，在pyconnection类中增加updateplot函数，可以用如下代码获取出这个结果：
+之后，local\_dic中会包含如下信息：这个里面包含了fig这个变量，剩下的就是把这个变量读取出来，在pyconnection类中增加updateplot函数，可以用如下代码获取出这个结果：
 
-
-
-
+![](/assets/5.PNG)
 
