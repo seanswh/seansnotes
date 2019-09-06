@@ -6,5 +6,7 @@ Jupyter Notebook中，在使用了“神奇的"%matplotlib inline以后，所有
 
 换一个思路解决问题，是使用PyDic Local变量。首先改变matplotlib的输出图片类型，![](/assets/1.PNG)这个与PyDic Local变量无关.
 
-下面修改PythonConnection类，增加了一个局部变量 PyDict local\_dic，这个是一个很有意思的功能，搭配类中的PopLocal和PushLocal函数使用，另外，注意下面这个函数：
+下面修改PythonConnection类，增加了一个局部变量 PyDict local\_dic，这个是一个很有意思的功能，搭配类中的PopLocal和PushLocal函数使用，另外，注意下面这个函数：![](/assets/2.PNG)在执行Python的code之前先把pydict压入堆栈，然后在执行完代码以后再从堆栈中弹出pydic变量，
+
+
 
