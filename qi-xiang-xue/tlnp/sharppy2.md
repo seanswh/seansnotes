@@ -12,13 +12,9 @@
 
 --------------------------执行顺序-------------------------------
 
-1）full\_gui.py是入口文件，启动后会初始化界面，界面初始化时，会调用datasource.py的loadDataSources方法，加载出来所有默认的数据源地址
+1）full_gui.py是入口文件，启动后会初始化界面，界面初始化时，会调用datasource.py的loadDataSources方法\(full_gui.py 99行\)，加载出来所有默认的数据源地址。datasource.py是一个处理数据源的功能集合，包括读取相应配置生成数据源信息，对数据源进行ping已测试是否可以连接等
 
 2）
-
-
-
-
 
 3）打开文件后会进入到skewApp函数。decoder.py是所有decoder类的父类，在读取文件后会依次判断解析器，其中，spcdecoder、buf\_decoder、pecan\_decoder都是decoder的一个子类。
 
