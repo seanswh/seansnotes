@@ -22,5 +22,5 @@ spc_decoder.py_中的parse函数会对解码后的文件内容进行规整，然
 
 在spc\_widget的addprofilecollection函数中，利用更新的profile进行updateProfs函数操作
 
-计算**气压log值**：profile.py:301行,计算虚温：302行
+
 
