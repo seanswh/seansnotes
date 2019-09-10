@@ -16,3 +16,7 @@ Axes类和它的成员函数是面向对象接口进行编程的主要入口
 
 ### Artist
 
+一般来说，你在figure上看到的任何图元都是一个Artist\(甚至包括figure，Axes，以及Axis等对象\)。Artist包括了文本对象、Line2D对象，集合对象\(collection objects\)以及Patch对象等。当figure被绘制的时候，所有的artists被绘制在canvas上。绝大多数的Artist被绑定在一个Axes上，而Artist无法被多个Axes共享，也不能在Axes之间移动
+
+
+
