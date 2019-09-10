@@ -18,5 +18,5 @@ plt.show()
 
 **pylab**是一个快捷模块，将pyplot和numpy模块一次性的import进来，由于命名空间污染等问题，**不建议使用pylab模块**
 
-
+对于非交互式绘图，建议使用pyplot创建图形（figure），然后使用类对象的方式进行绘图。
 
