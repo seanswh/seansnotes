@@ -12,5 +12,7 @@ Axes类和它的成员函数是面向对象接口进行编程的主要入口
 
 ### Axis
 
-这是**数字-线**型\(number-line-like\)的对象。它用来负责绘制图形的边界，创建刻度线\(ticks\)以及刻度线上的字符串\(tickable\)。刻度的位置由Locator对象决定，tickable
+这是**数字-线**型\(number-line-like\)的对象。它用来负责绘制图形的边界，创建刻度线\(ticks\)以及刻度线上的字符串\(tickable\)。刻度的位置由Locator对象决定，tickable的字体格式由Formatter对象决定。
+
+### Artist
 
