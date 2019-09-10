@@ -20,3 +20,12 @@ plt.show()
 
 对于非交互式绘图，建议使用pyplot创建图形（figure），然后使用类对象的方式进行绘图。
 
+为了避免不必要的麻烦，建议按照一下方式引用模块：
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
+
+
