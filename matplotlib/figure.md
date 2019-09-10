@@ -2,5 +2,5 @@
 
 ![](/assets/anatomy.png)
 
-上图是一个Figure的组成，
+上图是一个Figure的组成，一个Figure包含各个轴（axes\),一部分特殊元素（标题，图例等）以及画布\(canvas\)，一个画布是绘制区域，但是对于用户来说通常是不可见的。
 
