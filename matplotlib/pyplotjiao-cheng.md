@@ -28,13 +28,5 @@ plt.show()
 
 可以创建任意数量的子图和轴。如果要手动放置轴，即不在矩形网格上，请使用 axes\(\) 命令，该命令允许您将位置指定为`axes([left，bottom，width，height])`，其中所有值均为小数（0到1）坐标。
 
-可以使用
-
-[clf\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.clf.html#matplotlib.pyplot.clf)
-
-清除当前图形，使用
-
-[cla\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.cla.html#matplotlib.pyplot.cla)
-
-清除当前轴
+使用[clf\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.clf.html#matplotlib.pyplot.clf)清除当前图形，使用[cla\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.cla.html#matplotlib.pyplot.cla)清除当前轴
 
