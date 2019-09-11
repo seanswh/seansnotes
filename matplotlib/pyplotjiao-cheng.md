@@ -28,5 +28,7 @@ plt.show()
 
 可以创建任意数量的子图和轴。如果要手动放置轴，即不在矩形网格上，请使用 axes\(\) 命令，该命令允许您将位置指定为`axes([left，bottom，width，height])`，其中所有值均为小数（0到1）坐标。
 
-使用[clf\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.clf.html#matplotlib.pyplot.clf)清除当前图形，使用[cla\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.cla.html#matplotlib.pyplot.cla)清除当前轴
+使用[clf\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.clf.html#matplotlib.pyplot.clf)清除当前图形，使用[cla\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.cla.html#matplotlib.pyplot.cla)清除当前轴\(Axes\)
+
+如果你要制作大量的图像，你还需要注意一件事：在用[close\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.close.html#matplotlib.pyplot.close)显式关闭figure之前，创建figure所需的内存不会完全释放。删除对figure的所有引用或使用窗口管理器来杀死屏幕上出现图形的窗口是不够的，因为pyplot会保持内部引用，直到调用[close\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.close.html#matplotlib.pyplot.close)。
 
