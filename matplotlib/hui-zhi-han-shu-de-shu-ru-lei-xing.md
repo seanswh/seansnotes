@@ -27,5 +27,15 @@ matplotlib.use('PS')# generate postscript output by default
 
 渲染器有矢量与栅格之分，矢量渲染器的渲染命令更像是“从某点到某点绘制一条线”，而栅格渲染器则是生成线段的像素显示，其精度取决于DPI的大小。
 
+下面是matplotlib渲染器的摘要\(每个渲染器都有一个同名的后端；它们是非交互式后端，能够写入文件\)：
+
+| 渲染格式 | 文件类型 | 描述 |
+| :--- | :--- | :--- |
+| [AGG](https://matplotlib.org/glossary/index.html#term-agg) | [png](https://matplotlib.org/glossary/index.html#term-png) | [raster graphics](https://matplotlib.org/glossary/index.html#term-raster-graphics)-- 使用[反纹理几何（Anti-Grain Geometry）](http://antigrain.com/)引擎的高质量图像。 |
+| PS | [ps](https://matplotlib.org/glossary/index.html#term-ps)[eps](https://matplotlib.org/glossary/index.html#term-eps) | [vector graphics](https://matplotlib.org/glossary/index.html#term-vector-graphics)--[Postscript](https://en.wikipedia.org/wiki/PostScript)output |
+| PDF | [pdf](https://matplotlib.org/glossary/index.html#term-pdf) | [vector graphics](https://matplotlib.org/glossary/index.html#term-vector-graphics)--[Portable Document Format](https://en.wikipedia.org/wiki/Portable_Document_Format) |
+| SVG | [svg](https://matplotlib.org/glossary/index.html#term-svg) | [vector graphics](https://matplotlib.org/glossary/index.html#term-vector-graphics)--[Scalable Vector Graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) |
+| [Cairo](https://matplotlib.org/glossary/index.html#term-cairo) | [png](https://matplotlib.org/glossary/index.html#term-png)[ps](https://matplotlib.org/glossary/index.html#term-ps)[pdf](https://matplotlib.org/glossary/index.html#term-pdf)[svg](https://matplotlib.org/glossary/index.html#term-svg) | [raster graphics](https://matplotlib.org/glossary/index.html#term-raster-graphics)和[vector graphics](https://matplotlib.org/glossary/index.html#term-vector-graphics)-- 使用[Cairo图形库\(Cairo graphics\)](https://www.cairographics.org/)库 |
+
 
 
