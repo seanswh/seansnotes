@@ -53,6 +53,7 @@
   * [基本概念](/matplotlib/1.md)
   * [Figure](matplotlib/figure.md)
   * [后端Backends](matplotlib/hui-zhi-han-shu-de-shu-ru-lei-xing.md)
+  * [Pyplot教程](matplotlib/pyplotjiao-cheng.md)
 * [kafka学习](/kafka/README.md)
   * [消息发布/消费模式](/kafka/message_send_mode.md)
   * [基本概念](/kafka/basics.md)
