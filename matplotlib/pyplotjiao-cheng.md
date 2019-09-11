@@ -26,3 +26,15 @@ plt.show()
 
 [figure\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.figure.html#matplotlib.pyplot.figure)命令可以不写，因为默认情况下将pyplot会创建`figure(1)`，就像默认情况下创建`subplot(111)`一样。[subplot\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html#matplotlib.pyplot.subplot)命令指定`numrows`,`numcols`,`plot_number`，其中`plot_number`的范围`从1到numrows*numcols`。如果`numrows * numcols <10`，则subplot命令中的逗号是可选的。因此`subplot(211)`与`subplot(2, 1, 1)`相同。
 
+可以创建任意数量的子图和轴。如果要手动放置轴，即不在矩形网格上，请使用 axes\(\) 命令，该命令允许您将位置指定为`axes([left，bottom，width，height])`，其中所有值均为小数（0到1）坐标。
+
+可以使用
+
+[clf\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.clf.html#matplotlib.pyplot.clf)
+
+清除当前图形，使用
+
+[cla\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.cla.html#matplotlib.pyplot.cla)
+
+清除当前轴
+
