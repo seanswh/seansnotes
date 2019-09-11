@@ -17,5 +17,5 @@ import matplotlib
 matplotlib.use('PS')# generate postscript output by default
 ```
 
-
+如果要使用use\(\)函数，该函数必须要在 import matplotlib.pyplot 语句之前，否则不会起作用。使用use之后，如果用户需要使用不同的backend，需要用户调整代码方式。
 
