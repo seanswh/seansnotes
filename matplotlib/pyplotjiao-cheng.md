@@ -8,3 +8,21 @@
 
 pyplot有当前figure或者当前Axes的概念，所有的绘图操作都是对当前axes操作，可以通过gca函数返回当前的axes（是一个matplotlib.axes.Axes的实例），gcf函数返回当前figure\(matplotlib.figure.Figure实例）。
 
+```
+def f(t):
+    return np.exp(-t) * np.cos(2*np.pi*t)
+
+t1 = np.arange(0.0, 5.0, 0.1)
+t2 = np.arange(0.0, 5.0, 0.02)
+
+plt.figure()
+plt.subplot(211)
+plt.plot(t1, f(t1), 'bo', t2, f(t2), 'k')
+
+plt.subplot(212)
+plt.plot(t2, np.cos(2*np.pi*t2), 'r--')
+plt.show()
+```
+
+[figure\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.figure.html#matplotlib.pyplot.figure)命令可以不写，因为默认情况下将pyplot会创建`figure(1)`，就像默认情况下创建`subplot(111)`一样。[subplot\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html#matplotlib.pyplot.subplot)命令指定`numrows`,`numcols`,`plot_number`，其中`plot_number`的范围`从1到numrows*numcols`。如果`numrows * numcols <10`，则subplot命令中的逗号是可选的。因此`subplot(211)`与`subplot(2, 1, 1)`相同。
+
