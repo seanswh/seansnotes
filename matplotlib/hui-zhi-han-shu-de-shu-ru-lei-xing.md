@@ -19,7 +19,13 @@ matplotlib.use('PS')# generate postscript output by default
 
 如果要使用use\(\)函数，该函数必须要在 import matplotlib.pyplot 语句之前，否则不会起作用。使用use之后，如果用户需要使用不同的backend，需要用户调整代码方式。
 
-注意：后端名称大小写不敏感，比如'GTK3Agg' and 'gtk3agg'是等效的。
+> 注意：后端名称大小写不敏感，比如'GTK3Agg' and 'gtk3agg'是等效的。
+>
+> 注：上述的第三种方式是目前MICAPS4工具箱显示matplotlib结果的实现方式。
 
-注：上述的第三种方式是目前MICAPS4工具箱显示matplotlib结果的实现方式。
+为了使图形用户界面可以更加自定义，matplotlib将画布（绘图所在的位置）与渲染器（实际进行绘制的工具）的概念分开，一般使用用户界面进行绘制的经典渲染器就是AGG渲染器了，它使用[Anti-Grain Geometry](http://antigrain.com/) C++ 库来进行图像绘制。除了macosx以外，除macosx之外的所有用户界面都可以与agg渲染一起使用，包括WXAgg，GTK3Agg，QT4Agg，QT5Agg，TkAgg等。
+
+渲染器有矢量与栅格之分，矢量渲染器的渲染命令更像是“从某点到某点绘制一条线”，而栅格渲染器则是生成线段的像素显示，其精度取决于DPI的大小。
+
+
 
