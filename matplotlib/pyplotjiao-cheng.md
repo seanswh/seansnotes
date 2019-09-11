@@ -4,3 +4,7 @@
 
 注意： pyplot直接调用的API函数通常不如面向对象的API灵活。
 
+### 多个figure与Axes之间进行绘制
+
+pyplot有当前figure或者当前Axes的概念，所有的绘图操作都是对当前axes操作，可以通过gca函数返回当前的axes（是一个matplotlib.axes.Axes的实例），gcf函数返回当前figure\(matplotlib.figure.Figure实例）。
+
