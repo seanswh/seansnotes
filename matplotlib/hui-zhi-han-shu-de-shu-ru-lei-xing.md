@@ -21,3 +21,5 @@ matplotlib.use('PS')# generate postscript output by default
 
 注意：后端名称大小写不敏感，比如'GTK3Agg' and 'gtk3agg'是等效的。
 
+注：上述的第三种方式是目前MICAPS4工具箱显示matplotlib结果的实现方式。
+
