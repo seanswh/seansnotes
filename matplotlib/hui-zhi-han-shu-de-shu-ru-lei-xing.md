@@ -8,3 +8,5 @@ matplotlib针对许多不同的应用场景定义了不同的输出格式。有�
 
 方法1:修改matplotlibrc文件
 
+方法2：
+
