@@ -6,3 +6,5 @@ matplotlib针对许多不同的应用场景定义了不同的输出格式。有�
 
 有四种方式来配置后端，如果这些方式之间有冲突，那么后面介绍的方法会覆盖掉前面的，例如，调用[use\(\)](https://matplotlib.org/api/matplotlib_configuration_api.html#matplotlib.use)将覆盖`matplotlibrc`中的设置。
 
+方法1:修改matplotlibrc文件
+
