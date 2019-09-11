@@ -8,5 +8,14 @@ matplotlib针对许多不同的应用场景定义了不同的输出格式。有�
 
 方法1:修改matplotlibrc文件
 
-方法2：
+方法2：设置MPLBACKEND环境变量，设置这个环境变量后会覆盖matplotlibrc文件中的参数
+
+方法3：代码实现：
+
+```
+import matplotlib
+matplotlib.use('PS')# generate postscript output by default
+```
+
+
 
