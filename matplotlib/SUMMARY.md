@@ -1,6 +1,6 @@
 所有的绘制函数都支持np.array或者np.ma.masked\_array作为输入，一些“数组类型”的类如pandas数据对象或者np.matrix可能会无法正常显示，如果需要使用，最好将上述类型转换成np.array类型
 
-**Matplotlib, pyplot and pylab之间的关系**:**Matplotlib**是整个包，**pyplot**是绘制模块。在pyplot模块中，总会有一个“当前”的figure和axes
+**Matplotlib, pyplot and pylab之间的关系**:**Matplotlib**是整个包，**pyplot**是绘制模块。在pyplot模块中，总会有一个“当前”\(current\)的figure和axes
 
 ```
 x = np.linspace(0, 2, 100)
