@@ -17,7 +17,7 @@ PythonTool工具箱问题记录
 10. 每一个section执行的时候，要先把原来的输出清空，然后执行，最后把结果填上
 11. 如果使用的是IPython的javascript实现，考虑把%matplotlib inline也实现（用的是其他办法）
 12. ~~支持image对象的显示~~
-13. Image对象会被拉伸
+13. Image对象会被拉伸，建议保留原始尺寸
 
 
 
