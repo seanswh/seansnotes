@@ -32,3 +32,7 @@ plt.show()
 
 如果你要制作大量的图像，你还需要注意一件事：在用[close\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.close.html#matplotlib.pyplot.close)显式关闭figure之前，创建figure所需的内存不会完全释放。删除对figure的所有引用或使用窗口管理器来杀死屏幕上出现图形的窗口是不够的，因为pyplot会保持内部引用，直到调用[close\(\)](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.close.html#matplotlib.pyplot.close)。
 
+### Text文本相关
+
+
+
