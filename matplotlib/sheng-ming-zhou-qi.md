@@ -7,5 +7,15 @@ matplotlib有两种接口，第一个是面向对象的接口，我们使用Axes
 
 我们可以调用Axes上的绘制函数进行直接绘制，这种方式提供了更加灵活和强大的自定义绘制方式。也就是说，尽量使用面向对象的绘图方式，而不是使用Pyplot中的。
 
+存储：
+
+使用[`figure.Figure.savefig()`](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure.savefig)可以将当前figure存储在磁盘中，有以下常用参数:
+
+`transparent=True`makes the background of the saved figure transparent if the format supports it.
+
+`dpi=80`controls the resolution \(dots per square inch\) of the output.
+
+`bbox_inches="tight"`fits the bounds of the figure to our plot.
+
 
 
