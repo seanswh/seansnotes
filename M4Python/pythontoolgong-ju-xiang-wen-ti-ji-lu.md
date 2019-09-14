@@ -18,7 +18,7 @@ PythonTool工具箱问题记录
 11. 如果使用的是IPython的javascript实现，考虑把%matplotlib inline也实现（用的是其他办法）
 12. ~~支持image对象的显示~~
 13. ~~Image对象会被拉伸，建议保留原始尺寸~~
-14. 多次执行代码输出Image，界面不替换
+14. 同一代码修改后输出不同的Image，执行脚本后，界面不替换
 
 
 
