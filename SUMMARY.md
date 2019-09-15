@@ -146,3 +146,8 @@
   * [TLNP其他资源](qi-xiang-xue/tlnp/tlnpqi-ta-zi-yuan.md)
   * [sharppy\_3](qi-xiang-xue/tlnp/sharppy3.md)
 
+## 3Blue1Brown
+
+* [微积分与导数](3blue1brown/wei-ji-fen-yu-dao-shu.md)
+  * [微积分的本质](3blue1brown/wei-ji-fen-yu-dao-shu/wei-ji-fen-de-ben-zhi.md)
+
