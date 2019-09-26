@@ -70,7 +70,7 @@
     * [标准查询1](CSharp/LINQ/biao-zhun-cha-xun-1.md)
     * [标准查询2](CSharp/LINQ/biao-zhun-cha-xun-2.md)
 * 统计学
-  * [平均数、众数、中位数](ping-jun-shu-3001-zhong-shu-3001-zhong-wei-shu.md)
+  * [平均数、众数、中位数、分位数](ping-jun-shu-3001-zhong-shu-3001-zhong-wei-shu.md)
 
 ## Coursera
 
