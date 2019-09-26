@@ -1,5 +1,5 @@
 [https://wiki.mbalib.com/wiki/箱线图](https://wiki.mbalib.com/wiki/箱线图)  
 箱线图（Boxplot）也称箱须图（Box-whisker Plot），是利用数据中的五个统计量：最小值、第一四分位数、中位数、第三四分位数与最大值来描述数据的一种方法，它也可以粗略地看出数据是否具有有对称性，分布的分散程度等信息，特别可以用于对几个样本的比较。
 
-
+![](/assets/400px-箱线图图示2.jpg)
 
