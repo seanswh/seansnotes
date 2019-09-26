@@ -69,9 +69,9 @@
     * [LINQ方法语法](CSharp/LINQ/linqfang-fa-yu-fa.md)
     * [标准查询1](CSharp/LINQ/biao-zhun-cha-xun-1.md)
     * [标准查询2](CSharp/LINQ/biao-zhun-cha-xun-2.md)
-* [统计学](tong-ji-xue.md)
-  * [平均数、众数、中位数、分位数](ping-jun-shu-3001-zhong-shu-3001-zhong-wei-shu.md)
-  * [箱须图](xiang-xu-tu.md)
+* [统计学](Statics/tong-ji-xue.md)
+  * [平均数、众数、中位数、分位数](Statics/ping-jun-shu-3001-zhong-shu-3001-zhong-wei-shu.md)
+  * [箱须图](Statics/xiang-xu-tu.md)
 
 ## Coursera
 
