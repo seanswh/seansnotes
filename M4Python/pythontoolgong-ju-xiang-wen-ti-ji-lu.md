@@ -15,7 +15,7 @@ PythonTool工具箱问题记录
 8. 所有的markdown section在加载的时候就应该被执行
 9. Ctrl+S保存快捷键
 10. 每一个section执行的时候，要先把原来的输出清空，然后执行，最后把结果填上
-11. 如果使用的是IPython的javascript实现，考虑把%matplotlib inline也实现（用的是其他办法）
+11. ~~如果使用的是IPython的javascript实现，考虑把%matplotlib inline也实现（用的是其他办法）~~
 12. ~~支持image对象的显示~~
 13. ~~Image对象会被拉伸，建议保留原始尺寸~~
 14. 同一代码修改后输出不同的Image，执行脚本后，界面不更新
