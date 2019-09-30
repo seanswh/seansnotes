@@ -4,7 +4,7 @@
 #类定义
 class PartyAnimal:
     x = 0
-    def party(self):
+    def party(self):      函数定义
         self.x = self.x+1
         print('so far',self.x)
     def __del__(self):    析构函数
