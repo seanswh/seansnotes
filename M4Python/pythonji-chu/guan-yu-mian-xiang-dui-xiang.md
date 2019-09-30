@@ -17,5 +17,14 @@ an.party()
 an = 42
 ```
 
+```
+class FootballFan(PartyAnimal): 子类
+    points= 0                    子类的属性
+    def touchdown(self):
+        self.points = self.points + 7
+        self.party()
+        print("points",self.points)
+```
 
+![](/assets/6.png)
 
