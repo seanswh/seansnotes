@@ -42,6 +42,8 @@
     * [贴图光照1](OPENGL/tie-tu-guang-zhao-1.md)
     * [投光物1](OPENGL/tou-guang-wu-1.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
+  * [Python基础](M4Python/pythonji-chu.md)
+    * [关于面向对象](M4Python/pythonji-chu/guan-yu-mian-xiang-dui-xiang.md)
   * [环境设置](/M4Python/EnvConfig.md)
   * [PythonTool工具箱问题记录](M4Python/pythontoolgong-ju-xiang-wen-ti-ji-lu.md)
   * [获取matplotlib中的图片结果](M4Python/huo-qu-matplotlib-zhong-de-tu-pian-jie-guo.md)
