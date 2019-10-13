@@ -15,7 +15,7 @@
     * [hello，三角形](/OPENGL/Hello三角形.md)
     * [hello，三角形2](/OPENGL/Hello三角形2.md)
     * [hello，三角形3\_VAO](/OPENGL/Hello三角形3.md)
-    * [hello，三角形4](/OPENGL/Hello三角形4.md)
+    * [hello，三角形4\_EBO](/OPENGL/Hello三角形4.md)
     * [着色器1](/OPENGL/着色器1.md)
     * [着色器2](/OPENGL/着色器2.md)
     * [着色器3](/OPENGL/着色器3.md)
