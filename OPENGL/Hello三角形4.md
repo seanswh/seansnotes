@@ -3,7 +3,7 @@ EBO主要用在不同物体之间有很多重叠的顶点时，如果不使用EB
 与VBO一样，EBO也是一个缓冲，只不过存储的是索引。  
 创建索引缓冲对象：
 
-`GLuint EBO;            
+`GLuint EBO;              
 glGenBuffers(1, &EBO);`
 
 与VBO类似，首先绑定EBO，然后用glBufferData把索引复制到缓冲里。和VBO类似，我们会把这些函数调用放在绑定和解绑函数调用之间，只不过这次我们把缓冲的类型定义为GL\_ELEMENT\_ARRAY\_BUFFER。
@@ -54,7 +54,8 @@ glBindVertexArray(0);
 [...]
 // ..:: 绘制代码（游戏循环中） :: ..
 glUseProgram(shaderProgram);
-glBindVertexArray(VAO);glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0)
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0)
 glBindVertexArray(0);
 ```
 
