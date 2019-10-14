@@ -12,7 +12,7 @@ PythonTool工具箱问题记录
 5. ~~保存ipynb文件后再打开，所有回车换行丢失\(已解决\)~~
 6. 左侧树形图里没有当前正在编辑的激活状态信息
 7. markdown目前不支持markdown语法
-8. 所有的markdown section在加载的时候就应该被执行
+8. ~~所有的markdown section在加载的时候就应该被执行~~
 9. Ctrl+S保存快捷键
 10. 每一个section执行的时候，要先把原来的输出清空，然后执行，最后把结果填上
 11. ~~如果使用的是IPython的javascript实现，考虑把%matplotlib inline也实现（用的是其他办法）~~
