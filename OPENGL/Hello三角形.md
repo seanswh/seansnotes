@@ -12,11 +12,11 @@
 
 `glGenBuffers(1, &VBO);`
 
-OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRAY\_BUFFER。OpenGL允许我们同时绑定多个缓冲，只要它们是不同的缓冲类型，每一个类型的缓冲绑定一次。我们可以使用glBindBuffer函数把新创建的缓冲绑定到GL\_ARRAY\_BUFFER目标上
+OpenGL有很多缓冲对象类型，顶点缓冲对象的缓冲类型是GL\_ARRAY\_BUFFER。OpenGL允许我们同时绑定多个缓冲，只要它们是不同的缓冲类型，**每一个类型的缓冲绑定一次**。我们可以使用glBindBuffer函数把新创建的缓冲绑定到GL\_ARRAY\_BUFFER目标上
 
 `glBindBuffer(GL_ARRAY_BUFFER, VBO);`
 
-从这一刻起，**我们使用的任何GL\_ARRAY\_BUFFE缓冲调用都会用来配置当前绑定的缓冲\(VBO\)**。然后我们可以调用glBufferData函数，它会把之前定义的顶点数据复制到缓冲的内存中（从内存到显存）：
+从这一刻起，**我们使用的任何GL\_ARRAY\_BUFFER缓冲调用都会用来配置当前绑定的缓冲\(VBO\)**。然后我们可以调用glBufferData函数，它会把之前定义的顶点数据复制到缓冲的内存中（从内存到显存）：
 
 `glBufferData(GL_ARRAY_BUFFER,sizeof(vertices), vertices, GL_STATIC_DRAW);`
 

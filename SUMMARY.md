@@ -13,9 +13,9 @@
   * [入门](OPENGL/ru-men.md)
     * [pipeline介绍](/OPENGL/Day1.md)
     * [hello，三角形](/OPENGL/Hello三角形.md)
-    * [hello，三角形2](/OPENGL/Hello三角形2.md)
-    * [hello，三角形3](/OPENGL/Hello三角形3.md)
-    * [hello，三角形4](/OPENGL/Hello三角形4.md)
+    * [hello，三角形2\_VBO](/OPENGL/Hello三角形2.md)
+    * [hello，三角形3\_VAO](/OPENGL/Hello三角形3.md)
+    * [hello，三角形4\_EBO](/OPENGL/Hello三角形4.md)
     * [着色器1](/OPENGL/着色器1.md)
     * [着色器2](/OPENGL/着色器2.md)
     * [着色器3](/OPENGL/着色器3.md)
@@ -124,6 +124,8 @@
   * [第十一周](/机器学习/week2.md)
     * [第十一周1](机器学习/week11_1.md)
     * [第十一周2](机器学习/week11_2.md)
+* 数据库
+  * [数据库设计原则](机器学习/shu-ju-ku-she-ji-yuan-ze.md)
 
 ## edx
 
