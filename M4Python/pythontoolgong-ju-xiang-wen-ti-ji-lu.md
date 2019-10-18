@@ -19,7 +19,8 @@ PythonTool工具箱问题记录
 12. ~~支持image对象的显示~~
 13. ~~Image对象会被拉伸，建议保留原始尺寸~~
 14. ~~同一代码修改后输出不同的Image，执行脚本后，界面不更新~~
-15. ipynb加载以后只执行Markdown中的部分，python脚本先不执行
+15. ~~ipynb加载以后只执行Markdown中的部分，python脚本先不执行~~
+16. 无法在markdown section下面再添加markdown section
 
 
 
