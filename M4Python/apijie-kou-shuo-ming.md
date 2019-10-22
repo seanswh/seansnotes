@@ -11,9 +11,9 @@
 
    7. ILayer GetLayerFromLayerName\(string name\)：根据图层名称获得当前激活窗口中的图层。
 
-   8.  ILayer DisplayFileinMICAPS\(string filePath\)：显示指定路径下的文件，并返回对应的图层。
+   8. ILayer DisplayFileinMICAPS\(string filePath\)：显示指定路径下的文件，并返回对应的图层。
 
-   9. 
+   9.  string GetLayerType\(ILayer layer\)：获得图层类型。包含；feature/grid/raster/coposite/unknown
 
 2. 站点数据类
 
