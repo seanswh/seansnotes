@@ -11,7 +11,7 @@
 
 2. 站点数据类
 
-   1. string ElementListConvert\(string rawList, string database\)：把MDFS中的站点属性列表转换成CIMISS对应的属性列表.rawlist：站点属性列表，以”，“分隔，如”温度，海平面气压“；database：站点所在的CIMISS表名称
+   1. string ElementListConvert\(string rawList, string database\)：把MDFS中的站点属性列表转换成CIMISS对应的属性列表.rawlist：站点属性列表，以”，“分隔，如”温度，海平面气压“；database：站点所在的CIMISS表名称。详细可查看mdfs\_obselems\_pair.json文件中的说明信息。
 
 3. 格点数据类
 
