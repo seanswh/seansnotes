@@ -51,6 +51,7 @@
     * [基本配置](M4Python/pandas.md)
     * [基础知识](M4Python/ji-chu-zhi-shi.md)
   * [第一章](/M4Python/Chapter1.md)
+  * [API接口说明](M4Python/apijie-kou-shuo-ming.md)
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
   * [Figure](matplotlib/figure.md)
