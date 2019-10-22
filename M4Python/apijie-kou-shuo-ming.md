@@ -11,7 +11,7 @@
 
 2. 站点数据类
 
-   1. string ElementListConvert\(string rawList, string database\)：
+   1. string ElementListConvert\(string rawList, string database\)：把MDFS中的站点树形列表转换成文本可读性的树形列表
 
 3. 格点数据类
 
