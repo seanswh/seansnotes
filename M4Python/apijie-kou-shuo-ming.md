@@ -18,7 +18,7 @@
 3. 格点数据类
 
    1. string GetModelTlnpFromMDFS\(string modelType,
-       string fileDesc, int duration, float lontitude, float latitude\)：返回模式TLNP结果。modelType：模式类型\(ecmwf、\);fileDesc:8.3格式文件名，YYMMDDHH代表起报时间；duration：预报时效
+       string fileDesc, int duration, float lontitude, float latitude\)：返回模式TLNP结果。modelType：模式类型\(ecmwf、\);fileDesc:8.3格式文件名，YYMMDDHH代表起报时间；duration：预报时效；lontitude，latitude：站点经纬度
 
 
 
