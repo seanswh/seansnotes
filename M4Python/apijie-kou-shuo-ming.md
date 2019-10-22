@@ -8,7 +8,7 @@
 
 2. 站点数据类
 
-   1. 
+   1. DisplayLayerInMICAPS\(ILayer layer\)：显示某一图层
 
 3. 格点数据类
 
