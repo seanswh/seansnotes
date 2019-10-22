@@ -7,7 +7,11 @@
    3. IDataProvider GetProviderFromILayer\(ILayer layer\)：根据ILayer，返回数据源DataProvider
    4. DisposeLayer\(ILayer layer\)：删除某一图层并释放其资源
    5. DisplayLayerInMICAPS\(ILayer layer\)：添加某一图层并显示
-   6. 
+   6. string GetAllLayersName\(\)：获取M4当前窗口的所有图层名称
+
+   7. ILayer GetLayerFromLayerName\(string name\)：根据图层名称获得当前激活窗口中的图层。
+
+   8. 
 
 2. 站点数据类
 
