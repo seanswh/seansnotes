@@ -19,7 +19,8 @@
 
    1. string GetModelTlnpFromMDFS\(string modelType,
        string fileDesc, int duration, float lontitude, float latitude\)：返回模式TLNP结果。modelType：模式类型\(ecmwf、\);fileDesc:8.3格式文件名，YYMMDDHH代表起报时间；duration：预报时效；lontitude，latitude：站点经纬度
-   2. string GetModelSerialFromMDFS\(float lon, float lat, string path,       string str\_fcstTime, int duration, int interval, int start\_duration = 0\)：获取模式时序结果。lon,lat:经纬度信息
+   2. string GetModelSerialFromMDFS\(float lon, float lat, string path,
+       string str\_fcstTime, int duration, int interval, int start\_duration = 0\)：获取模式时序结果（只支持MICAPS分布式数据路径）。lon,lat:经纬度信息。
 
 
 
