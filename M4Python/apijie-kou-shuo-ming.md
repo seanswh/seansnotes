@@ -13,7 +13,7 @@
 
    1. string ElementListConvert\(string rawList, string database\)：把MDFS中的站点属性列表转换成CIMISS对应的属性列表.rawlist：站点属性列表，以”，“分隔，如”温度，海平面气压“；database：站点所在的CIMISS表名称。详细可查看mdfs\_obselems\_pair.json文件中的说明信息。
    2. string GetElemsFromOBSTable\(string tablename\)：返回指定CIMISS站点表中全部的要素名称，以“CIMISS编码:中文属性名;CIMISS编码:中文属性名;"方式排列
-   3. 
+   3. string GetObsSerialFromMDFS\(string stationID, string table\_name, string elementList,       string startTime, string endTime, int interval\)：获取观测时序
 
 3. 格点数据类
 
