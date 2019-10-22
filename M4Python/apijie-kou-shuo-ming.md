@@ -32,10 +32,15 @@
        string fileDesc, int duration, float lontitude, float latitude\)：返回模式TLNP结果。modelType：模式类型\(ecmwf、\);fileDesc:8.3格式文件名，YYMMDDHH代表起报时间；duration：预报时效；lontitude，latitude：站点经纬度
    2. string GetModelSerialFromMDFS\(float lon, float lat, string path,
        string str\_fcstTime, int duration, int interval, int start\_duration = 0\)：获取模式时序结果（只支持MICAPS分布式数据路径）。lon,lat:经纬度信息。path：MDFS中该模式的路径。str\_fcstTime：起报时间\(yyyyMMddHH格式\)；duration：预报时效；interval：时序时间间隔；start\_duration：时序起始时效。
-   3.  GridData\[\] GetGridsFromGridLayer\(ILayer layer\)：获取图层中的格点值。
+   3. GridData\[\] GetGridsFromGridLayer\(ILayer layer\)：获取图层中的格点值。
    4. float\[\] GetFloatArrayFromGridData\(GridData griddata\)：从GridData中返回float数组。
-   5. float\[\] GetGridInfoFromLayer\(IGridDataLayer layer,       out int xsize,out int ysize, out float startlon, out float endlon,       out float startlat, out float endlat,out float lon\_interval,out float lat\_interval,       int index = 0\)：获取图层中的格点值，同时返回格点信息。
-   6. 
+   5. float\[\] GetGridInfoFromLayer\(IGridDataLayer layer,
+       out int xsize,out int ysize, out float startlon, out float endlon, 
+      out float startlat, out float endlat,out float lon\_interval,out float lat\_interval,
+       int index = 0\)：获取图层中的格点值，同时返回格点信息。
+   6. float\[\] GetFloatFromPath\(string gridPath\)：从格点数据中返回float\[\]数组
+
+   7. 
 
 
 
