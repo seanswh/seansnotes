@@ -8,7 +8,7 @@
 
 2. 站点数据类
 
-   1. List&lt;string&gt; GetFeaturesFromFeatureProvider\(IFeatureProvider provider\)
+   1. 
 
 3. 格点数据类
 
