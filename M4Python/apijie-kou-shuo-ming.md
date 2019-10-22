@@ -40,7 +40,7 @@
        int index = 0\)：获取图层中的格点值，同时返回格点信息。
    6. float\[\] GetFloatFromPath\(string gridPath\)：从格点数据中返回float\[\]数组
 
-   7. 
+   7. IGridDataLayer CreateNewLayerAcrdFloatArray\(float\[\] float\_array,int xsize,                  int ysize,float startlon,float endlon,float startlat,float endlat,string description\)：利用一个float数组创造一个
 
 
 
