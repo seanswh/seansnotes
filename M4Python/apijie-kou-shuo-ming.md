@@ -43,7 +43,9 @@
    7. IGridDataLayer CreateNewLayerAcrdFloatArray\(float\[\] float\_array,int xsize,  
                   int ysize,float startlon,float endlon,float startlat,float endlat,string description\)：利用一个float数组创造一个格点数据图层。
 
-   8. 
+   8. static void UpdateLayerWithAnalysisValue\(IGridDataLayer layer,string analysisvalue\)：设置格点图层的等值线分析值。analysisvalue：等值线值以逗号分隔。
+
+   9. UpdateLayerWithAnalysisRange\(IGridDataLayer layer, string analysisvalue\)：设置格点图层的等值线分析值。analysisvalue格式为“起始分析值，终止分析值:间隔"
 
 
 
