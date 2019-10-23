@@ -18,7 +18,7 @@ Fortran语言来自公式翻译系统，是一种通用的，命令式编程语�
 type-specifier :: variable_name
 ```
 
-常量**声明：**
+**常量声明：**
 
-
+ 
 
