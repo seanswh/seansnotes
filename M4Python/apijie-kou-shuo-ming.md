@@ -3,13 +3,13 @@
 1. 基础函数类
 
    1. `ILayerAddFileToM4(string rawpath,string filepattern = "", string stylekey = "")：`MICAPS中打开数据，rawpath为数据路径，支持文件绝对路径以及MDFS路径。filepattern\(可选\)，如果rawpath为全局路径，则该项不起作用，如果rawpath指向目录，则filepatter打开的文件名格式\(\*.000或\*.024\);stylekey\(可选\)，文件打开样式
-   2. ~~`ILayer GetILayerFromURI(string raw_path, string filepattern = "")`:根据路径加载数据，并返回新增加的图层。参数含义与AddFileToM4相同。（考虑删除）~~
+   2. `ILayer GetILayerFromURI(string raw_path, string filepattern = "")`~~:根据路径加载数据，并返回新增加的图层。参数含义与AddFileToM4相同。（考虑删除）~~
    3. IDataProvider GetProviderFromILayer\(ILayer layer\)：根据ILayer，返回数据源DataProvider
    4. DisposeLayer\(ILayer layer\)：删除某一图层并释放其资源
    5. DisplayLayerInMICAPS\(ILayer layer\)：添加某一图层并显示
    6. string GetAllLayersName\(\)：获取M4当前窗口的所有图层名称
 
-   7. ILayer GetLayerFromLayerName\(string name\)：根据图层名称获得当前激活窗口中的图层。
+   7. ILayer GetLayerAccdLayerName\(string name\)：根据图层名称获得当前激活窗口中的图层。
 
    8. ~~ILayer DisplayFileinMICAPS\(string filePath\)：显示指定路径下的文件，并返回对应的图层。~~
 
