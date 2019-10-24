@@ -2,7 +2,7 @@
 
 1. 基础函数类
 
-   1. `void AddFileToM4(string rawpath,string filepattern = "", string stylekey = "")：`MICAPS中打开数据，rawpath为数据路径，支持文件绝对路径以及MDFS路径。filepattern\(可选\)，如果rawpath为全局路径，则该项不起作用，如果rawpath指向目录，则filepatter打开的文件名格式\(\*.000或\*.024\);stylekey\(可选\)，文件打开样式
+   1. `ILayerAddFileToM4(string rawpath,string filepattern = "", string stylekey = "")：`MICAPS中打开数据，rawpath为数据路径，支持文件绝对路径以及MDFS路径。filepattern\(可选\)，如果rawpath为全局路径，则该项不起作用，如果rawpath指向目录，则filepatter打开的文件名格式\(\*.000或\*.024\);stylekey\(可选\)，文件打开样式
    2. `ILayer GetILayerFromURI(string raw_path, string filepattern = "")`:根据路径加载数据，并返回新增加的图层。参数含义与AddFileToM4相同。（考虑删除）
    3. IDataProvider GetProviderFromILayer\(ILayer layer\)：根据ILayer，返回数据源DataProvider
    4. DisposeLayer\(ILayer layer\)：删除某一图层并释放其资源
