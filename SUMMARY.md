@@ -80,6 +80,9 @@
 * [Fortran学习](fortranxue-xi.md)
 * [docker学习](dockerxue-xi.md)
   * [1](dockerxue-xi/1.md)
+* 大数据云平台
+  * [环境相关](huan-jing-xiang-guan.md)
+  * [大数据云平台接口说明](da-shu-ju-yun-ping-tai-jie-kou-shuo-ming.md)
 
 ## Coursera
 
