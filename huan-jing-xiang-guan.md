@@ -12,7 +12,5 @@
 
 3.[http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getCustomapiListByDataCode&dataCode=SURF\_CHN\_MUL\_HOR](http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getCustomapiListByDataCode&dataCode=SURF_CHN_MUL_HOR)
 
-最后，通过上述的dataCode值，可以获取某一个子类数据下所有要素信息
-
-其中，dataCode为数据格式编码，如：SURFCHN\_MUL\_HOR是中国地面逐小时资料
+最后，通过上述的dataCode值，可以获取某一个子类数据下所有要素信息。其中，dataCode为数据格式编码，如：SURFCHN\_MUL\_HOR是中国地面逐小时资料
 
