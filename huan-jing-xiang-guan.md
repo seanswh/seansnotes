@@ -4,5 +4,5 @@
 
 [http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getCustomapiListByDataCode&dataCode=SURF\_CHN\_MUL\_HOR](http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getCustomapiListByDataCode&dataCode=SURF_CHN_MUL_HOR)
 
-其中，dataCode为
+其中，dataCode为数据格式编码，
 
