@@ -79,8 +79,6 @@
 * [Fortran学习](fortranxue-xi.md)
 * [docker学习](dockerxue-xi.md)
   * [1](dockerxue-xi/1.md)
-  * 2
-  * [3](dockerxue-xi/3.md)
 
 ## Coursera
 
