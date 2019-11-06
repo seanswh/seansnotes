@@ -4,5 +4,5 @@
 
 目前完成：
 
-1。改造module.toolbox模块，
+1。改造module.toolbox模块，在SaveCommand.cs文件中增加InitializeMessage方法以及SendMessage方法
 
