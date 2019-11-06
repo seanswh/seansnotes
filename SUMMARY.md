@@ -64,6 +64,7 @@
   * [基本概念](/kafka/basics.md)
   * [一个例子](kafka/yi-ge-li-zi.md)
   * [项目尝试](/kafka/kafkaxue-xi.md)
+  * [图片预览](kafka/tu-pian-yu-lan.md)
 * [C\#](/CSharp/README.md)
   * [Lambda](/CSharp/lambda.md)
   * [LINQ](/CSharp/LINQ/README.md)
