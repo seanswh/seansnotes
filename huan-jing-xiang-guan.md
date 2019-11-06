@@ -8,7 +8,7 @@
 
 2.[http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getDataListByClassIdAndLimit&dataClassId=UPAR&apiUserId=NMIC\_XTS\_nixl](http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getDataListByClassIdAndLimit&dataClassId=RADA&apiUserId=NMIC_XTS_nixl)
 
-这个接口提供了根据ClassID，获取某一类资料下的全部数据子类，比如上述接口
+这个接口提供了根据ClassID，获取某一类资料下的全部数据子类，比如上述接口可以获取“高空”类下的数据子类信息，包括闪电定位\(AI专题库\)、全球高空定时值资料等
 
 3.[http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getCustomapiListByDataCode&dataCode=SURF\_CHN\_MUL\_HOR](http://10.40.17.34:8009/cmadaas/music/api?interfaceId=getCustomapiListByDataCode&dataCode=SURF_CHN_MUL_HOR)
 
