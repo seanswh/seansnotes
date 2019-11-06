@@ -6,3 +6,5 @@
 
 1。改造module.toolbox模块，在SaveCommand.cs文件中增加InitializeMessage方法以及SendMessage方法
 
+2.在module.toolbox中增加一个类，包含消息提结构，MessageData
+
