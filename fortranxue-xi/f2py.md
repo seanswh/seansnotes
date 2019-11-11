@@ -6,3 +6,7 @@ f2py 是用来连接 fortran 和 python 的 python 包，可以将 fortran 源�
 
 f2py是numpy自带的一个工具,只要安装了numpy,一般都会安装f2py.exe和f2py.py两个文件.f2py.exe适合在命令行中使用,而f2py.py则一般在python代码中使用.
 
+
+
+[http://fangs.in/post/python/pythonxfortran/](http://fangs.in/post/python/pythonxfortran/)
+
