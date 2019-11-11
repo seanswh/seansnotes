@@ -78,6 +78,7 @@
   * [平均数、众数、中位数、分位数](Statics/ping-jun-shu-3001-zhong-shu-3001-zhong-wei-shu.md)
   * [箱须图](Statics/xiang-xu-tu.md)
 * [Fortran学习](fortranxue-xi.md)
+    * [f2py](fortranxue-xi/f2py.md)
 * [docker学习](dockerxue-xi.md)
   * [1](dockerxue-xi/1.md)
 * 大数据云平台
