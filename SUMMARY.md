@@ -6,7 +6,6 @@
   * [关于gitbook与github集成](/测试部分/gitbook with github.md)
   * [Introduction](/测试部分/README.md)
   * [办理老年证](测试部分/ban-li-lao-nian-zheng.md)
-  * [Kafka学习](测试部分/kafkaxue-xi.md)
   * [D3.js学习](测试部分/javascriptdiao-shi.md)
   * [NetCDF格式](测试部分/netcdfge-shi.md)
 * [OPENGL学习](/OPENGL/README.md)
@@ -78,7 +77,7 @@
   * [平均数、众数、中位数、分位数](Statics/ping-jun-shu-3001-zhong-shu-3001-zhong-wei-shu.md)
   * [箱须图](Statics/xiang-xu-tu.md)
 * [Fortran学习](fortranxue-xi.md)
-    * [f2py](fortranxue-xi/f2py.md)
+  * [f2py](fortranxue-xi/f2py.md)
 * [docker学习](dockerxue-xi.md)
   * [1](dockerxue-xi/1.md)
 * 大数据云平台
