@@ -162,6 +162,8 @@
   * [sharppy\_2](qi-xiang-xue/tlnp/sharppy2.md)
   * [TLNP其他资源](qi-xiang-xue/tlnp/tlnpqi-ta-zi-yuan.md)
   * [sharppy\_3](qi-xiang-xue/tlnp/sharppy3.md)
+* [算法移植](qi-xiang-xue/suan-fa-yi-zhi.md)
+  * [脊线计算](qi-xiang-xue/suan-fa-yi-zhi/ji-xian-ji-suan.md)
 
 ## 3Blue1Brown
 
