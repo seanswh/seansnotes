@@ -17,7 +17,9 @@ Subscribe一个类型为string的消息，然后通过OncommandStarup函数进�
 ```
  private void OncommandStarup(string startupMessage)
  {
- 
+     if (startupMessage.StartsWith("messageQueue_"))
+     {
+     }
  }
 ```
 
