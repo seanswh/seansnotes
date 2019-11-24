@@ -54,8 +54,9 @@
       * [环境设置](/M4Python/EnvConfig.md)
       * [API接口说明](M4Python/apijie-kou-shuo-ming.md)
       * [第一章](/M4Python/Chapter1.md)
-  * 消息
+  * [消息](M4Python/xiao-xi.md)
     * [MICAPS总线中的消息](M4Python/micapszong-xian-zhong-de-xiao-xi.md)
+    * [M4中的Kafka消息](M4Python/m4zhong-de-kafka-xiao-xi.md)
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
   * [Figure](matplotlib/figure.md)
