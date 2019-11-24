@@ -26,5 +26,5 @@ class FootballFan(PartyAnimal): 子类
         print("points",self.points)
 ```
 
-![](/assets/6.png)
+
 
