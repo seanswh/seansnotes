@@ -14,5 +14,12 @@ ServiceLocator.Current.GetInstance&lt;IBus&gt;\(\).Publish&lt;string&gt;\("messa
 
 Subscribe一个类型为string的消息，然后通过OncommandStarup函数进行处理，这个函数的定义为：
 
+```
+ private void OncommandStarup(string startupMessage)
+ {
+ 
+ }
+```
+
 
 
