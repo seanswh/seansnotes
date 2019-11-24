@@ -35,7 +35,28 @@ messageService.Subscribe(topicName, messageHandler);
   }
 ```
 
-这里需要注意的是，MessageData需要实现定义，这个与订阅消息时需要的messageHandler使用的是同一个类型，这个与Kafka中的消息结构一一对应
+这里需要注意的是，MessageData需要实现定义，这个与订阅消息时需要的messageHandler使用的是同一个类型，这个与Kafka中的消息结构一一对应。
 
+3.Kafka消息的发送
 
+Kafka消息的发送与订阅中使用的messageService构造方式一样，最后调用的方法不是Subscribe函数，而是SendAsync方法，如下所示：
+
+```
+messageService.SendAsync<MessageData>("product_preview", md);
+```
+
+MessageData与前面订阅中使用的消息类型一致，也是用来转化成json字符串时所需的结构体，第一个参数是topic名称，第二个参数为要发送的MessageData实例。
+
+4.MessageData说明
+
+MessageData为用来接收\发送消息时从json字符串转化的结构体，如下面所示的是一种结构：
+
+```
+public class MessageData
+{
+    public string source;
+}
+```
+
+这个结构对应的消息内容只包含一个key-value对，即：source:{"......"}
 
