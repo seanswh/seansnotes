@@ -41,6 +41,7 @@
     * [材质2](OPENGL/cai-zhi-2.md)
     * [贴图光照1](OPENGL/tie-tu-guang-zhao-1.md)
     * [投光物1](OPENGL/tou-guang-wu-1.md)
+* [MICAPS4开发](micaps4kai-fa.md)
 * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
   * [Python基础](M4Python/pythonji-chu.md)
     * [关于面向对象](M4Python/pythonji-chu/guan-yu-mian-xiang-dui-xiang.md)
@@ -81,9 +82,7 @@
   * [f2py](fortranxue-xi/f2py.md)
 * [docker学习](dockerxue-xi.md)
   * [1](dockerxue-xi/1.md)
-* 大数据云平台
-  * [环境相关](huan-jing-xiang-guan.md)
-  * [大数据云平台接口说明](da-shu-ju-yun-ping-tai-jie-kou-shuo-ming.md)
+* MICAPS4开发
 
 ## Coursera
 
