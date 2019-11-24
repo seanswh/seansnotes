@@ -8,7 +8,11 @@ ServiceLocator.Current.GetInstance&lt;IBus&gt;\(\).Publish&lt;string&gt;\("messa
 
 通过ServiceLocator获取到实现IBUS的实例，然后广播一个类型为string的消息，消息内容为一个字符串。
 
-2.接受消息的方法：
+2.消息订阅方法：
+
+\_serviceLocator.GetInstance&lt;IBus&gt;\(\).Subscribe&lt;string&gt;\(OncommandStarup\);
+
+Subscribe一个类型为string的消息，然后通过OncommandStarup函数进行处理，这个函数的定义为：
 
 
 
