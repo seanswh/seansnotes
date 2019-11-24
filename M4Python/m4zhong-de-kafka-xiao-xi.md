@@ -2,5 +2,5 @@ MICAPS4.5版本之后支持了Kafka消息，各个模块均可注册某一topic�
 
 ![](/assets/M4MsgReliance.PNG)以及：
 
-
+![](/assets/libkafka.PNG)
 
