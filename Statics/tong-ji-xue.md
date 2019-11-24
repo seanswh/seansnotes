@@ -14,6 +14,7 @@
 $$\mu=\frac{1}{N} \sum_{i=1}^N x_i$$
 群体方差(population variance)则可以反映群体的离散状况，定义如下：
 $$\sigma^2=\frac{1}{N} \sum_{i=1}^N (x_i - \mu)^2$$
+2.统计推断
 
 
 
