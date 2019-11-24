@@ -82,7 +82,6 @@
   * [f2py](fortranxue-xi/f2py.md)
 * [docker学习](dockerxue-xi.md)
   * [1](dockerxue-xi/1.md)
-* MICAPS4开发
 
 ## Coursera
 
