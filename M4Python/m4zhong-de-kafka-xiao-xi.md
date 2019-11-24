@@ -16,7 +16,7 @@ string topicName = "test";
 messageService = await messageFactory.CreateMessageServiceAsync(option).ConfigureAwait(false);
 var messageHandler = new MessageHandler<MessageData>()
 {
-           OnReceivedHandler = OnReceived
+     OnReceivedHandler = OnReceived
 };
 messageService.Subscribe(topicName, messageHandler);
 ```
