@@ -175,5 +175,5 @@
 
 ## 得到
 
-* [吴军-信息论](de-dao/wu-519b-xin-xi-lun.md)
+* [吴军-信息论-序](de-dao/wu-519b-xin-xi-lun.md)
 
