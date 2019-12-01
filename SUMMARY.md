@@ -173,3 +173,7 @@
 * [微积分与导数](3blue1brown/wei-ji-fen-yu-dao-shu.md)
   * [微积分的本质](3blue1brown/wei-ji-fen-yu-dao-shu/wei-ji-fen-de-ben-zhi.md)
 
+## 得到
+
+* [吴军-信息论](de-dao/wu-519b-xin-xi-lun.md)
+
