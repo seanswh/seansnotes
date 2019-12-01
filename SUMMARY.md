@@ -176,5 +176,5 @@
 ## 得到
 
 * [吴军-信息论-序](de-dao/wu-519b-xin-xi-lun.md)
-  * 1.影响世界的3bits
+  * [1.影响世界的3bits](de-dao/wu-519b-xin-xi-lun/1ying-xiang-shi-jie-de-3bits.md)
 
