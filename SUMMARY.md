@@ -179,4 +179,5 @@
   * [1.影响世界的3bits](de-dao/wu-519b-xin-xi-lun/1ying-xiang-shi-jie-de-3bits.md)
   * [2.三篇诺贝尔论文](de-dao/wu-519b-xin-xi-lun/2san-pian-nuo-bei-er-lun-wen.md)
   * [3.大数据思维的科学基础](de-dao/wu-519b-xin-xi-lun/3da-shu-ju-si-wei-de-ke-xue-ji-chu.md)
+  * [4.信息的度量](de-dao/wu-519b-xin-xi-lun/4xin-xi-de-du-liang.md)
 
