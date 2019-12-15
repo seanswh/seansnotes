@@ -181,4 +181,5 @@
   * [3.大数据思维的科学基础](de-dao/wu-519b-xin-xi-lun/3da-shu-ju-si-wei-de-ke-xue-ji-chu.md)
   * [4.信息的度量](de-dao/wu-519b-xin-xi-lun/4xin-xi-de-du-liang.md)
   * [5.信息编码](de-dao/wu-519b-xin-xi-lun/5xin-xi-bian-ma.md)
+  * [6.有效编码](de-dao/wu-519b-xin-xi-lun/6you-xiao-bian-ma.md)
 
