@@ -140,7 +140,7 @@
 * 数据库
   * [数据库设计原则](机器学习/shu-ju-ku-she-ji-yuan-ze.md)
 * [数据可视化](机器学习/shu-ju-ke-shi-hua.md)
-  * 1.介绍
+  * [1.介绍](机器学习/shu-ju-ke-shi-hua/1jie-shao.md)
 
 ## edx
 
