@@ -14,7 +14,5 @@
 
 注：Pythonnet解决方案为一个开源方案，可以让C\#调用Python解析器程序，原本的程序对中文支持不好，所以修改了一下原来的代码，可以让它支持中文。修改后的工程文件为Surface笔记本下的D:\Projects\pythonnet-master目录
 
-
-
-MICAPS4需要的Python环境：
+MICAPS4需要的Python环境：python36.dll Python.Runtime.dll
 
