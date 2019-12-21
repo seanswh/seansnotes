@@ -8,3 +8,8 @@ df_can = pd.read_excel('https://s3-api.us-geo.objectstorage.softlayer.net/cf-cou
                        skiprows=range(20),
                        skipfooter=2)
 print ('Data read into a pandas dataframe!')
+#Let's view the top 5 rows of the dataset using the head() function.
+df_can.head()
+# tip: You can specify the number of rows you'd like to see as follows: df_can.head(10) 
+#We can also veiw the bottom 5 rows of the dataset using the tail() function.
+df_can.tail()
