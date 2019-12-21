@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "pythonPath": "D:\\Miniconda3\\envs\\MICAPS4",
+            "pythonPath": "D:\\Miniconda3",
             "program": "${file}",
             "cwd": "${workspaceRoot}",
             "env": {},
