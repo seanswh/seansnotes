@@ -62,7 +62,7 @@ df_can[['Country', 1980, 1981, 1982, 1983, 1984, 1985]] # returns a dataframe
 
 # we can pass mutliple criteria in the same line. 
 # let's filter for AreaNAme = Asia and RegName = Southern Asia
-df_can[(df_can['Continent']=='Asia') & (df_can['Region']=='Southern Asia')]
-print('data dimensions:', df_can.shape)
-print(df_can.columns)
-df_can.head(2)
+#df_can[(df_can['Continent']=='Asia') & (df_can['Region']=='Southern Asia')]
+#print('data dimensions:', df_can.shape)
+#print(df_can.columns)
+#df_can.head(2)
