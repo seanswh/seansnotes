@@ -16,7 +16,7 @@ print ('Data read into a pandas dataframe!')
 #We can also veiw the bottom 5 rows of the dataset using the tail() function.
 #print(df_can.tail())
 #When analyzing a dataset, it's always a good idea to start by getting basic information about your dataframe. We can do this by using the info() method.
-df_can.info()
+#df_can.info()
 
 #To get the index and columns as lists, we can use the tolist() method.
 #print(df_can.columns.tolist())
