@@ -51,3 +51,10 @@ print(df_can.Continent)
 df_can[['Country', 1980, 1981, 1982, 1983, 1984, 1985]] # returns a dataframe
 # notice that 'Country' is string, and the years are integers. 
 # for the sake of consistency, we will convert all column names to string later on.
+
+###Filtering based on a criteria
+#To filter the dataframe based on a condition, we simply pass the condition as a boolean vector.
+#For example, Let's filter the dataframe to show the data on Asian countries (AreaName = Asia).
+# 1. create the condition boolean series
+condition = df_can['Continent'] == 'Asia'
+#print(condition)
