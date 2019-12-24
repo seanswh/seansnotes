@@ -18,30 +18,25 @@ df_can.drop(['AREA','REG','DEV','Type','Coverage'], axis=1, inplace=True)
 df_can.rename(columns={'OdName':'Country', 'AreaName':'Continent', 'RegName':'Region'}, inplace=True)
 #print(df_can.describe())
 
-df_can.set_index('Country', inplace=True)
-#print(df_can.head(3))
-#print(df_can.loc['Japan',list(range(1980,1985))])
-
-#Column names that are integers (such as the years) might introduce some confusion. For example, when we are referencing the year 2013, one might confuse that when the 2013th positional index.
-#To avoid this ambuigity, let's convert the column names into strings: '1980' to '2013'.
 df_can.columns = list(map(str, df_can.columns))
-
-#First, we will extract the data series for Haiti.
+df_can.set_index('Country', inplace=True)
+df_can['Total'] = df_can.sum(axis=1)
+df_can.sort_values(['Total'], ascending=False, axis=0, inplace=True)
+df_top5 = df_can.head()
 years = list(map(str, range(1980, 2014)))
-#haiti = df_can.loc['Haiti',years] # passing in years 1980 - 2013 to exclude the 'total' column
-#print(haiti)
+# transpose the dataframe !!!important
+df_top5 = df_top5[years].transpose() 
 
-#get China and India Immigration
-years = list(map(str, range(1980, 2014)))
-CI_df = df_can.loc[['China','India'],years]
-print(CI_df.index)
+df_top5.index = df_top5.index.map(int) # let's change the index values of df_top5 to type integer for plotting
+print(df_top5.index)
+ax = df_top5.plot(kind='area',
+             alpha = 0.25,
+             stacked=False,
+             figsize=(20, 10), # pass a tuple (x, y) size
+             )
 
-#Recall that *pandas* plots the indices on the x-axis and the columns as individual lines on the y-axis. Since `df_CI` is a dataframe with the `country` as the index and `years` as the columns, we must first transpose the dataframe using `transpose()` method to swap the row and columns.
-CI_df = CI_df.transpose()
-CI_df.index = CI_df.index.map(int) # let's change the index values of df_CI to type integer for plotting
-print(CI_df.index)
-CI_df.plot(kind='line')
-plt.title('Immigrants from China and India')
-plt.ylabel('Number of Immigrants')
-plt.xlabel('Years')
+ax.set_title('Immigration Trend of Top 5 Countries')
+ax.set_ylabel('Number of Immigrants')
+ax.set_xlabel('Years')
+
 plt.show()
