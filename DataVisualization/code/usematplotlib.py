@@ -13,14 +13,16 @@ df_can = pd.read_excel('Canada.xlsx',
 print ('Data read into a pandas dataframe!')
 # useful for plotting later on
 years = list(map(str, range(1980, 2014)))
+df_can.drop(['AREA','REG','DEV','Type','Coverage'], axis=1, inplace=True)
 
 #Let's rename the columns so that they make sense. We can use rename() method by passing in a dictionary of old and new names as follows:
 df_can.rename(columns={'OdName':'Country', 'AreaName':'Continent', 'RegName':'Region'}, inplace=True)
-df_can.drop(['AREA','REG','DEV','Type','Coverage'], axis=1, inplace=True)
+#print(df_can.describe())
+
 #Before we proceed, notice that the defaul index of the dataset is a numeric range from 0 to 194. This makes it very difficult to do a query by a specific country. For example to search for data on Japan, we need to know the corressponding index value.
 #This can be fixed very easily by setting the 'Country' column as the index using `set_index()` method.
 #df_can.set_index('Country', inplace=True)
 #print(df_can.head(3))
 #First, we will extract the data series for Haiti.
-haiti = df_can.loc['Haiti'] # passing in years 1980 - 2013 to exclude the 'total' column
-print(haiti.head())
+#haiti = df_can.loc['Haiti'] # passing in years 1980 - 2013 to exclude the 'total' column
+#print(haiti.head())
