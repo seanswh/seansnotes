@@ -55,7 +55,14 @@ df_can[['Country', 1980, 1981, 1982, 1983, 1984, 1985]] # returns a dataframe
 #To filter the dataframe based on a condition, we simply pass the condition as a boolean vector.
 #For example, Let's filter the dataframe to show the data on Asian countries (AreaName = Asia).
 # 1. create the condition boolean series
-condition = df_can['Continent'] == 'Asia'
+#condition = df_can['Continent'] == 'Asia'
 #print(condition)
 # 2. pass this condition into the dataFrame
-print(df_can[condition])
+#print(df_can[condition])
+
+# we can pass mutliple criteria in the same line. 
+# let's filter for AreaNAme = Asia and RegName = Southern Asia
+df_can[(df_can['Continent']=='Asia') & (df_can['Region']=='Southern Asia')]
+print('data dimensions:', df_can.shape)
+print(df_can.columns)
+df_can.head(2)
