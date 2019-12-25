@@ -9,6 +9,7 @@
   * [D3.js学习](测试部分/javascriptdiao-shi.md)
   * [NetCDF格式](测试部分/netcdfge-shi.md)
   * [开启surface pro 6的电池保护模式](测试部分/kai-qi-surface-pro-6-de-dian-chi-bao-hu-mo-shi.md)
+  * [coursera账号](测试部分/courserazhang-hao.md)
 * [OPENGL学习](/OPENGL/README.md)
   * [入门](OPENGL/ru-men.md)
     * [pipeline介绍](/OPENGL/Day1.md)
