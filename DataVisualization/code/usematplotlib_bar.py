@@ -23,4 +23,29 @@ df_iceland.plot(kind='bar', figsize=(10, 6))
 plt.xlabel('Year') # add to x-label to the plot
 plt.ylabel('Number of immigrants') # add y-label to the plot
 plt.title('Icelandic immigrants to Canada from 1980 to 2013') # add title to the plot
+
+
+#Let's annotate this on the plot using the annotate method of the scripting layer or the pyplot interface. We will pass in the following parameters:
+    #s: str, the text of annotation.
+    #xy: Tuple specifying the (x,y) point to annotate (in this case, end point of arrow).
+    #xytext: Tuple specifying the (x,y) point to place the text (in this case, start point of arrow).
+    #xycoords: The coordinate system that xy is given in - 'data' uses the coordinate system of the object being annotated (default).
+    #arrowprops: Takes a dictionary of properties to draw the arrow:
+    #arrowstyle: Specifies the arrow style, '->' is standard arrow.
+    #connectionstyle: Specifies the connection type. arc3 is a straight line.
+    #color: Specifes color of arror.
+    #lw: Specifies the line width.
+plt.annotate('',                      # s: str. Will leave it blank for no text
+             xy=(32, 70),             # place head of the arrow at point (year 2012 , pop 70)
+             xytext=(28, 20),         # place base of the arrow at point (year 2008 , pop 20)
+             xycoords='data',         # will use the coordinate system of the object being annotated 
+             arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color='blue', lw=2)
+            )
+
+plt.annotate('2008 - 2011 Financial Crisis', # text to display
+             xy=(28, 30),                    # start the text at at point (year 2008 , pop 30)
+             rotation=72.5,                  # based on trial and error to match the arrow
+             va='bottom',                    # want the text to be vertically 'bottom' aligned
+             ha='left',                      # want the text to be horizontally 'left' algned.
+            )
 plt.show()
