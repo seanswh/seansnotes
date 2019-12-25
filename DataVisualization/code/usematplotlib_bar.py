@@ -12,6 +12,15 @@ df_can = pd.read_excel('Canada.xlsx',
                        skiprows=range(20),
                        skipfooter=2)
 print ('Data read into a pandas dataframe!')
-years = list(range(2008,2011))
-df_can.set_index("")
+df_can.columns = list(map(str, df_can.columns))
+years = list(map(str, range(1980, 2014)))
+df_can.set_index('Country', inplace=True)
 df_iceland = df_can.loc['iceland',years]
+# step 2: plot data
+df_iceland.plot(kind='bar', figsize=(10, 6))
+
+plt.xlabel('Year') # add to x-label to the plot
+plt.ylabel('Number of immigrants') # add y-label to the plot
+plt.title('Icelandic immigrants to Canada from 1980 to 2013') # add title to the plot
+
+plt.show()
