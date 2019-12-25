@@ -17,11 +17,10 @@ years = list(map(str, range(1980, 2014)))
 #Let's rename the columns so that they make sense. We can use rename() method by passing in a dictionary of old and new names as follows:
 df_can.rename(columns={'OdName':'Country', 'AreaName':'Continent', 'RegName':'Region'}, inplace=True)
 df_can.set_index('Country', inplace=True)
-df_iceland = df_can.loc['iceland',years]
+df_iceland = df_can.loc['Iceland',years]
 # step 2: plot data
 df_iceland.plot(kind='bar', figsize=(10, 6))
 plt.xlabel('Year') # add to x-label to the plot
 plt.ylabel('Number of immigrants') # add y-label to the plot
 plt.title('Icelandic immigrants to Canada from 1980 to 2013') # add title to the plot
 plt.show()
-print("finished")
