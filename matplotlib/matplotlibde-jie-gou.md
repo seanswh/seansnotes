@@ -6,4 +6,4 @@ Now Matplotlib's architecture is composed of three main layers: the back-end lay
 
 The **back-end layer** has three built-in abstract interface classes: FigureCanvas, which defines and encompasses the area on which the figure is drawn. Renderer, an instance of the renderer class knows how to draw on the figure canvas. And finally, event, which handles user inputs such as keyboard strokes and mouse clicks.
 
-**artist layer** is composed of one main object, which is the artist. The artist is the object that knows how to take the Renderer and use it to put ink on the canvas. Everything you see on a Matplotlib figure is an artist instance. 
+**Artist layer** is composed of one main object, which is the artist. The artist is the object that knows how to take the Renderer and use it to put ink on the canvas. Everything you see on a Matplotlib figure is an artist instance. 
