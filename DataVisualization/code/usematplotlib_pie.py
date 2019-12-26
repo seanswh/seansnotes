@@ -27,3 +27,22 @@ df_can['Total'] = df_can.sum(axis=1)
 years = list(map(str, range(1980, 2014)))
 print('data dimensions:', df_can.shape)
 #We will use pandas groupby method to summarize the immigration data by Continent. The general process of groupby involves the following steps
+# group countries by continents and apply sum() function 
+df_continents = df_can.groupby('Continent', axis=0).sum()
+
+# note: the output of the groupby method is a `groupby' object. 
+# we can not use it further until we apply a function (eg .sum())
+print(type(df_can.groupby('Continent', axis=0)))
+
+print(df_continents.head())
+df_continents['Total'].plot(kind='pie',
+                            figsize=(5, 6),
+                            autopct='%1.1f%%', # add in percentages
+                            startangle=90,     # start angle 90° (Africa)    
+                            )
+
+plt.title('Immigration to Canada by Continent [1980 - 2013]')
+plt.axis('equal') # Sets the pie chart to look like a circle.
+# add legend
+plt.legend(labels=df_continents.index, loc='upper left') 
+plt.show()
