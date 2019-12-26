@@ -25,4 +25,31 @@ years = list(map(str, range(1980, 2014)))
 # set the country name as index - useful for quickly looking up countries using .loc method
 df_can.set_index('Country', inplace=True)
 # to get a dataframe, place extra square brackets around 'Japan'.
+'''
 df_japan = df_can.loc[['Japan'], years].transpose()
+df_japan.plot(kind='box', figsize=(8, 6))
+
+plt.title('Box plot of Japanese Immigrants from 1980 - 2013')
+plt.ylabel('Number of Immigrants')
+
+plt.show()
+'''
+df_CI = df_can.loc[['China','India'],years].transpose()
+fig = plt.figure() # create figure
+
+ax0 = fig.add_subplot(1, 2, 1) # add subplot 1 (1 row, 2 columns, first plot)
+ax1 = fig.add_subplot(1, 2, 2) # add subplot 2 (1 row, 2 columns, second plot). See tip below**
+
+# Subplot 1: Box plot
+df_CI.plot(kind='box', color='blue', vert=False, figsize=(20, 6), ax=ax0) # add to subplot 1
+ax0.set_title('Box Plots of Immigrants from China and India (1980 - 2013)')
+ax0.set_xlabel('Number of Immigrants')
+ax0.set_ylabel('Countries')
+
+# Subplot 2: Line plot
+df_CI.plot(kind='line', figsize=(20, 6), ax=ax1) # add to subplot 2
+ax1.set_title ('Line Plots of Immigrants from China and India (1980 - 2013)')
+ax1.set_ylabel('Number of Immigrants')
+ax1.set_xlabel('Years')
+
+plt.show()
