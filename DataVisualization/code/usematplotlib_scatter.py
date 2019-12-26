@@ -17,5 +17,43 @@ df_can.rename(columns={'OdName':'Country', 'AreaName':'Continent','RegName':'Reg
 df_can.columns = list(map(str, df_can.columns))
 # set the country name as index - useful for quickly looking up countries using .loc method
 df_can.set_index('Country', inplace=True)
-# add total column
-df_can['Total'] = df_can.sum(axis=1)
+# years that we will be using in this lesson - useful for plotting later on
+years = list(map(str, range(1980, 2014)))
+print(df_can[years])
+# we can use the sum() method to get the total population per year
+df_tot = pd.DataFrame(df_can[years].sum(axis=0))
+
+# change the years to type int (useful for regression later on)
+df_tot.index = map(int, df_tot.index)
+
+# reset the index to put in back in as a column in the df_tot dataframe
+df_tot.reset_index(inplace = True)
+
+# rename columns
+df_tot.columns = ['year', 'total']
+'''
+# view the final dataframe
+df_tot.plot(kind='scatter', x='year', y='total', figsize=(10, 6), color='darkblue')
+
+plt.title('Total Immigration to Canada from 1980 - 2013')
+plt.xlabel('Year')
+plt.ylabel('Number of Immigrants')
+
+plt.show()
+'''
+
+x = df_tot['year']      # year on x-axis
+y = df_tot['total']     # total on y-axis
+fit = np.polyfit(x, y, deg=2)
+print(fit)
+df_tot.plot(kind='scatter', x='year', y='total', figsize=(10, 6), color='darkblue')
+
+plt.title('Total Immigration to Canada from 1980 - 2013')
+plt.xlabel('Year')
+plt.ylabel('Number of Immigrants')
+
+# plot line of best fit
+plt.plot(x, fit[0] * x*x + fit[1]* x  + fit[2], color='red') # recall that x is the Years
+plt.annotate('y={0:.0f} x + {1:.0f}'.format(fit[0], fit[1]), xy=(2000, 150000))
+
+plt.show()
