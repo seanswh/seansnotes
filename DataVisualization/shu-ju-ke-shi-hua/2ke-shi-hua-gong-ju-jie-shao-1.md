@@ -1,3 +1,5 @@
+由于Pandas与Python的Matplotlib无缝连接，因此，在本课程中默认使用了Pandas读取数据，Matplotlib用来显示pandas中的数据，而且本课程对Pandas的Dataframe进行了较为细致的介绍。
+
 Line Pots
 
 **What is a line plot and why use it?**
