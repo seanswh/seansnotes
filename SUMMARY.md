@@ -145,6 +145,7 @@
 * [数据可视化](DataVisualization/shu-ju-ke-shi-hua.md)
   * [1.介绍](DataVisualization/shu-ju-ke-shi-hua/1jie-shao.md)
   * [2.可视化工具介绍\_1](DataVisualization/shu-ju-ke-shi-hua/2ke-shi-hua-gong-ju-jie-shao-1.md)
+  * [3.可视化工具介绍\_2](DataVisualization/shu-ju-ke-shi-hua/3ke-shi-hua-gong-ju-jie-shao-2.md)
 
 ## edx
 
