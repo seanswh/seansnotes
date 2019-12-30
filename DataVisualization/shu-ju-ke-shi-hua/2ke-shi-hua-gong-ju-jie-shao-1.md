@@ -9,3 +9,7 @@ A line chart or line plot is a type of plot which displays information as a seri
 
 
 
+![](/DataVisualization/images/areaplots.png)
+
+
+
