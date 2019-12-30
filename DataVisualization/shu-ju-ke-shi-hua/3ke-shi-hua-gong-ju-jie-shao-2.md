@@ -15,3 +15,5 @@ Second quartile (Median): Middle number of the (sorted) dataset.
 Third quartile: Middle number between median and maximum.
 Maximum: Highest number in the dataset.
 ![](/DataVisualization/images/boxplot.png)
+
+##Scatter Plots
