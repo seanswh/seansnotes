@@ -13,5 +13,6 @@ Area Graphs are Line Graphs but with the area below the line filled in with a ce
 
 ![](/DataVisualization/images/areaplots.png)
 
+**Histograms**
 
 
