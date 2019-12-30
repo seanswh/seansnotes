@@ -1,2 +1,3 @@
 ## Bar Charts
 A bar plot is a way of representing data where the length of the bars represents the magnitude/size of the feature/variable. Bar graphs usually represent numerical and categorical variables grouped in intervals.
+![](/DataVisualization/images/barchart.png)
