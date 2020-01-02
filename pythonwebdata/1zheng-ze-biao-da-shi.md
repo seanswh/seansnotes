@@ -6,4 +6,4 @@ use:
  if we actually want the matching string to be extracted,we use re.findall()
  Greedy Matching: .+ match the largest result
  Non-Greedy Matching: .+?
- ![](\pythonwebdata\cheatsheet.PNG)
+ ![](\pythonwebdata\images\cheatsheet.PNG)
