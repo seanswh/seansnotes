@@ -3,3 +3,4 @@ use:
 1.Matching
   re.search() returns a True/False depending on whether the string matches the regular expression
 2.Extracting
+ if we actually want the matching string to be extracted,we use re.findall()
