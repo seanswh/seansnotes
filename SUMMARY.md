@@ -193,4 +193,5 @@
   * [4.信息的度量](de-dao/wu-519b-xin-xi-lun/4xin-xi-de-du-liang.md)
   * [5.信息编码](de-dao/wu-519b-xin-xi-lun/5xin-xi-bian-ma.md)
   * [6.有效编码](de-dao/wu-519b-xin-xi-lun/6you-xiao-bian-ma.md)
+  * [7.最短编码](de-dao/wu-519b-xin-xi-lun/7zui-duan-bian-ma.md)
 
