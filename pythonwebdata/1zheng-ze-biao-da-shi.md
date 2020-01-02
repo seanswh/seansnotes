@@ -7,3 +7,4 @@ use:
  Greedy Matching: .+ match the largest result
  Non-Greedy Matching: .+?
  ![](\pythonwebdata\images\cheatsheet.PNG)
+ 
