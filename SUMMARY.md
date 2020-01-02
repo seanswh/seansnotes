@@ -148,6 +148,8 @@
   * [2.可视化工具介绍\_1](DataVisualization/shu-ju-ke-shi-hua/2ke-shi-hua-gong-ju-jie-shao-1.md)
   * [3.可视化工具介绍\_2](DataVisualization/shu-ju-ke-shi-hua/3ke-shi-hua-gong-ju-jie-shao-2.md)
   * [4.可视化工具\_3](DataVisualization/shu-ju-ke-shi-hua/4ke-shi-hua-gong-ju-3.md)
+* [使用Python获取网络数据](机器学习/shi-yong-python-huo-qu-wang-luo-shu-ju.md)
+  * 1.正则表达式
 
 ## edx
 
