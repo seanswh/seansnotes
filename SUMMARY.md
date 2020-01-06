@@ -151,6 +151,7 @@
 * [使用Python获取网络数据](pythonwebdata/shi-yong-python-huo-qu-wang-luo-shu-ju.md)
   * [1.正则表达式](pythonwebdata/1zheng-ze-biao-da-shi.md)
   * [2.Web协议](pythonwebdata/2webxie-yi.md)
+  * [3.Unicode characters](pythonwebdata/3unicode-characters.md)
 
 ## edx
 
