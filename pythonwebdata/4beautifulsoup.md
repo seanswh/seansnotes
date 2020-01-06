@@ -7,4 +7,4 @@
 import urllib.request
    fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
 这种方式相对于socket来说，屏蔽了header,而且可以把返回的网页内容作为一个文件句柄(file handle)来使用
-3。
+3. beautifulsoup
