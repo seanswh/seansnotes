@@ -9,4 +9,4 @@ import urllib.request
 这种方式相对于socket来说，屏蔽了header,而且可以把返回的网页内容作为一个文件句柄(file handle)来使用
 3. beautifulsoup
 
-beautifulsoup基于urllib库，同时可以将原始的html页面做了规范化处理
+beautifulsoup基于urllib库，同时可以将原始的html页面做规范化处理
