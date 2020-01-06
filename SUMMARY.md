@@ -152,6 +152,7 @@
   * [1.正则表达式](pythonwebdata/1zheng-ze-biao-da-shi.md)
   * [2.Web协议](pythonwebdata/2webxie-yi.md)
   * [3.Unicode characters](pythonwebdata/3unicode-characters.md)
+  * [4.BeautifulSoup](pythonwebdata/4beautifulsoup.md)
 
 ## edx
 
