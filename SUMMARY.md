@@ -153,6 +153,7 @@
   * [2.Web协议](pythonwebdata/2webxie-yi.md)
   * [3.Unicode characters](pythonwebdata/3unicode-characters.md)
   * [4.BeautifulSoup](pythonwebdata/4beautifulsoup.md)
+  * [5.xml](pythonwebdata/5xml.md)
 
 ## edx
 
