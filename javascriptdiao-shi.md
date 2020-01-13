@@ -8,5 +8,19 @@ javascript程序的调试有点意思，一般流行的做法是安装一个Node
 node --debug-brk {yourjsname}.js
 ```
 
+即可，这样就默认为这个js文件创建了一个服务进程，包括端口号和URL地址，控制台会返回类似这样的内容：
+
+```
+Debugger listening on ws://127.0.0.1:9229/9675448d-7dd3-45e9-aecd-a8fb62e15143
+```
+
+此时，可以有2种方式进行调试：
+
+1）打开Chrome浏览器，输入地址：
+
+```
+chrome://inspect/#devices
+```
+
 
 
