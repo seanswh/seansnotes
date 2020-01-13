@@ -10,6 +10,7 @@
   * [NetCDF格式](测试部分/netcdfge-shi.md)
   * [开启surface pro 6的电池保护模式](测试部分/kai-qi-surface-pro-6-de-dian-chi-bao-hu-mo-shi.md)
   * [coursera账号](测试部分/courserazhang-hao.md)
+  * [javascript调试](javascriptdiao-shi.md)
 * [OPENGL学习](/OPENGL/README.md)
   * [入门](OPENGL/ru-men.md)
     * [pipeline介绍](/OPENGL/Day1.md)
@@ -88,8 +89,7 @@
   * [箱须图](Statics/xiang-xu-tu.md)
 * [Fortran学习](fortranxue-xi.md)
   * [f2py](fortranxue-xi/f2py.md)
-* [docker学习](dockerxue-xi.md)
-  * [1](dockerxue-xi/1.md)
+* javascript调试
 
 ## Coursera
 
@@ -199,3 +199,4 @@
   * [6.有效编码](de-dao/wu-519b-xin-xi-lun/6you-xiao-bian-ma.md)
   * [7.最短编码](de-dao/wu-519b-xin-xi-lun/7zui-duan-bian-ma.md)
   * [8.矢量化-象形文字和拼音](de-dao/wu-519b-xin-xi-lun/8shi-liang-5316-xiang-xing-wen-zi-he-pin-yin.md)
+
