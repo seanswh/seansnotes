@@ -24,5 +24,5 @@ chrome://inspect/#devices
 
 此时在页面下方会出现一个Remote Target ，在Target列表中会有js文件，点击进入即可
 
-2）使用VSCODE,进入{yourjsname}.js文件所在目录，然后修改launch.json配置文件，把request改成attach即可
+2）使用VSCODE,进入{yourjsname}.js文件所在目录，然后修改launch.json配置文件，把request改成attach，然后点击{yourjsname}.js文件，运行即可
 
