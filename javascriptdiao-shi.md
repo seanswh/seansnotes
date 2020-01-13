@@ -22,5 +22,5 @@ Debugger listening on ws://127.0.0.1:9229/9675448d-7dd3-45e9-aecd-a8fb62e15143
 chrome://inspect/#devices
 ```
 
-
+此时在页面下方会出现一个Remote Target ，在Target列表中会有js文件，点击进入即可
 
