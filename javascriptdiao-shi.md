@@ -1,5 +1,7 @@
 来源：[https://github.com/i5ting/node-debug-tutorial\#vscode%E9%85%8D%E7%BD%AE](https://github.com/i5ting/node-debug-tutorial#vscode配置)
 
+[https://juejin.im/post/5c67a8ce6fb9a049af6dcc50\#heading-4](https://juejin.im/post/5c67a8ce6fb9a049af6dcc50#heading-4)
+
 javascript程序的调试有点意思，一般流行的做法是安装一个Node.js程序，这个服务使用了Google的V8强大的调试器，可以通过 TCP 协议从外部访问。Nodejs提供了一个内建调试器来帮助开发者调试应用程序。
 
 我选择使用的调试方式是node inspector方式，作为前端开发人员，我们写JS代码调试的时候一般都用FireBug或Chrome浏览器内置的调试工具，其实nodejs程序也可以这样子来调试。最新版的Node.js都会默认安装 node-inspector，所以如果要调试某一个js文件，只需要在Node.js command prompt命令行中，切换到js文件所在路径，然后输入命令：
