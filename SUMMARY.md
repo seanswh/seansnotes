@@ -89,7 +89,6 @@
   * [箱须图](Statics/xiang-xu-tu.md)
 * [Fortran学习](fortranxue-xi.md)
   * [f2py](fortranxue-xi/f2py.md)
-* javascript调试
 
 ## Coursera
 
