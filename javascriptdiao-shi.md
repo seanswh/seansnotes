@@ -7,7 +7,7 @@ javascript程序的调试有点意思，一般流行的做法是安装一个Node
 我选择使用的调试方式是node inspector方式，作为前端开发人员，我们写JS代码调试的时候一般都用FireBug或Chrome浏览器内置的调试工具，其实nodejs程序也可以这样子来调试。最新版的Node.js都会默认安装 node-inspector，所以如果要调试某一个js文件，只需要在Node.js command prompt命令行中，切换到js文件所在路径，然后输入命令：
 
 ```
-node --debug-brk {yourjsname}.js
+node --inspect-brk program.js
 ```
 
 即可，这样就默认为这个js文件创建了一个服务进程，包括端口号和URL地址，控制台会返回类似这样的内容：
