@@ -61,6 +61,7 @@
     * [M4中的Kafka消息](M4Python/m4zhong-de-kafka-xiao-xi.md)
   * [等值线分析](M4Python/deng-zhi-xian-fen-xi.md)
     * [Marching Square](M4Python/deng-zhi-xian-fen-xi/marching-square.md)
+    * [d3算法剖析](M4Python/deng-zhi-xian-fen-xi/d3suan-fa-pou-xi.md)
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
   * [matplotlib的结构](matplotlib/matplotlibde-jie-gou.md)
