@@ -18,11 +18,11 @@ index = x*2+y*(size_x+1)*4
 
 线段的起点索引为startIndex，终点索引为endIndex
 
-    stitch函数中创建了2个数组：fragmentByStart及fragmentByEnd，每一个数组都存放一个结构体：
+stitch函数中创建了2个数组：fragmentByStart及fragmentByEnd，前者存放的是所有等值线中的起始索引以及其对应的结构体，后者存放的是所有等值线中的结束点的索引及其对应的结构体，结构体如下所示：
 
 ```
 {start: startIndex, end: endIndex, ring: [start, end]}
 ```
 
-这个结构体中，start表示当前拼接后的等值线的起始点索引值，end表示当前拼接的等值线的结束点的索引值，ring为当前等值线中从start开始到end结束，所有的点的索引值
+这个结构体中，start表示当前拼接后的等值线的起始点索引值，end表示当前拼接的等值线的结束点的索引值，ring为当前等值线中从start开始到end结束，所有的点的索引值。
 
