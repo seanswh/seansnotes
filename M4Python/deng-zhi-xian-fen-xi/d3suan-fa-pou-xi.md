@@ -26,3 +26,8 @@ stitch函数中创建了2个数组：fragmentByStart及fragmentByEnd，前者存
 
 这个结构体中，start表示当前拼接后的等值线的起始点索引值，end表示当前拼接的等值线的结束点的索引值，ring为当前等值线中从start开始到end结束，所有的点的索引值。
 
+2. 拼接过程：
+
+
+
+
