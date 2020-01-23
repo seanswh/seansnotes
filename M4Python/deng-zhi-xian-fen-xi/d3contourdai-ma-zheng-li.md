@@ -5,7 +5,8 @@ d3contour工程位于surfacepro笔记本的C:\Users\sean\Documents\Projects\d3co
    1. 设计了结构体contour\_struct，用来存放所有的等值线，但这个结构体使用了int\*用来存放每一个等值线点的个数，使用 unsigned char\*标识每一个等值线的属性，使用float\*存放等值线上的经纬度位置。
    2. 使用vector存放所有的等值线contour\_struct实例
 3. 遍历主程序create\_contours\_baseon\_value：
-   1. 函数中定义了3个结构：polygon\_of\_a\_value,plygon\_size\_vector,polygon\_or\_holes\_sign，此处仿照d3中的stitch函数
+   1. 函数中定义了3个结构：polygon\_of\_a\_value,plygon\_size\_vector,polygon\_or\_holes\_sign，此处仿照d3中的stitch函数，
+   2. 上下左右分别进行了1个单元格的扩展
 
 
 
