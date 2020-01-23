@@ -4,6 +4,8 @@ d3contour工程位于surfacepro笔记本的C:\Users\sean\Documents\Projects\d3co
 2. 根据等值线的值进行循环遍历：
    1. 设计了结构体contour\_struct，用来存放所有的等值线，但这个结构体使用了int\*用来存放每一个等值线点的个数，使用 unsigned char\*标识每一个等值线的属性，使用float\*存放等值线上的经纬度位置。
    2. 使用vector存放所有的等值线contour\_struct实例
+3. 遍历主程序create\_contours\_baseon\_value：
+   1.
 
 
 
