@@ -1,4 +1,8 @@
 d3contour工程位于surfacepro笔记本的C:\Users\sean\Documents\Projects\d3contour\_C\d3contour\_C目录下，是之前仿照d3.js移植过来的版本。主要考虑到javascript与C++中对于数据结构使用上的差异以及C\#调用C++内存释放的问题，在C++中进行了一些调整。
 
+1. 首先调用InitializeCases函数创建一个定长的数组case，跟d3一样的方式进行初始化
+2. 根据等值线的值进行循环遍历：
+   1. 设计了结构体contour\_struct，用来存放所有的等值线，但这个结构体使用了int\*用来存放
+
 
 
