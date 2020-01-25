@@ -6,9 +6,8 @@ d3contour工程位于surfacepro笔记本的C:\Users\sean\Documents\Projects\d3co
    2. 使用vector存放所有的等值线contour\_struct实例
 3. 遍历主程序create\_contours\_baseon\_value：
    1. 函数中定义了3个结构：polygon\_of\_a\_value,plygon\_size\_vector,polygon\_or\_holes\_sign，此处仿照d3中的isoring函数，
-   2. 上下左右分别进行了1个单元格的扩展，先从左下角开始遍历，每一个单元格调用stitch_loop进行分析
+   2. 上下左右分别进行了1个单元格的扩展，先从左下角开始遍历，每一个单元格调用stitch\_loop进行分析
       1. 判断单元格中的等值线片段是一段还是两端，对每一段调用stitch函数
-      2.
 
 
 
