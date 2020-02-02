@@ -10,7 +10,7 @@ d3contour工程位于surfacepro笔记本的C:\Users\sean\Documents\Projects\d3co
       1. 判断单元格中的等值线片段是一段还是两端，对每一段调用stitch函数
       2. 定义了全局变量 fragmentByStart和fragmentByEnd，类型均为map&lt;int,fragment\*&gt;。map为std::map，判断某一Key是否存在不能用contains这样的函数，技巧为：fragmentByStart.find\(endIndex\) !=fragmentByStart.end\(\)
       3. **这里有一个问题：每次新开辟的fragment结构体都是new出来的，当构成闭合的等值线的时候会delete，但是没有构成闭合等值线的就会有问题~**
-4. 关于返回值的问题：C++的代码里大量用到了std::vector,用来存放变长的
+4. 关于返回值的问题：C++的代码里使用到了std::vector用来存放变长的等值线数据结构，
 
 
 
