@@ -64,6 +64,7 @@
     * [d3算法剖析](M4Python/deng-zhi-xian-fen-xi/d3suan-fa-pou-xi.md)
     * [多边形顺时针逆时针判断](M4Python/deng-zhi-xian-fen-xi/duo-bian-xing-shun-shi-zhen-ni-shi-zhen-pan-duan.md)
     * [d3contour代码整理](M4Python/deng-zhi-xian-fen-xi/d3contourdai-ma-zheng-li.md)
+    * [MICAPS4中的集成](M4Python/deng-zhi-xian-fen-xi/micaps4zhong-de-ji-cheng.md)
 * [matplotlib](/matplotlib/SUMMARY.md)
   * [基本概念](/matplotlib/1.md)
   * [matplotlib的结构](matplotlib/matplotlibde-jie-gou.md)
