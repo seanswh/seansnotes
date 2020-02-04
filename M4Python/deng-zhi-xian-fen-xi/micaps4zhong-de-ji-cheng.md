@@ -2,5 +2,5 @@
 
 这里发现了点小问题：
 
-C\#代码中使用了contour\_get\_line\_status函数用来判断当前闭合等值线是polygon\(true\)还是hole\(false\)，如果是hole,就直接跳出，如果是polygon再进行绘制。C++代码中contour\_get\_line\_status函数是返回的polygon\_ring数组中的内容，这个数组是在stitch中进行赋值
+C\#代码中使用了contour\_get\_line\_status函数用来判断当前闭合等值线是polygon\(true\)还是hole\(false\)，如果是hole,就直接跳出，如果是polygon再进行绘制。C++代码中contour\_get\_line\_status函数是返回的polygon\_ring数组中的内容，这个数组是在stitch中进行赋值，也是判断多边形的面积，这里判断如果面积大于0，标记为true,如果面积小于0，标记为false，但是根据对面积计算的算法进行分析结果判断（分析过程在visio文件：d3等值线算法中）小于0是逆时针也就是hole，&gt;0是顺时针也就是polygon
 
