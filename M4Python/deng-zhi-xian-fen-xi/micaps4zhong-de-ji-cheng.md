@@ -1,4 +1,4 @@
-原始的项目是在SEAN-MINI主机上做了部分集成：首先是在MICAPS4.0的基础上做了一个分支，自定义了界面窗口；其次是使用了新的等值线分析算法，同时为了配合新的等值线分析算法，使用了新的MICAPS底层库：CMA.MICAPS.Renders.dll,当进行格点数据显示时，底层框架会直接调用CMA.MICAPS.Algorithm.dll库中的CMA.MICAPS.Algorithms.Contours.Contour.CreateContourPolygonsEx函数。这个函数返回值是Line2F数组，用来存放所有等值线的边界。
+原始的项目是在SEAN-MINI主机上做了部分集成：首先是在MICAPS4.0的基础上做了一个分支MINIMICAPS4，自定义了界面窗口；其次是使用了新的等值线分析算法，同时为了配合新的等值线分析算法，使用了新的MICAPS底层库：CMA.MICAPS.Renders.dll,当进行格点数据显示时，底层框架会直接调用CMA.MICAPS.Algorithm.dll库中的CMA.MICAPS.Algorithms.Contours.Contour.CreateContourPolygonsEx函数。这个函数返回值是Line2F数组，用来存放所有等值线的边界。
 
 这里发现了点小问题：
 
@@ -14,7 +14,5 @@
 
 ------------------------------------2020 2, 7分割线
 
-
-
-
+算法准备就绪了，花了2天时间集成到MINIMICAPS4项目中，主要时间花在 
 
