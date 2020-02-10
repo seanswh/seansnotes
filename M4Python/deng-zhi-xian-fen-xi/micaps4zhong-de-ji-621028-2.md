@@ -15,5 +15,5 @@
 
 2.简单测试程序：M:\Projects\等值线分析\新算法\test\_C\_DLL，这个程序使用了最简单的CS程序对C++进行测试
 
-3.集成项目：
+3.集成项目：M:\Projects\MICAPS4\branches\MiniMICAPS4中的CMA.micaps.Algorithms模块集成了最新的等值线分析算法，在Coutours类中的CreateContourPolygonsEx函数有使用
 
