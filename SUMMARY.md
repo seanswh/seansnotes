@@ -59,6 +59,7 @@
   * [消息](M4Python/xiao-xi.md)
     * [MICAPS总线中的消息](M4Python/micapszong-xian-zhong-de-xiao-xi.md)
     * [M4中的Kafka消息](M4Python/m4zhong-de-kafka-xiao-xi.md)
+  * [数据源检索中增加过滤选项](shu-ju-yuan-jian-suo-zhong-zeng-jia-guo-lv-xuan-xiang.md)
   * [等值线分析](M4Python/deng-zhi-xian-fen-xi.md)
     * [Marching Square](M4Python/deng-zhi-xian-fen-xi/marching-square.md)
     * [d3算法剖析](M4Python/deng-zhi-xian-fen-xi/d3suan-fa-pou-xi.md)
@@ -148,7 +149,7 @@
     * [第十一周2](机器学习/week11_2.md)
 * 数据库
   * [数据库设计原则](机器学习/shu-ju-ku-she-ji-yuan-ze.md)
-  * 3.可视化工具介绍\_3
+  * [3.可视化工具介绍\_3](机器学习/3ke-shi-hua-gong-ju-jie-shao-3.md)
 * [数据可视化](DataVisualization/shu-ju-ke-shi-hua.md)
   * [1.介绍](DataVisualization/shu-ju-ke-shi-hua/1jie-shao.md)
   * [2.可视化工具介绍\_1](DataVisualization/shu-ju-ke-shi-hua/2ke-shi-hua-gong-ju-jie-shao-1.md)
