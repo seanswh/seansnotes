@@ -8,5 +8,18 @@
 
 `protoc --csharp_out=D:\softwares\protoc-3.11.3-win32\bin test.proto`
 
+test.proto原始文件为：
+
+```
+syntax = "proto3";
+package SeraializationAllBDIPSDic;
+
+message BDIPS
+{
+	map<string,string> rawInfos = 1;
+	map<string,string> translatedInfos = 2;
+}
+```
+
 
 
