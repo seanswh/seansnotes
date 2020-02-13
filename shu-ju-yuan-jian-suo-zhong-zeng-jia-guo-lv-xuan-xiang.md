@@ -16,10 +16,10 @@ package SeraializationAllBDIPSDic;
 
 message BDIPS
 {
-	map<string,string> rawInfos = 1;
-	map<string,string> translatedInfos = 2;
+    map<string,string> rawInfos = 1;
+    map<string,string> translatedInfos = 2;
 }
 ```
 
-
+2.建立工程SeraializationAllBDIPSDic
 
