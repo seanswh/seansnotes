@@ -21,5 +21,5 @@ message BDIPS
 }
 ```
 
-2.建立工程SeraializationAllBDIPSDic
+2.建立工程SeraializationAllBDIPSDic，路径
 
