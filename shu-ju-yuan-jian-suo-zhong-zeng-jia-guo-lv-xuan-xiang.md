@@ -21,5 +21,5 @@ message BDIPS
 }
 ```
 
-2.建立工程SeraializationAllBDIPSDic，路径
+2.建立工程SeraializationAllBDIPSDic，路径C:\Users\Sean\Documents\Visual Studio 2017\Projects\SeraializationAllBDIPSDic
 
