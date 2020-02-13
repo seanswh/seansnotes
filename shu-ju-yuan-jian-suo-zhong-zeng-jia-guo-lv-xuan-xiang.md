@@ -25,5 +25,7 @@ message BDIPS
 
 通过Nuget包管理离线导入google.protobuf库
 
+然后读取cassandra导出的各级目录，通过protobuf写入一个二进制文件
 
+3.通过protobuf读取此二进制文件,然后根据用户输入的字符串进行查询
 
