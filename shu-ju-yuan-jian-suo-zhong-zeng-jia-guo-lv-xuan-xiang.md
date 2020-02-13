@@ -23,3 +23,7 @@ message BDIPS
 
 2.建立工程SeraializationAllBDIPSDic，路径在Sean-Mini主机的C:\Users\Sean\Documents\Visual Studio 2017\Projects\SeraializationAllBDIPSDic地址下
 
+通过Nuget包管理离线导入google.protobuf库
+
+
+
