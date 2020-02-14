@@ -6,5 +6,5 @@
 
 使用putty客户端进行连接，以保存了session名为awsvps。
 
-连接后，使用用户名er2-user登录
+连接后，使用用户名ec2-user登录，然后sudo -i切换到root账号
 
