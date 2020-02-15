@@ -99,8 +99,7 @@
   * [f2py](fortranxue-xi/f2py.md)
 * [Docker学习](dockerxue-xi/dockerxue-xi.md)
   * [服务器](dockerxue-xi/awsfu-wu-qi.md)
-
-  
+  * [基础命令](dockerxue-xi/ji-chu-ming-ling.md)
 
 ## Coursera
 
