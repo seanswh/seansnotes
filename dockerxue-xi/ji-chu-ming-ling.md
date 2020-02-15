@@ -14,5 +14,5 @@ list images: docker images
 
 run container: docker run
 
-remove unused data: docker system prune
+remove unused data\(images and containers \): docker system prune
 
