@@ -97,7 +97,9 @@
   * [箱须图](Statics/xiang-xu-tu.md)
 * [Fortran学习](fortranxue-xi.md)
   * [f2py](fortranxue-xi/f2py.md)
-* [Docker学习](fortranxue-xi.md)
+* [Docker学习](dockerxue-xi/fortranxue-xi.md)
+  * [服务器](dockerxue-xi/f2py.md)
+
   
 
 ## Coursera
