@@ -1,5 +1,7 @@
 2020年2月13日申请，免费12个月，每天免费流量15G
 
+登录邮箱 sean.sgao@gmail.com 密码Sean5406
+
 地址：[https://ap-east-1.console.aws.amazon.com/ec2/v2/home?region=ap-east-1\#Instances:sort=instanceId](https://ap-east-1.console.aws.amazon.com/ec2/v2/home?region=ap-east-1#Instances:sort=instanceId)
 
 申请区域为香港
