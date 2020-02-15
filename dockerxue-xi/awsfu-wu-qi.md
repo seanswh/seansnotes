@@ -10,3 +10,7 @@
 
 连接后，使用用户名ec2-user登录，然后sudo -i切换到root账号
 
+
+
+hub.docker.com: 用户名seanwh 密码Sean58995406
+
