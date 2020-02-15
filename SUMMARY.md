@@ -97,7 +97,6 @@
   * [箱须图](Statics/xiang-xu-tu.md)
 * [Fortran学习](fortranxue-xi.md)
   * [f2py](fortranxue-xi/f2py.md)
-* [aws服务器](测试部分/awsfu-wu-qi.md)
 * 环境部署
 
 ## Coursera
