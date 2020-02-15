@@ -6,3 +6,5 @@ version: docker version
 
 help: docker --help
 
+login in hub.docker.com: docker login
+
