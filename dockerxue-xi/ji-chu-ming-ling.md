@@ -14,7 +14,7 @@ Lists containers : docker ps -a
 
 list images: docker images
 
-run container: docker run
+run container: docker run -ti ubuntu bash
 
 remove unused data\(images and containers \): docker system prune
 
