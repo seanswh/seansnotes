@@ -6,7 +6,7 @@
 
 申请区域为新加坡
 
-使用putty客户端进行连接，以保存了session名为awsvps。
+使用putty客户端进行连接，以保存了session名为awsthdvps。
 
 连接后，使用用户名ec2-user登录，然后sudo -i切换到root账号
 
