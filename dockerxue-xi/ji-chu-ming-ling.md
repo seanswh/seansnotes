@@ -1,5 +1,7 @@
 Docker Basic Commands
 
+install docker on linux:sudo yum -y update ; sudo yum install -y docker
+
 start : service docker start
 
 version: docker version
