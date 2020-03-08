@@ -10,5 +10,18 @@ Packed data is stored in a netCDF file using a smaller data type than the origin
 unpacked_value = packed_value * scale_factor + add_offset
 ```
 
+* The type of the stored variable is the type of the packed data type, typically byte, short, or int.
+
+* The type of the`scale_factor`and`add_offset`attributes should be the type that you want the unpacked data to be, typically float or double.
+* To compute the scale and offset for maximum precision packing of a set of numbers, use:
+  ```
+    add_offset = dataMin
+    scale_factor = (dataMax - dataMin) / (2^n - 1)
+  ```
+
+  where
+  `n`
+  is the number of bits of the packed \(integer\) data type
+
 
 
