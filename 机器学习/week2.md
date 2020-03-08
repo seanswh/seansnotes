@@ -32,8 +32,12 @@ $$
 \theta_0:=\theta_0-\alpha\frac{1}{m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)
 $$
 
+
+
 $$
 \theta_1:=\theta_1-\alpha\frac{1}{m}\sum_{i=1}^{m}((h_\theta(x_i)-y_i)x_i)
 $$
+
+
 m是训练集的个数
 
