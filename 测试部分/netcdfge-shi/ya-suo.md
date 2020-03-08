@@ -2,3 +2,5 @@
 
 Packed Data Values
 
+Packed data is stored in a netCDF file using a smaller data type than the original data, for example, packing doubles into shorts.
+
