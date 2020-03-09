@@ -1,2 +1,2 @@
-在M4的Python工具箱中，经常使用到的就是
+在M4的Python工具箱中，关于格点类数据的处理，需要将MICAPS4中的GridData转换成Python中的ndarray数组
 
