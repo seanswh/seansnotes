@@ -49,6 +49,7 @@
   * [MICAPS4下的Python实验室](/M4Python/SUMMARY.md)
     * [Python基础](M4Python/pythonji-chu.md)
       * [关于面向对象](M4Python/pythonji-chu/guan-yu-mian-xiang-dui-xiang.md)
+      * numpy array
     * [获取matplotlib中的图片结果](M4Python/huo-qu-matplotlib-zhong-de-tu-pian-jie-guo.md)
     * [Pandas](M4Python/pandas.md)
       * [基本配置](M4Python/pandas.md)
