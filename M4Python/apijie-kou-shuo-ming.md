@@ -23,7 +23,7 @@
    2. string GetElemsFromOBSTable\(string tablename\)：返回指定CIMISS站点表中全部的要素名称，以“CIMISS编码:中文属性名;CIMISS编码:中文属性名;"方式排列
    3. string GetObsSerialFromMDFS\(string stationID, string table\_name, string elementList, string startTime, string endTime, int interval\)：获取观测时序。stationID:站点ID。\_table\_name：表名称，可参考mdfs\_obselems\_pair.json文件；elementList：要素列表；startTime:时序起始时间；endTime：时序结束时间。interval：时序间隔时间（小时）
    4. CreateStationLayer\(string name,string content\)：创建站点图层。name：图层名称。content：图层信息（格式：name@lon:lat:alt:value;）
-   5. Create
+   5. CreateDiscreteLayer\(string\[\]
 
 3. 格点数据类
 
