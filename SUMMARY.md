@@ -216,4 +216,5 @@
   * [10.信息压缩](de-dao/wu-519b-xin-xi-lun/10xin-xi-ya-suo.md)
   * [11.信息增量](de-dao/wu-519b-xin-xi-lun/11xin-xi-zeng-liang.md)
   * [12.压缩比和失真率](de-dao/wu-519b-xin-xi-lun/12ya-suo-bi-he-shi-zhen-lv.md)
+  * [13 信息正交性](de-dao/wu-519b-xin-xi-lun/13-xin-xi-zheng-jiao-xing.md)
 
