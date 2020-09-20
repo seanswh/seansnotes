@@ -46,7 +46,8 @@
 
    9. UpdateLayerWithAnalysisRange\(IGridDataLayer layer, string analysisvalue\)：设置格点图层的等值线分析值。analysisvalue格式为“起始分析值，终止分析值:间隔"
 
-   10.         public static void UpdateLayerWithNewFloatArray\(float\[\] floatarray, IGridDataLayer sublayer\)       ：使用新的格点值更新图层
+   10. public static void UpdateLayerWithNewFloatArray\(float\[\] floatarray, IGridDataLayer sublayer\)  
+       ：使用新的格点值更新格点图层
 
 
 
