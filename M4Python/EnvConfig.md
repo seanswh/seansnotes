@@ -7,8 +7,7 @@
   （4）配置：  
       Python运行环境配置：config\extenttool\python.ini配置文件，包含了Python运行环境，conda 管理环境。其中已经安装好matplotlib包、numpy包等，可通过conda list查看具体细节。配置文件中指向的文件夹建议完整拷贝。  
       Python脚本存放路径：Script\Python目录下  
-      默认初始化的时候是会ImportNumpy库和ImportMatplotlib库的，所以不需要在python  
- 代码中再次加载。  
+      默认初始化的时候是会ImportNumpy库和ImportMatplotlib库的，所以不需要在python代码中再次加载。  
       与此同时，模块启动时会加载Scripts\Python\preLoad.py脚本，这个脚本主要是把CMA.MICAPS.ExtentTool.dll加载进Python环境中，并简写为M4.  
   此时，MICAPS4与Python运行时连接搭建完成。
 
